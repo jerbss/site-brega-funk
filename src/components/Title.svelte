@@ -52,6 +52,9 @@
 	.title-line {
 		margin: 0.2rem 0;
 		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		white-space: nowrap;
 		word-break: keep-all;
 		overflow-wrap: normal;
@@ -63,9 +66,8 @@
 		font-size: clamp(1.2rem, 3.5vw, 2.4rem);
 		color: rgba(255, 255, 255, 0.9);
 		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-		display: block;
+		display: inline-block;
 		text-align: center;
-		width: 100%;
 		white-space: nowrap;
 		word-break: keep-all;
 		overflow-wrap: normal;
@@ -76,11 +78,10 @@
 		font-weight: 800;
 		font-size: clamp(1.6rem, 7.5vw, 4.5rem);
 		letter-spacing: -1px;
-		display: block;
+		display: inline-block;
 		text-align: center;
 		text-transform: uppercase;
 		line-height: 1.1;
-		width: 100%;
 		white-space: nowrap;
 		word-break: keep-all;
 		overflow-wrap: normal;

@@ -39,12 +39,7 @@
 		use:inView
 		onenter={handleEnter}
 	>
-		<div class="speaker">
-			{#if isFirstSpeaker}
-				<img src={`assets/img/title/${speaker}.jpg`} />
-			{/if}
-			{speaker}
-		</div>
+
 
 		{#if Array.isArray(text)}
 			{#each text as { value }}
@@ -155,78 +150,13 @@
 		opacity: 1;
 	}
 
-	.speaker {
-		text-transform: uppercase;
-		font-weight: bold;
-		width: fit-content;
-		padding: 0.5rem 1rem;
-		border-radius: var(--border-radius);
-		position: absolute;
-		top: 0;
-		will-change: transform, opacity;
-		-webkit-backface-visibility: hidden;
-		backface-visibility: hidden;
-		transform-style: preserve-3d;
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-	}
 
-	.left .speaker {
-		left: 0;
-		right: auto;
-		transform: translate(calc(-1 * var(--speaker-overhang)), -60%) translateZ(0);
-		background: var(--eunice-text-bg, var(--text-bg));
-		border: 2px solid var(--eunice-border, var(--border));
-		box-shadow: var(--eunice-box-shadow, var(--box-shadow));
-	}
-
-	.right .speaker {
-		left: auto;
-		right: 0;
-		transform: translate(var(--speaker-overhang), -50%) translateZ(0);
-		background: var(--minji-text-bg, var(--text-bg));
-		border: 2px solid var(--minji-border, var(--border));
-		box-shadow: var(--minji-box-shadow, var(--box-shadow));
-	}
-
-	.speaker img {
-		max-width: 60px;
-		border-radius: calc(var(--border-radius) / 2);
-	}
-
-	:global(#third-gen .content .left .speaker) {
-		background: var(--text-color) !important;
-		color: #000000;
-	}
-
-	:global(#third-gen .content .right .speaker) {
-		background: var(--minji-text-color) !important;
-		color: #000000;
-	}
-
-	:global(
-		#fourth-gen .content .right .speaker,
-		#fourth-gen .content .left .speaker
-	) {
-		color: #000000;
-	}
-
-	:global(
-		#fifth-gen .content .right .speaker,
-		#fifth-gen .content .left .speaker
-	) {
-		background: rgba(255, 255, 255, 0.8) !important;
-		color: #000000;
-	}
 
 	@media (max-width: 600px) {
 		.text-block {
 			font-size: var(--14px);
 		}
 
-		.speaker {
-			font-size: var(--12px);
-		}
 
 		.text-wrapper {
 			flex-direction: column;
