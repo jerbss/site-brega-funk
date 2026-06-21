@@ -61,9 +61,9 @@
 
 		background-image: linear-gradient(
 			to bottom,
-			#f9458e,
-			#fd6766 30%,
-			rgba(253, 103, 102, 0)
+			#05020c 20%,
+			rgba(5, 2, 12, 0.7) 60%,
+			rgba(5, 2, 12, 0)
 		);
 	}
 

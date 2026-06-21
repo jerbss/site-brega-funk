@@ -1,76 +1,70 @@
 {
 	"first-gen": {
-		"background": "#70B0F9, #A5A5A5 50%, #F0F0F0 90%, #F1FD0F",
-		"heading-color": "#ccffed",
-		"heading-shadow": "-1px -1px 0 #262626, 1px -1px 0 #262626, -1px 1px 0 #262626, 1px 1px 0 #262626, 4px 4px 0 rgba(38, 38, 38, 1)",
-		"song-bg": "#F1FB39",
-		"line-stroke": "#ccffed",
-		"text-color": "#262626",
-		"text-bg": "#F2FAFE",
-		"border": "#262626",
-		"box-shadow": "inset -4px -4px 0 rgba(0, 0, 0, .2), inset 4px 4px rgba(255, 255, 255, 0.6)",
-
-		"eunice-text-bg": "#ccffed"
+		"background": "transparent, rgba(212, 255, 0, 0.04) 50%, transparent",
+		"heading-color": "#d4ff00",
+		"heading-shadow": "0 0 15px rgba(212, 255, 0, 0.4)",
+		"song-bg": "rgba(212, 255, 0, 0.1)",
+		"line-stroke": "#d4ff00",
+		"text-color": "#ffffff",
+		"text-bg": "rgba(255, 255, 255, 0.05)",
+		"border": "#d4ff00",
+		"box-shadow": "0px 0px 15px rgba(212, 255, 0, 0.2)",
+		"eunice-text-bg": "rgba(212, 255, 0, 0.1)"
 	},
 
 	"second-gen": {
-		"background": "#F1FD0F, #D21FB2 33%, #4162BE 63%, #DADAFF 86%, #000000",
-		"heading-color": "#FFFAFC",
-		"heading-shadow": "-1px -1px 0 #9F40B8, 1px -1px 0 #9F40B8, -1px 1px 0 #9F40B8, 1px 1px 0 #9F40B8, 0px 4px 24px #9F40B8",
-		"line-stroke": "#FFD6F0",
-		"text-color": "#9F40B8",
-		"text-bg": "linear-gradient(to bottom right, #FFFAFC, #FFE8F1)",
-		"border": "#9F40B8",
-		"box-shadow": "0px 4px 24px #D255F3, inset 0px -6px 14px #D255F3",
-
-		"eunice-text-color": "#4162BE",
-		"eunice-text-bg": "linear-gradient(to bottom right, #FFFAFC, #DDEEFF)",
-		"eunice-border": "#5495EC",
-		"eunice-box-shadow": "0px 4px 24px #5495EC, inset 0px -6px 14px #5495EC"
+		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
+		"heading-color": "#ff007f",
+		"heading-shadow": "0 0 15px rgba(255, 0, 127, 0.4)",
+		"line-stroke": "#ff007f",
+		"text-color": "#ffffff",
+		"text-bg": "rgba(255, 255, 255, 0.05)",
+		"border": "#ff007f",
+		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)",
+		"eunice-text-color": "#ffffff",
+		"eunice-text-bg": "rgba(255, 0, 127, 0.1)",
+		"eunice-border": "#ff007f",
+		"eunice-box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)"
 	},
 
 	"third-gen": {
-		"background": "#000000 50%, #D04A4A",
-		"heading-color": "#FFA9FF",
-		"heading-shadow": "",
-		"line-stroke": "#FFA9FF",
-		"text-color": "#FFA9FF",
-		"text-bg": "",
-		"border": "#FFA9FF",
-		"box-shadow": "",
-
-		"minji-text-color": "#9EFD61",
-		"minji-border": "#9EFD61",
-		"text-style": "outline-width: 2px; outline-style: solid; outline-offset: 6px"
+		"background": "transparent, rgba(0, 243, 255, 0.04) 50%, transparent",
+		"heading-color": "#00f3ff",
+		"heading-shadow": "0 0 15px rgba(0, 243, 255, 0.4)",
+		"line-stroke": "#00f3ff",
+		"text-color": "#ffffff",
+		"text-bg": "rgba(255, 255, 255, 0.05)",
+		"border": "#00f3ff",
+		"box-shadow": "0px 0px 15px rgba(0, 243, 255, 0.2)",
+		"minji-text-color": "#00f3ff",
+		"minji-border": "#00f3ff"
 	},
 
 	"fourth-gen": {
-		"background": "#D04A4A, #02696F 50%, #5F5348",
-		"heading-color": "#ffffff",
-		"heading-shadow": "0px 0px 10px #ffffff",
-		"line-stroke": "#ffffff",
+		"background": "transparent, rgba(52, 162, 158, 0.04) 50%, transparent",
+		"heading-color": "#34a29e",
+		"heading-shadow": "0 0 15px rgba(52, 162, 158, 0.4)",
+		"line-stroke": "#34a29e",
 		"text-color": "#ffffff",
-		"text-bg": "",
-		"border": "rgba(255,255,255,0.75)",
-		"box-shadow": "inset 50px -56px 64px rgba(163, 155, 255, 0.55), inset 20px -6px 34px #CFCFCF, inset 0px 4px 4px #ffffff, inset -60px 64px 104px rgba(98, 54, 255, .5)",
-
-		"eunice-box-shadow": "inset 50px -56px 64px rgba(170, 20, 89, 0.55), inset 20px -6px 34px #CFCFCF, inset 0px 4px 4px #ffffff, inset -60px 64px 104px rgba(170, 20, 89, 0.5)"
+		"text-bg": "rgba(255, 255, 255, 0.05)",
+		"border": "#34a29e",
+		"box-shadow": "0px 0px 15px rgba(52, 162, 158, 0.2)",
+		"eunice-box-shadow": "0px 0px 15px rgba(52, 162, 158, 0.2)"
 	},
 
 	"fifth-gen": {
-		"background": "#5F5348, #4167A1 10%, #245D25 60%, #68648a",
-		"heading-color": "#CCFFED",
-		"heading-shadow": "",
-		"line-stroke": "#CCFFED",
-		"text-color": "#CCFFED",
-		"text-bg": "",
-		"border": "#000000",
-		"box-shadow": "4px 4px 0px #CCFFED, inset 0px 3px 20px #CCFFED ",
-
-		"minji-heading-color": "#F1CCFF",
-		"minji-heading-shadow": "",
-		"minji-line-stroke": "#F1CCFF",
-		"minji-text-color": "#F1CCFF",
-		"minji-box-shadow": "4px 4px 0px #F1CCFF, inset 0px 3px 20px #F1CCFF "
+		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
+		"heading-color": "#ff007f",
+		"heading-shadow": "0 0 15px rgba(255, 0, 127, 0.4)",
+		"line-stroke": "#ff007f",
+		"text-color": "#ffffff",
+		"text-bg": "rgba(255, 255, 255, 0.05)",
+		"border": "#ff007f",
+		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)",
+		"minji-heading-color": "#d4ff00",
+		"minji-heading-shadow": "0 0 15px rgba(212, 255, 0, 0.4)",
+		"minji-line-stroke": "#d4ff00",
+		"minji-text-color": "#ffffff",
+		"minji-box-shadow": "0px 0px 15px rgba(212, 255, 0, 0.2)"
 	}
 }

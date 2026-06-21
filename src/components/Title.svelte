@@ -157,10 +157,9 @@
 		padding: 4rem 1rem;
 		background: linear-gradient(
 			to bottom,
-			#f6f5ff,
-			#c0baff 34%,
-			#c0baff 81%,
-			#6cb0f9
+			rgba(5, 2, 12, 0.1),
+			rgba(5, 2, 12, 0.4) 60%,
+			rgba(5, 2, 12, 0.7)
 		);
 		display: flex;
 		flex-direction: column;

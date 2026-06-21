@@ -168,7 +168,7 @@
 <style>
 	footer {
 		padding: 100px 0;
-		background: #e6e4ff;
+		background: transparent;
 	}
 
 	.c {

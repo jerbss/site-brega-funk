@@ -22,21 +22,21 @@
 	--border-radius: 16px;
 	--font-body: var(--sans);
 	--font-form: var(--sans);
-	--color-bg: var(--color-white);
-	--color-fg: var(--color-gray-900);
-	--color-primary: var(--color-black);
+	--color-bg: #05020c;
+	--color-fg: #f3f3f6;
+	--color-primary: #ffffff;
 	/* --color-link: var(--color-black); */
-	--color-link-hover: var(--color-black);
-	--color-focus: var(--color-red);
-	--color-mark: var(--color-yellow);
-	--color-selection: var(--color-gray-300);
-	--color-border: var(--color-gray-300);
-	--color-button-bg: var(--color-gray-300);
-	--color-button-fg: var(--color-gray-900);
-	--color-button-hover: var(--color-gray-400);
-	--color-input-bg: var(--color-gray-50);
-	--color-input-fg: var(--color-gray-900);
-	--color-placeholder: var(--color-gray-500);
+	--color-link-hover: #d4ff00;
+	--color-focus: #ff007f;
+	--color-mark: #d4ff00;
+	--color-selection: rgba(255, 0, 127, 0.3);
+	--color-border: rgba(255, 255, 255, 0.15);
+	--color-button-bg: rgba(255, 255, 255, 0.1);
+	--color-button-fg: #ffffff;
+	--color-button-hover: rgba(255, 255, 255, 0.2);
+	--color-input-bg: rgba(0, 0, 0, 0.3);
+	--color-input-fg: #ffffff;
+	--color-placeholder: rgba(255, 255, 255, 0.5);
 
 	/* "1" second duration */
 	--1s: 1ms;

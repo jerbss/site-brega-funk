@@ -17,7 +17,7 @@
 <style>
 	section {
 		padding: 5rem 2rem;
-		background: linear-gradient(#68648a, #e6e4ff 80%);
+		background: transparent;
 	}
 
 	h3 {
@@ -27,10 +27,13 @@
 	.wrapper {
 		max-width: 900px;
 		margin: 0 auto;
-		background: #f2fafe;
-		border: 2px solid black;
+		background: rgba(255, 255, 255, 0.05);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
+		border: 1px solid rgba(255, 255, 255, 0.12);
 		border-radius: var(--border-radius);
 		padding: 1.5rem;
 		width: fit-content;
+		color: #ffffff;
 	}
 </style>
