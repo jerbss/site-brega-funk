@@ -2,7 +2,7 @@
 	import _ from "lodash";
 	import { prefersReducedMotion } from "svelte/motion";
 	import copy from "$data/copy.json";
-	import wordmark from "$svg/wordmark_script_stacked_sticker.svg";
+
 	import { current } from "$runes/misc.svelte.js";
 	import useWindowDimensions from "$runes/useWindowDimensions.svelte.js";
 	let dimensions = new useWindowDimensions();
@@ -17,14 +17,7 @@
 </script>
 
 <header>
-	<div
-		class="wordmark-header"
-		class:visible={current.section === "title"}
-	>
-		<a href="https://pudding.cool" aria-label="The Pudding" target="_self"
-			>{@html wordmark}</a
-		>
-	</div>
+
 
 	<nav class:visible={current.section !== "title"}>
 		<ul>

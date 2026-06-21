@@ -1,160 +1,50 @@
 <script>
-	import { onMount } from 'svelte';
 	import copy from "$data/copy.json";
-	import titleSvg from "$svg/k-pop-NEW.svg";
-	import growingUpSvg from "$svg/growing-up-with.svg";
 	import _ from "lodash";
-	import { select, selectAll } from "d3-selection";
-	import { easeBounceOut, easeElasticOut, easeCubicOut } from 'd3-ease';
-	import { interpolateString } from 'd3-interpolate';
-	import 'd3-transition';
 	import mostInView from "$actions/mostInView.js";
-
-
-	onMount(async () => {
-		const section = document.querySelector('#title');
-		const images = Array.from(section.querySelectorAll('img'));
-
-		// 1. Create a promise for every image to load and decode
-		const imageLoadPromises = images.map(img => {
-			if (img.complete) return Promise.resolve();
-			return new Promise((resolve) => {
-				img.onload = resolve;
-				img.onerror = resolve; // Continue even if one fails
-			});
-		});
-
-		// 2. Wait for all images
-		await Promise.all(imageLoadPromises);
-
-		// 3. Now run your existing animation logic
-		startAnimations();
-	});
-
-	function startAnimations() {
-		let targetLetters = selectAll("#title .img-wrapper .letter");
-		let targetBubbles = selectAll("#title .bubble-wrapper .bubble");
-		let targetSparkle = selectAll("#title .img-wrapper .sparkle");
-
-		const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-		if (prefersReducedMotion) {
-			targetLetters.style("opacity", 1).style("transform", "scale(1)");
-			targetBubbles.style("opacity", 1).style("transform", "translate(-50%, -50%) scale(1)");
-			targetSparkle.style("opacity", 1).style("transform", "scale(1) rotate(0deg)");
-			return; 
-		}
-
-		// Initial state for bubbles
-		targetBubbles
-			.style("opacity", 0)
-			.style("transform", "translate(-50%, -50%) scale(0)");
-
-		// Initial state for sparkles
-		targetSparkle
-			.style("opacity", 0)
-			.attr("transform", "scale(0) rotate(-180)");
-
-		// Animate Letters
-		targetLetters
-			.style("transform-origin", "center") 
-			.style("opacity", 0)
-			.style("transform", "scale(0)")       
-			.transition()
-			.duration(1000)
-			.delay((d, i) => i * 100)             
-			.ease(easeBounceOut)
-			.style("opacity", 1)
-			.style("transform", "scale(1)")
-			.on("end", function(d, i) {
-				if (i === targetLetters.size() - 1) {
-					animateStars(targetSparkle); 
-				}
-			});
-
-		targetBubbles
-			.transition()
-			.duration(800)
-			.delay((d, i) => 500 + ((targetBubbles.size() - 1 - i) * 200))
-			.ease(easeBounceOut)
-			.style("opacity", 1)
-			.styleTween("transform", () => 
-				interpolateString("translate(-50%, -50%) scale(0)", "translate(-50%, -50%) scale(1)")
-			);
-	};
-
-	function animateStars(stars) {
-		stars
-			.style("transform-origin", "center")
-			.style("transform-box", "fill-box")
-			.style("opacity", 0)
-			.attr("transform", "scale(0) rotate(-180)")
-			.transition()
-			.delay((d, i) => i * 100) // Stagger the stars themselves
-			.duration(500)
-			.ease(easeCubicOut)
-			.style("opacity", 1)
-			.attr("transform", "scale(1) rotate(0)")
-			.on("end", function() {
-				startTwinkle(select(this));
-			});
-	}
-
-	function startTwinkle(starSelection) {
-        starSelection
-            .transition()
-			.delay((d, i) => i * 500)
-            .duration(500 + Math.random() * 1000)
-            .style("opacity", 0.4)
-            .transition()
-			.delay((d, i) => i * 500)
-            .duration(500 + Math.random() * 1000)
-            .style("opacity", 1)
-            .on("end", () => startTwinkle(starSelection));
-    }
 </script>
 
-<section id="title" use:mostInView={"title"}>
-	<h1 class="sr-only">{copy.landing.title}</h1>
+<svelte:head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Syne:wght@800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+</svelte:head>
 
-	<!-- <div class="svg-wrapper">
-		{@html titleSvg}
-	</div> -->
-	<div class="inset">
-		<div class="bubble-wrapper">
-			<img class="bubble" alt="text bubbel: with" src="assets/img/title/with.png" />
-			<img class="bubble" alt="text bubble: growing up" src="assets/img/title/growing-up.png" />
-		</div>
-		<div class="img-wrapper">
-			{#each [0,1,2,3,4] as group, i}
-				<div id="group-{i}" class="letter-group">
-					<img class="letter" alt="K-POP" src="assets/img/title/letter{i}.png" />
-					<img class="sparkle" alt="star" src="assets/img/title/Star{i}.png" />
-					{#if i == 4}
-						<img class="sparkle" alt="star" src="assets/img/title/Star5.png" />
-					{/if}
+<section id="title" use:mostInView={"title"}>
+	<div class="title-container">
+		<h1 class="title-line title-como-o fade-in-up" style="animation-delay: 0.2s">
+			<span class="serif-italic">Como o</span>
+		</h1>
+		<h1 class="title-line title-brega-funk fade-in-up" style="animation-delay: 0.4s">
+			<span class="neon-text neon-magenta">BREGA FUNK</span>
+		</h1>
+		<h1 class="title-line title-conquistou fade-in-up" style="animation-delay: 0.6s">
+			<span class="serif-italic">conquistou o Brasil em</span>
+		</h1>
+		<h1 class="title-line title-segundos fade-in-up" style="animation-delay: 0.8s">
+			<span class="neon-text neon-yellow">15 SEGUNDOS?</span>
+		</h1>
+	</div>
+
+	<!-- Introductions -->
+	<div class="landing fade-in-up" style="animation-delay: 1.1s">
+		<div class="intros">
+			{#each ["eunice", "minji"] as name}
+				<div class="intro">
+					<div class="img-frame">
+						<img class="img" alt="photo of {name}" src={`assets/img/title/${name}.jpg`} />
+					</div>
+					<div class="caption">Hi, I'm {_.startCase(name)}!</div>
 				</div>
 			{/each}
 		</div>
-	</div>
-	<div class="landing">
-			<div class="intros">
-				{#each ["eunice", "minji"] as name}
-					<div class="intro">
-						<img class="img" alt="photo of {name}" src={`assets/img/title/${name}.jpg`} />
-						<div class="caption">Hi, I'm {_.startCase(name)}!</div>
-					</div>
-				{/each}
-			</div>
-			<!-- <div class="context">
-			{@html copy.landing.context}
-		</div> -->
 	</div>
 </section>
 
 <style>
 	#title {
-		padding: 4rem 1rem;
+		padding: 8rem 2rem 4rem 2rem;
+		min-height: 85vh;
 		background: linear-gradient(
 			to bottom,
 			rgba(5, 2, 12, 0.1),
@@ -166,141 +56,101 @@
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		height: auto;
-		margin: 0 auto;
+		box-sizing: border-box;
 	}
 
-	.inset {
-		width: 100%;
-		aspect-ratio: 2.5/1;
-		max-width: 1000px;
-		position: relative;
-	}
-
-	.landing {
-		gap: 3rem;
+	.title-container {
+		text-align: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-	}
-
-	.svg-wrapper {
-		position: relative;
-		max-width: 1000px;
-		margin: 5rem auto;
-	}
-
-	.img-wrapper, .bubble-wrapper {
-		position: absolute;
-		top: 0;
-		left: 0;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
+		margin-bottom: 3.5rem;
+		max-width: 800px;
 		width: 100%;
-		height: 100%;
 	}
 
-	.bubble-wrapper {
-		position: absolute;
-    	top: 0;
-		left: 50%;
-    	transform: translateX(-50%);
+	.title-line {
+		margin: 0.2rem 0;
 		width: 100%;
-		max-width: 1000px; 
-		height: 100%;
-		z-index: 1002;
-		pointer-events: none;
+		white-space: nowrap;
+		word-break: keep-all;
+		overflow-wrap: normal;
 	}
 
-	.bubble {
-		position: absolute;
-		transform: translate(-50%, -50%);
-		height: auto;
+	.serif-italic {
+		font-family: "Instrument Serif", serif;
+		font-style: italic;
+		font-size: clamp(1.2rem, 3.5vw, 2.4rem);
+		color: rgba(255, 255, 255, 0.9);
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+		display: block;
+		text-align: center;
+		width: 100%;
+		white-space: nowrap;
+		word-break: keep-all;
+		overflow-wrap: normal;
 	}
 
-	.bubble:first-of-type {
-		width: 10%;
-		top: 20%;      
-		left: 52%;   
+	.neon-text {
+		font-family: "Syne", sans-serif;
+		font-weight: 800;
+		font-size: clamp(1.6rem, 7.5vw, 4.5rem);
+		letter-spacing: -1px;
+		display: block;
+		text-align: center;
+		text-transform: uppercase;
+		line-height: 1.1;
+		width: 100%;
+		white-space: nowrap;
+		word-break: keep-all;
+		overflow-wrap: normal;
 	}
 
-	.bubble:last-of-type {
-		width: 22%;
-		top: 25%;  
-		left: 38%;    
+	/* Recife Baile Hot Pink Glow - Subtle and readable */
+	.neon-magenta {
+		color: #ff007f;
+		text-shadow: 
+			0 0 5px rgba(255, 0, 127, 0.8), 
+			0 0 15px rgba(255, 0, 127, 0.4);
+		-webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.15);
 	}
 
-	.letter-group {
-		flex: 0 0 auto;
-		width: calc(100% / 4);
-		object-fit: contain;
-		margin: 0 -4%;
-		z-index: 1000;
-		box-sizing: border-box;
-		position: relative;
+	/* Recife Yellow Neon Glow - Subtle and readable */
+	.neon-yellow {
+		color: #d4ff00;
+		text-shadow: 
+			0 0 5px rgba(212, 255, 0, 0.8), 
+			0 0 15px rgba(212, 255, 0, 0.4);
+		-webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.15);
 	}
 
-	#group-1 {
-		margin: 0 -6% 0 -8%;
-		z-index: 999;
-	}
-
-	#group-3 .letter {
-		z-index: 999;
-	}
-
-	.letter, .bubble, .sparkle {
+	/* Elegant Fade In Up entrance animation */
+	.fade-in-up {
 		opacity: 0;
+		transform: translateY(15px);
+		animation: fadeInUp 0.8s forwards cubic-bezier(0.25, 1, 0.5, 1);
 	}
 
-	.letter {
-		height: 100%;
+	@keyframes fadeInUp {
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
 	}
 
-	.sparkle {
-		position: absolute;
-		width: clamp(10px, 3vw, 30px);
-		filter: blur(1px);
-	}
-
-	#group-0 .sparkle {
-		top: 11.5%;
-		left: 4%;
-	}
-
-	#group-1 .sparkle {
-		top: 33%;
-		left: 40%;
-	}
-
-	#group-2 .sparkle {
-		top: 60%;
-		left: 62%;
-	}
-
-	#group-3 .sparkle {
-		top: 8%;
-		left: 45%;
-	}
-
-	#group-4 .sparkle {
-		top: 80%;
-		left: 5%;
-	}
-
-	#group-4 .sparkle:last-of-type {
-		top: 28%;
-		left: 78%;
+	.landing {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
 	}
 
 	.intros {
 		display: flex;
-		justify-content: space-evenly;
-		gap: 1rem;
-		max-width: 600px;
+		justify-content: center;
+		gap: 2.5rem;
+		max-width: 500px;
+		width: 100%;
 		margin: 0 auto;
 	}
 
@@ -308,72 +158,50 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 1rem;
+		gap: 0.5rem;
+	}
+
+	.img-frame {
+		border-radius: var(--border-radius);
+		padding: 2px;
+		background: linear-gradient(135deg, #ff007f, #d4ff00);
+		box-shadow: 0 4px 15px rgba(255, 0, 127, 0.2);
+		transition: transform 0.3s ease;
+	}
+
+	.img-frame:hover {
+		transform: scale(1.05) rotate(2deg);
 	}
 
 	.img {
-		border: 2px solid black;
-		border-radius: var(--border-radius);
-		height: 160px;
-		width: 160px;
+		border-radius: calc(var(--border-radius) - 2px);
+		height: 120px;
+		width: 120px;
+		display: block;
+		object-fit: cover;
 	}
 
-	.context {
-		max-width: 800px;
-		margin: 0 auto;
-		text-align: center;
-		font-size: var(--24px);
-	}
-
-	.byline {
-		text-align: center;
-		font-size: var(--18px);
-		margin-bottom: 3rem;
-	}
-
-	:global(#title svg#growing-up-with) {
-		position: absolute;
-		width: 35%;
-		min-width: 200px;
-		left: 24%;
-		top: 0;
-	}
-
-	@media (prefers-reduced-motion: reduce) {
-		*, ::before, ::after {
-			animation-delay: -1ms !important;
-			animation-duration: 1ms !important;
-			animation-iteration-count: 1 !important;
-			background-attachment: initial !important;
-			scroll-behavior: auto !important;
-			transition-duration: 0s !important;
-			transition-delay: 0s !important;
-		}
+	.caption {
+		font-family: var(--font-body);
+		font-weight: 500;
+		font-size: var(--12px);
+		color: #ffffff;
+		opacity: 0.85;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	}
 
 	@media (max-width: 600px) {
-		:global(#title svg#growing-up-with) {
-			transform: translate(0, -20%);
+		#title {
+			padding: 6rem 1rem 3rem 1rem;
+		}
+		
+		.intros {
+			gap: 1.5rem;
 		}
 
 		.img {
-			height: 120px;
-			width: 120px;
-		}
-
-		.context {
-			font-size: var(--20px);
-		}
-	}
-
-	@media (max-width: 400px) {
-		:global(#title svg#growing-up-with) {
-			transform: translate(-20%, -40%);
-		}
-
-		.byline {
-			font-size: var(--14px);
-			margin-bottom: 0;
+			height: 90px;
+			width: 90px;
 		}
 	}
 </style>
