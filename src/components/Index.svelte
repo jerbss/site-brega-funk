@@ -3,7 +3,6 @@
 	import Title from "$components/Title.svelte";
 	import Section from "$components/Section.svelte";
 	import Methods from "$components/Methods.svelte";
-	import Footer from "$components/Footer.svelte";
 </script>
 
 <article>
@@ -14,8 +13,6 @@
 	{/each}
 
 	<Methods />
-
-	<Footer recirc={true} />
 </article>
 
 <style>

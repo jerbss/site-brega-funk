@@ -1,6 +1,5 @@
 <script>
 	import copy from "$data/copy.json";
-	import _ from "lodash";
 	import mostInView from "$actions/mostInView.js";
 </script>
 
@@ -25,32 +24,13 @@
 			<span class="neon-text neon-yellow">15 SEGUNDOS?</span>
 		</h1>
 	</div>
-
-	<!-- Introductions -->
-	<div class="landing fade-in-up" style="animation-delay: 1.1s">
-		<div class="intros">
-			{#each ["eunice", "minji"] as name}
-				<div class="intro">
-					<div class="img-frame">
-						<img class="img" alt="photo of {name}" src={`assets/img/title/${name}.jpg`} />
-					</div>
-					<div class="caption">Hi, I'm {_.startCase(name)}!</div>
-				</div>
-			{/each}
-		</div>
-	</div>
 </section>
 
 <style>
 	#title {
 		padding: 8rem 2rem 4rem 2rem;
 		min-height: 85vh;
-		background: linear-gradient(
-			to bottom,
-			rgba(5, 2, 12, 0.1),
-			rgba(5, 2, 12, 0.4) 60%,
-			rgba(5, 2, 12, 0.7)
-		);
+		background: transparent;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -138,70 +118,9 @@
 		}
 	}
 
-	.landing {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 100%;
-	}
-
-	.intros {
-		display: flex;
-		justify-content: center;
-		gap: 2.5rem;
-		max-width: 500px;
-		width: 100%;
-		margin: 0 auto;
-	}
-
-	.intro {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.img-frame {
-		border-radius: var(--border-radius);
-		padding: 2px;
-		background: linear-gradient(135deg, #ff007f, #d4ff00);
-		box-shadow: 0 4px 15px rgba(255, 0, 127, 0.2);
-		transition: transform 0.3s ease;
-	}
-
-	.img-frame:hover {
-		transform: scale(1.05) rotate(2deg);
-	}
-
-	.img {
-		border-radius: calc(var(--border-radius) - 2px);
-		height: 120px;
-		width: 120px;
-		display: block;
-		object-fit: cover;
-	}
-
-	.caption {
-		font-family: var(--font-body);
-		font-weight: 500;
-		font-size: var(--12px);
-		color: #ffffff;
-		opacity: 0.85;
-		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-	}
-
 	@media (max-width: 600px) {
 		#title {
 			padding: 6rem 1rem 3rem 1rem;
-		}
-		
-		.intros {
-			gap: 1.5rem;
-		}
-
-		.img {
-			height: 90px;
-			width: 90px;
 		}
 	}
 </style>
