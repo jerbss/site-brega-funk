@@ -67,15 +67,15 @@
 					"type": "Chart",
 					"value": {
 						"id": "beat-compare",
-						"title": "Comparador de Batidas: Funk vs. Brega Funk",
-						"subtitle": "Interação de áudio comparando a velocidade e o padrão rítmico do Funk Carioca (130 BPM) com o Brega Funk de Recife (85 BPM).",
-						"source": "Interface Interativa de Áudio"
+						"title": "Estrutura do Beat: Mapeamento de Drops",
+						"subtitle": "Interação para mapear os momentos de tensão, a síncope do passinho e os drops característicos que ditam as paradas bruscas da coreografia.",
+						"source": "Mapeamento Estrutural e Sinal de Áudio"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "A grande sacada do ritmo é a sua velocidade: ele roda entre 80 e 90 batidas por minuto (BPM), sendo um pouco mais lento e swingado que o funk tradicional. Isso o torna perfeito para danças com movimentos expressivos de quadril.",
+						"text": "A grande sacada do ritmo não é apenas o andamento em si — que varia na faixa de energia similar ao funk carioca, entre 115 e 135 BPM —, mas a forma como a batida se comporta. Embora algoritmos do Spotify às vezes classifiquem faixas como 165 BPM por detectarem as palmas e marcações do passinho em dobro, a cadência é o que dá o molejo ideal para a dança.",
 						"speaker": "eunice"
 					}
 				},
@@ -84,7 +84,7 @@
 					"value": {
 						"id": "bpm-scatter",
 						"title": "BPM vs. Dançabilidade de Hits do Spotify",
-						"subtitle": "Mapeamento das faixas do Top 100 Brasil. Veja a alta concentração do Brega Funk na faixa ideal de danças e dancinhas (80-90 BPM).",
+						"subtitle": "Distribuição de faixas no Top 100. Veja como as músicas de brega funk flutuam entre 115-135 BPM (com picos de síncope acelerada no algoritmo de até 165 BPM).",
 						"source": "Fonte: Spotify Web API Audio Features"
 					}
 				},
