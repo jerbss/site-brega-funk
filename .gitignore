@@ -1,0 +1,11 @@
+contexto-da-atividade.md
+/pudding-referencias
+/site
+
+# Svelte Starter / Build outputs
+node_modules
+.svelte-kit
+build
+.env
+.env.*
+!.env.example

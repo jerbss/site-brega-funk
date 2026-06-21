@@ -1,0 +1,66 @@
+{
+	"title": "Como o Brega Funk Conquistou o Brasil em 15 Segundos?",
+	"description": "Uma análise visual interativa sobre como a estrutura musical do Brega Funk quebrou a hegemonia do eixo RJ-SP e dominou o streaming.",
+	"url": "https://site-brega-funk.cool",
+	"keywords": "brega funk, recife, funk, streaming, tiktok, spotify",
+	"byline": "Por <a href='#' target='_blank'>Equipe Antigravity</a>",
+	"bios": {
+		"antigravity": "é uma inteligência artificial que adora analisar batidas de brega funk e criar visualizações de dados premium."
+	},
+	"footer": {
+		"heading": "Obrigado por ler!",
+		"thanks": "Este trabalho é um ensaio visual interativo experimental sobre a aceleração do refrão na música pop brasileira.",
+		"methods": "Entenda nossos dados e metodologia.",
+		"mobileOnly": "Para uma melhor experiência com os gráficos de dispersão, visualize em telas maiores."
+	},
+	"orientationWarningModal": {
+		"paragraphs": [
+			"Psst…",
+			"Esta história fica muito melhor com a tela em <b>modo paisagem</b> (deitada).",
+			"Tente virar o seu celular!"
+		],
+		"dismissButton": "Continuar assim mesmo"
+	},
+	"dataMethods": [
+		{
+			"title": "Como medimos a entrada do refrão?",
+			"paragraphs": [
+				"Para cada uma das 12 músicas analisadas, escutamos manualmente a gravação original do Spotify e identificamos o segundo exato de início da primeira seção de refrão.",
+				"Definimos 'refrão' como a parte principal, mais memorável e repetitiva da letra e melodia, que serve como o gancho ('hook') da composição."
+			]
+		},
+		{
+			"title": "Por que a regra dos 30 segundos do Spotify é importante?",
+			"paragraphs": [
+				"Plataformas de streaming de áudio como o Spotify só contabilizam uma reprodução paga ('monetizada') se o ouvinte escutar a música por pelo menos 30 segundos sem pular.",
+				"Se a música demora muito para apresentar seu principal atrativo (o refrão), a chance de 'skip' (pular a música) antes da marca de 30s aumenta substancialmente. Músicas com refrão precoce prendem o ouvinte mais rápido, garantindo monetização."
+			]
+		}
+	],
+	"commentText": {
+		"boomerBobComment": "As músicas de hoje em dia começam do nada, não têm introdução e já vão direto pro refrão irritante!!!",
+		"alternate": "Hoje em dia a música foi feita para o TikTok, tudo tem que acontecer em 10 segundos!"
+	},
+	"stepText": {
+		"intro": {
+			"copy": "Você já deve ter percebido que as músicas estão ficando mais rápidas e curtas. Mas no Brasil, um gênero levou isso ao extremo e conquistou o país de baixo para cima.",
+			"figCaption": "O Brega Funk nasceu na periferia de Recife e rompeu a tradicional hegemonia do eixo Rio-São Paulo na música pop brasileira."
+		},
+		"hookTestStep": {
+			"copy": "<strong>Vamos testar a sua atenção?</strong> Abaixo, faça o teste de audição. Dê play nas músicas e veja se você aguenta esperar até o refrão começar. Repare no cronômetro regressivo de 30 segundos, o limite de monetização do Spotify.",
+			"figCaption": "Interaja com o reprodutor e sinta a diferença na velocidade da entrega do refrão."
+		},
+		"expansionMapStep": {
+			"copy": "Enquanto o Pop e o Funk tradicionais dominavam o Sudeste (eixo RJ-SP), o Brega Funk surgiu de Recife, Pernambuco. Ele se espalhou pelo Nordeste e depois invadiu os feeds de todo o Brasil, subindo 'de baixo para cima'.",
+			"figCaption": "Mapa de difusão do Brega Funk a partir do seu berço em Recife, expandindo-se nacionalmente."
+		},
+		"timelineChartStep": {
+			"copy": "Ao plotarmos o tempo que cada música leva para alcançar o refrão, o dado salta aos olhos: músicas tradicionais levam quase 50 segundos, enquanto os hits de Brega Funk explodem o refrão logo nos primeiros 10 a 15 segundos.",
+			"figCaption": "Comparativo do segundo de início do refrão. A linha amarela de 15s demarca o tempo ideal para Reels/TikTok, e a linha vermelha de 30s demarca a monetização."
+		},
+		"conclusionStep": {
+			"copy": "Em resumo: ao colocar o refrão logo no início, o Brega Funk se adaptou perfeitamente aos limites do TikTok, Reels e ao algoritmo de retenção do Spotify, virando uma máquina de hits instantâneos.",
+			"figCaption": "Conclusão do ensaio: a estrutura musical moderna é moldada pela economia da atenção."
+		}
+	}
+}
