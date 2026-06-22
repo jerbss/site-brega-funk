@@ -20,16 +20,16 @@
 				{
 					"type": "Image",
 					"value": {
-						"src": "loma.png",
+						"src": "anexo-1.jpg",
 						"alt": "Mirella Santos, MC Loma e Mariely Santos.",
 						"shape": "full",
-						"source": "Frame do clipe \"Na Vibe\""
+						"source": "<a href=\\\"https://www.diariodepernambuco.com.br/noticia/viver/2018/02/na-vibe-novo-clipe-de-loma.html\\\" target=\\\"_blank\\\" style=\\\"color: inherit; text-decoration: none;\\\">Reprodução / Instagram</a>"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "No início de 2018, três adolescentes da periferia de Jaboatão dos Guararapes, em Pernambuco, decidiram criar um clipe de música. Sem recursos, Paloma Roberta (MC Loma) e as irmãs Mirella e Mariely Santos (as Gêmeas Lacração) usaram um celular emprestado para filmar a si mesmas dançando pelas ruas de barro de seu bairro, sob um orçamento de 40 reais.",
+						"text": "No início de 2018, três jovens da periferia de Jaboatão dos Guararapes, em Pernambuco, decidiram criar um clipe de música. Sem qualquer orçamento, Paloma Roberta (MC Loma, de 15 anos) e as irmãs Mirella e Mariely Santos (as Gêmeas Lacração, de 18 anos) usaram a câmera de um celular comum para filmar a si mesmas dançando pelo bairro.",
 						"speaker": "eunice"
 					}
 				},
@@ -43,7 +43,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "A produção simples da música \"Envolvimento\" viralizou no YouTube de forma inesperada. Em poucas semanas, o vídeo amador acumulou dezenas de milhões de visualizações, recebeu apoio de influenciadores e chamou a atenção de artistas consagrados. Sem qualquer apoio de grandes gravadoras ou espaço nas rádios, a faixa alcançou o topo do ranking diário nacional do Spotify.",
+						"text": "A produção simples da música \"Envolvimento\" viralizou no YouTube de forma inesperada. Em poucas semanas, o vídeo amador acumulou milhões de visualizações, recebeu apoio de influenciadores e chamou a atenção de artistas consagrados. A força do viral colocou a faixa nas paradas globais de streaming e forçou a indústria a olhar para o ritmo, culminando no topo do ranking nacional do Spotify logo após a assinatura com uma produtora no início de fevereiro.",
 						"speaker": "minji"
 					}
 				},

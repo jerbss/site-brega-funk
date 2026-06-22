@@ -17,8 +17,10 @@
 		registerNode(nodeId, el);
 	});
 
+	import ChartEnvolvimento from './charts/ChartEnvolvimento.svelte';
+
 	const components = {
-		// Novos componentes de gráfico serão registrados aqui
+		'chart-envolvimento-trajectory': ChartEnvolvimento
 	};
 	const C = components[id];
 </script>
