@@ -12,38 +12,29 @@
 	"sections": [
 		{
 			"id": "first-gen",
-			"heading": "1. O Estopim Caseiro",
-			"years": "2018",
-			"numEnd": "st",
-			"coverAlt": "MC Loma e as Gêmeas Lacração no clipe caseiro de Envolvimento",
+			"heading": "",
+			"years": "",
+			"numEnd": "",
+			"coverAlt": "",
 			"nodes": [
 				{
 					"type": "Text",
 					"value": {
-						"text": "Em 2018, uma garota de 15 anos da periferia de Recife e suas duas amigas gravaram um videoclipe caseiro usando a câmera de um celular simples. A música era <em>Envolvimento</em>, e a cantora se autodenominou MC Loma. O vídeo era intencionalmente tosco, com maquiagem neon e muito humor improvisado.",
+						"text": "O que nasceu como uma mistura improvável entre o brega pernambucano e as batidas do funk acabou se transformando em um dos movimentos culturais mais influentes da música brasileira recente. O Brega Funk já virou realidade!",
 						"speaker": "eunice"
-					}
-				},
-				{
-					"type": "Chart",
-					"value": {
-						"id": "spotify-climb",
-						"title": "A Escalada Viral no Spotify (2018)",
-						"subtitle": "Desempenho diário de streams da faixa 'Envolvimento' de MC Loma no Top 50 Brasil do Spotify até atingir o topo.",
-						"source": "Fonte: Spotify Charts Data (Jan-Fev 2018)"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "Ninguém ali tinha gravadora ou orçamento de marketing. Mas o inesperado aconteceu: o vídeo viralizou no WhatsApp, ganhou memes no YouTube, e em poucas semanas foi compartilhado por grandes artistas. Em pouco tempo, a música alcançou o topo do Top 50 Brasil do Spotify, tornando-se o hit absoluto do Carnaval.",
+						"text": "Essa história vai muito além de números e hits do momento, existe também uma geração de jovens que encontrou na música uma forma de trocar ideia, se expressar e ocupar espaços que durante muito tempo pareciam inacessíveis. O Brega Funk não é apenas um ritmo: é um fenômeno cultural que transformou a maneira como a periferia produz, consome e compartilha arte.",
 						"speaker": "minji"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "Esse estouro marcou um ponto de virada histórico. Pela primeira vez, um ritmo periférico do Nordeste dominou as paradas nacionais sem pedir licença ou passar pelo tradicional filtro das rádios e gravadoras do eixo Rio-São Paulo. Tudo aconteceu de forma 100% digital e descentralizada.",
+						"text": "Então me diz como um som que começou nos bailes da Região Metropolitana do Recife conseguiu chegar aos fones de milhões de brasileiros? E você sabe como a internet ajudou a transformar artistas independentes em fenômenos nacionais?",
 						"speaker": "eunice"
 					}
 				}
@@ -51,79 +42,15 @@
 		},
 		{
 			"id": "second-gen",
-			"heading": "2. A Receita do Ritmo",
-			"years": "2011",
-			"numEnd": "nd",
-			"coverAlt": "DJs e dançarinos em Recife agitando a batida do Brega Funk",
+			"heading": "Bailão nordestino",
+			"years": "2000-2018",
+			"numEnd": "st",
+			"coverAlt": "Mapa de difusão do Brega Funk",
 			"nodes": [
 				{
 					"type": "Text",
 					"value": {
-						"text": "Mas o que é, afinal, o Brega Funk? Esse gênero nasceu nas periferias de Recife por volta de 2011. Ele é a fusão perfeita entre a melodia romântica do brega recifense (muito popular no Nordeste) com as batidas sincopadas do funk carioca.",
-						"speaker": "minji"
-					}
-				},
-				{
-					"type": "Chart",
-					"value": {
-						"id": "beat-compare",
-						"title": "Estrutura do Beat: Mapeamento de Drops",
-						"subtitle": "Interação para mapear os momentos de tensão, a síncope do passinho e os drops característicos que ditam as paradas bruscas da coreografia.",
-						"source": "Mapeamento Estrutural e Sinal de Áudio"
-					}
-				},
-				{
-					"type": "Text",
-					"value": {
-						"text": "A grande sacada do ritmo não é apenas o andamento em si — que varia na faixa de energia similar ao funk carioca, entre 115 e 135 BPM —, mas a forma como a batida se comporta. Embora algoritmos do Spotify às vezes classifiquem faixas como 165 BPM por detectarem as palmas e marcações do passinho em dobro, a cadência é o que dá o molejo ideal para a dança.",
-						"speaker": "eunice"
-					}
-				},
-				{
-					"type": "Chart",
-					"value": {
-						"id": "bpm-scatter",
-						"title": "BPM vs. Dançabilidade de Hits do Spotify",
-						"subtitle": "Distribuição de faixas no Top 100. Veja como as músicas de brega funk flutuam entre 115-135 BPM (com picos de síncope acelerada no algoritmo de até 165 BPM).",
-						"source": "Fonte: Spotify Web API Audio Features"
-					}
-				},
-				{
-					"type": "Text",
-					"value": {
-						"text": "DJs e produtores pioneiros — como MC Sheldon, MC Troinha e Dadá Boladão — perceberam que as paradas bruscas do beat e os 'drops' (as explosões da batida) serviam como ganchos perfeitos para coreografias. O ritmo nasceu desenhado para a dança.",
-						"speaker": "minji"
-					}
-				}
-			]
-		},
-		{
-			"id": "third-gen",
-			"heading": "3. O Passinho como Moeda",
-			"years": "2020",
-			"numEnd": "rd",
-			"coverAlt": "Jovens coreografando o passinho nas ruas de Santo Amaro",
-			"nodes": [
-				{
-					"type": "Text",
-					"value": {
-						"text": "Na era das redes sociais de vídeo curto, como o TikTok e o Instagram Reels, a música não é apenas ouvida — ela é vista. E o brega funk tinha a arma secreta perfeita para esse novo cenário: o passinho.",
-						"speaker": "eunice"
-					}
-				},
-				{
-					"type": "Chart",
-					"value": {
-						"id": "passinho-videos",
-						"title": "Grade de Vídeos: A Linguagem do Passinho",
-						"subtitle": "Carrossel de vídeos curtos em loop: Jamal em Santo Amaro, comemoração de Neymar e dancinhas no Big Brother Brasil.",
-						"source": "Fonte: Redes Sociais e Acervo TikTok (2020-2026)"
-					}
-				},
-				{
-					"type": "Text",
-					"value": {
-						"text": "O maior exemplo disso é o <em>Passinho do Jamal</em>, criado pelo dançarino Romero Júnior (Jamal) em Santo Amaro, Recife. A coreografia combina passos rápidos de pés com movimentos simples e divertidos de mãos. É contagiante e fácil de replicar.",
+						"text": "Muito antes das trends e dos milhões de visualizações, o Brega Funk já fazia parte da rotina das periferias da Região Metropolitana do Recife. Nascido da mistura entre o brega pernambucano e as batidas do funk carioca, o gênero começou a ganhar forma nos bailes, onde os MCs e o próprio público ajudavam a definir os sons que fariam sucesso.",
 						"speaker": "minji"
 					}
 				},
@@ -131,15 +58,61 @@
 					"type": "Chart",
 					"value": {
 						"id": "geo-diffusion",
-						"title": "Mapa de Difusão: O Furo da Bolha no Tempo",
-						"subtitle": "Animação geográfica mostrando a propagação de hits a partir de Recife para os charts de outras capitais do país.",
-						"source": "Fonte: Spotify Local Pulse e Charts por Cidade"
+						"title": "Mapeamento Rítmico de Capitais (Recife -> Brasil)",
+						"subtitle": "Gráficos de difusão de hits a partir do Recife para o resto do país.",
+						"source": "Fonte: Spotify Charts Geolocation Metadata"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "A dança viralizou de forma absurda, saindo das ruas de Recife e invadindo as redes de celebridades, jogadores de futebol e até o elenco do Big Brother Brasil 26. Hits como <em>Toma Botada</em> escalaram os rankings do Spotify impulsionados inteiramente por milhares de jovens gravando seus próprios desafios de passinho.",
+						"text": "Nos anos 2000, as músicas circulavam de forma independente em CDs, carros de som e festas locais. Com a popularização da internet e dos celulares na década seguinte, artistas passaram a alcançar públicos cada vez maiores através do YouTube e das redes sociais. Aos poucos, o Brega Funk deixou de ser um fenômeno regional e começou a chamar atenção em todo o país.",
+						"speaker": "eunice"
+					}
+				},
+				{
+					"type": "Text",
+					"value": {
+						"text": "O sucesso de músicas como Envolvimento, de MC Loma e as Gêmeas Lacração, mostrou que aquele ritmo criado longe dos holofotes estava pronto para ganhar o Brasil. E, justamente quando isso aconteceu, uma nova era começava: a dos vídeos curtos e dos algoritmos, que transformariam o Brega Funk em um fenômeno nacional.",
+						"speaker": "minji"
+					}
+				}
+			]
+		},
+		{
+			"id": "third-gen",
+			"heading": "Pega o passinho",
+			"years": "Dancinhas",
+			"numEnd": "nd",
+			"coverAlt": "Dançarinos fazendo passinho em Recife",
+			"nodes": [
+				{
+					"type": "Text",
+					"value": {
+						"text": "Se tem uma coisa que o Brega Funk provou é que música e dança andam juntas. Muito do sucesso do gênero veio do passinho, das coreografias e da cultura visual criada em torno dele. As pessoas encontraram na dança uma forma de expressão, reconhecimento e pertencimento. Afinal, no Brega Funk, ouvir e dançar sempre fizeram parte da mesma experiência.",
+						"speaker": "eunice"
+					}
+				},
+				{
+					"type": "Chart",
+					"value": {
+						"id": "passinho-videos",
+						"title": "A Linguagem Corporal do Passinho",
+						"subtitle": "Exemplo visual e vídeos curtos mostrando o passinho viral e sua coreografia.",
+						"source": "Acervo e Tendências das Redes Sociais"
+					}
+				},
+				{
+					"type": "Text",
+					"value": {
+						"text": "Os bailes se tornaram espaços onde música, moda e comportamento se encontram. As roupas, o cabelo na régua, as gírias e uma estética própria são elementos que ajudaram a construir uma linguagem facilmente reconhecível por quem faz parte dessa cultura. E, assim como as músicas, essa identidade ultrapassou Pernambuco e ganhou espaço nas redes sociais.",
+						"speaker": "minji"
+					}
+				},
+				{
+					"type": "Text",
+					"value": {
+						"text": "Foi justamente essa combinação entre som, imagem e performance que preparou o terreno para a próxima fase do Brega Funk. Porque quando os vídeos curtos dominaram a internet, o gênero já tinha tudo o que precisava para conquistar milhões de pessoas com apenas alguns segundos de música.",
 						"speaker": "eunice"
 					}
 				}
@@ -147,80 +120,64 @@
 		},
 		{
 			"id": "fourth-gen",
-			"heading": "4. Hackeando o Algoritmo",
-			"years": "Economia",
-			"numEnd": "th",
-			"coverAlt": "Gráfico de barras de 15 segundos ilustrando retenção no TikTok",
+			"heading": "Virou viral",
+			"years": "Redes Sociais",
+			"numEnd": "rd",
+			"coverAlt": "Dancinhas de Tik Tok e Reels",
 			"nodes": [
 				{
 					"type": "Text",
 					"value": {
-						"text": "Para entender o sucesso do brega funk, precisamos olhar para as regras invisíveis dos algoritmos de streaming e de vídeo curto. Plataformas como o Spotify só contam uma reprodução (play) se o ouvinte escutar a música por pelo menos 30 segundos.",
+						"text": "O Brega Funk não ficou gigante só por causa das músicas e das coreografias marcantes, ele explodiu mesmo quando a internet entrou no jogo. Com as redes sociais e os vídeos curtos, principalmente TikTok, Instagram e YouTube, qualquer trecho com batida envolvente e dança fácil de copiar podia virar febre in questão de dias. Foi assim que vários hits saíram dos bailes de Pernambuco direto para o Brasil inteiro, crescendo primeiro nas timelines antes mesmo de tocar nas rádios ou aparecer na TV.",
 						"speaker": "minji"
 					}
 				},
 				{
 					"type": "Chart",
 					"value": {
-						"id": "song-histogram",
-						"title": "O Encurtamento da Música Popular no Brasil",
-						"subtitle": "Distribuição e duração mediana das canções do Top 100 Brasil de 2014 a 2026. Note a queda acentuada com a popularização das dancinhas.",
-						"source": "Fonte: Spotify Charts Metadata"
+						"id": "tiktok-embed",
+						"title": "Métricas de Retenção de Vídeos Curtos",
+						"subtitle": "Estatísticas de engajamento do passinho em plataformas digitais.",
+						"source": "Métricas agregadas do TikTok e Reels"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "Para evitar que o ouvinte pule a faixa, os produtores adotaram a estratégia de eliminar introduções instrumentais longas e entregar o refrão logo de cara, nos primeiros segundos. A 'tiktokização' da música intensificou isso: com vídeos de 15 segundos, a música precisa fisgar o usuário imediatamente.",
+						"text": "Mas o impacto do Brega Funk vai muito além do viral, o movimento também abriu espaço para uma rede enorme de pessoas que vivem da cultura em torno dele: dançarinos, produtores, videomakers, organizadores de eventos e criadores digitais. Ao mesmo tempo em que dá visibilidade para histórias e vivências que antes ficavam de fora da mídia tradicional, o gênero também gera renda e oportunidades para muita gente das periferias. Mesmo com o sucesso, ainda enfrenta preconceitos antigos, mas segue mostrando força ao ocupar espaço na indústria do entretenimento e provar que grandes movimentos culturais podem nascer longe dos centros tradicionais e ainda assim influenciar o país inteiro.",
 						"speaker": "eunice"
-					}
-				},
-				{
-					"type": "Chart",
-					"value": {
-						"id": "time-bar",
-						"title": "Linha do Tempo: A Estratégia dos 27 Segundos",
-						"subtitle": "Análise interativa dos momentos críticos de retenção em um vídeo curto de 15s comparado à regra do play de 30s das plataformas.",
-						"source": "Análise Estrutural da Indústria Fonográfica"
-					}
-				},
-				{
-					"type": "Text",
-					"value": {
-						"text": "A estrutura do brega funk se adaptou como uma luva a esse formato: as canções encolheram para cerca de 2 minutos e meio, concentrando tudo em um refrão chiclete, uma dancinha simples de 15 segundos e um drop rápido para o clímax do vídeo.",
-						"speaker": "minji"
 					}
 				}
 			]
 		},
 		{
 			"id": "fifth-gen",
-			"heading": "5. O Que Isso Explica?",
-			"years": "So What?",
+			"heading": "Bota o paredão",
+			"years": "Playlists",
 			"numEnd": "th",
-			"coverAlt": "Paredão de som neon na periferia de Recife",
+			"coverAlt": "Paredão de caixas de som de Brega Funk",
 			"nodes": [
 				{
 					"type": "Text",
 					"value": {
-						"text": "A conquista do Brasil pelo brega funk não é apenas uma história sobre hits passageiros de dancinhas. Ela revela uma transformação profunda na nossa sociedade: a descentralização cultural. O brega funk provou que a periferia nordestina pode ditar o som do país inteiro de forma direta e digital.",
-						"speaker": "eunice"
+						"text": "Agora é hora de viajar por diferentes momentos do gênero, relaxar e escutar um som.\nDe nomes que ajudaram a construir sua identidade aos hits que dominaram as redes sociais, cada faixa conta um pedaço dessa trajetória.",
+						"speaker": "minji"
 					}
 				},
 				{
 					"type": "Chart",
 					"value": {
-						"id": "brazil-map",
-						"title": "Mapa Interativo: Hits por Estado (Share of Hits)",
-						"subtitle": "Arraste o slider temporal para ver o ganho de participação de Pernambuco/Nordeste frente ao domínio do Sudeste (RJ/SP).",
-						"source": "Fonte: Spotify Charts Geolocation Metadata"
+						"id": "playlists-embed",
+						"title": "Antologia do Brega Funk",
+						"subtitle": "Playlists e faixas clássicas que moldaram o desenvolvimento do gênero.",
+						"source": "Spotify e Acervo Histórico"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "Além disso, mostra a reconfiguração da própria arte pelo algoritmo. O sucesso do gênero antecipou como a economia da atenção redesenha a anatomia da música popular. Ao hackear os códigos digitais para conquistar o país em 15 segundos, o brega funk reescreveu a fórmula de como se faz música hoje.",
-						"speaker": "minji"
+						"text": "MC Sheldon, MC Loma e as Gêmeas Lacração, Dadá Boladão, Thiaguinho MT e tantos outros mostram como o Brega Funk evoluiu ao longo dos anos sem perder suas raízes. Algumas músicas nasceram nos bailes, outras explodiram na internet, mas todas ajudaram a transformar um ritmo local em um fenômeno nacional.",
+						"speaker": "eunice"
 					}
 				}
 			]

@@ -21,7 +21,7 @@
 
 	<nav class:visible={current.section !== "title"}>
 		<ul>
-			{#each copy.sections as { id, numEnd, years }}
+			{#each copy.sections.filter(s => s.heading && s.numEnd) as { id, numEnd, years }}
 				{@const active = current.section === id}
 				{@const title = _.upperCase(id)}
 				<li>

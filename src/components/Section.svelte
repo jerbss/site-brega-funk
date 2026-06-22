@@ -19,7 +19,9 @@
 </script>
 
 <section {id} {style} use:mostInView={id}>
-	<h2>{heading}</h2>
+	{#if heading}
+		<h2>{heading}</h2>
+	{/if}
 
 	<Nodes {id} {nodes} />
 </section>
