@@ -99,9 +99,9 @@
 					"type": "Chart",
 					"value": {
 						"id": "chart-brega-funk-growth",
-						"title": "Explosão de Interesse pelo Brega Funk",
-						"subtitle": "Evolução mensal do interesse de buscas pelo termo <em>brega funk</em> no Brasil (2017 - 2025). O pico coincide com o viral de \"Envolvimento\" no Carnaval de 2018, seguido de um crescimento sustentado com novos picos em 2020 (Deezer +680%) e 2025 (Passinho do Jamal / BBB 26).",
-						"source": "Fonte: Google Trends Brasil (2017 - 2025)"
+						"title": "A Explosão de Buscas pelo Brega Funk",
+						"subtitle": "O gráfico demonstra que a popularização do termo na internet demorou a acontecer. No início de 2018, quando o hit \"Envolvimento\" estourou, quase ninguém pesquisava usando o termo \"brega funk\". A explosão de buscas só ocorreu entre o fim de 2019 e o início de 2020, impulsionada por grandes hits de Carnaval como \"Sentadão\" e \"Tudo OK\".",
+						"source": "Fonte: Google Trends Brasil (2018 - 2026)"
 					}
 				},
 				{

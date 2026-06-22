@@ -47,30 +47,61 @@
 	const annotations = [
 		{
 			date: new Date('2018-02-15'),
-			label: 'Envolvimento\nviral',
-			align: 'left'
-		},
-		{
-			date: new Date('2020-01-15'),
-			label: 'Deezer\n+680%',
+			label: 'Envolvimento',
 			align: 'center'
 		},
 		{
-			date: new Date('2025-02-15'),
-			label: 'Passinho\ndo Jamal',
+			date: new Date('2019-09-15'),
+			label: 'Surtada',
+			align: 'center'
+		},
+		{
+			date: new Date('2019-12-15'),
+			label: 'Sentadão',
+			align: 'center'
+		},
+		{
+			date: new Date('2020-02-15'),
+			label: 'Tudo OK',
+			align: 'center'
+		},
+		{
+			date: new Date('2025-12-15'),
+			label: 'Passinho do Jamal',
 			align: 'right'
 		}
 	];
 
 	// Year ticks
 	let yearTicks = $derived(
-		[2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025].map(y => new Date(`${y}-07-01`))
+		[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026].map(y => new Date(`${y}-07-01`))
 	);
 
 	// Y-axis ticks
 	let yTicks = $derived(
 		yScale.ticks ? yScale.ticks(4) : [0, 25, 50, 75, 100]
 	);
+
+	function getMonthContext(date) {
+		const y = date.getFullYear();
+		const m = date.getMonth() + 1;
+		if (y === 2018 && m === 2) {
+			return 'MC Loma lança "Envolvimento", mas o público busca pelo nome da música, não pelo termo genérico do ritmo.';
+		}
+		if (y === 2019 && m === 9) {
+			return 'Dadá Boladão estoura com o remix de "Surtada", iniciando a ascensão nacional das buscas.';
+		}
+		if (y === 2019 && m === 12) {
+			return 'Lançada no fim de novembro, "Sentadão" (Pedro Sampaio) escala os charts e puxa o pico histórico de buscas (100).';
+		}
+		if (y === 2020 && m === 2) {
+			return 'Também lançada em novembro, "Tudo OK" (Thiaguinho MT) viraliza meses depois e atinge o #1 do Spotify no Carnaval.';
+		}
+		if (y === 2025 && m === 12) {
+			return 'O ritmo volta a crescer no fim do ano puxado pela viralização global do "Passinho do Jamal" ao som de "Toma Botada".';
+		}
+		return null;
+	}
 
 	let hoveredData = $state(null);
 	let tooltipX = $state(0);
@@ -153,10 +184,10 @@
 					<circle cx={ax} cy={ay} r="4" class="annotation-dot" />
 					{#each ann.label.split('\n') as textLine, i}
 						<text
-							x={ax}
+							x={ax + (ann.align === 'left' ? 6 : ann.align === 'right' ? -6 : 0)}
 							y={ay - 16 - (ann.label.split('\n').length - 1 - i) * 14}
 							class="annotation-text"
-							text-anchor="middle"
+							text-anchor={ann.align === 'left' ? 'start' : ann.align === 'right' ? 'end' : 'middle'}
 						>{textLine}</text>
 					{/each}
 				{/each}
@@ -182,11 +213,15 @@
 
 		<!-- Tooltip -->
 		{#if hoveredData}
+			{@const context = getMonthContext(hoveredData.date)}
 			<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
 				<div class="tooltip-date">{monthNames[hoveredData.date.getMonth()]} {hoveredData.date.getFullYear()}</div>
 				<div class="tooltip-metric">
-					<strong>Interesse:</strong> {hoveredData.interest}
+					<strong>Índice:</strong> {hoveredData.interest} / 100
 				</div>
+				{#if context}
+					<div class="tooltip-context">{context}</div>
+				{/if}
 			</div>
 		{/if}
 	</div>
@@ -200,7 +235,7 @@
 	.title {
 		font-size: 1.5rem;
 		font-weight: 800;
-		color: var(--color-link-hover, #ff007f);
+		color: var(--accent, #ff007f);
 		margin: 0 0 0.5rem 0;
 		text-transform: uppercase;
 		letter-spacing: -0.5px;
@@ -271,7 +306,7 @@
 		pointer-events: none;
 		background: rgba(13, 13, 13, 0.95);
 		border: 1px solid var(--border, #ff007f);
-		padding: 8px 12px;
+		padding: 10px 14px;
 		border-radius: 6px;
 		color: #fff;
 		font-family: var(--sans, sans-serif);
@@ -279,7 +314,8 @@
 		transform: translate(-50%, -130%);
 		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 		z-index: 10;
-		min-width: 100px;
+		min-width: 220px;
+		max-width: 300px;
 		text-align: left;
 		transition: top 0.1s ease, left 0.1s ease;
 	}
@@ -294,5 +330,14 @@
 	.tooltip-metric strong {
 		color: var(--border, #ff007f);
 		font-weight: 600;
+	}
+	.tooltip-context {
+		margin-top: 6px;
+		font-size: 11px;
+		color: rgba(255, 255, 255, 0.85);
+		border-top: 1px solid rgba(255, 255, 255, 0.15);
+		padding-top: 6px;
+		line-height: 1.35;
+		max-width: 280px;
 	}
 </style>
