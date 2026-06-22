@@ -8,7 +8,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --check --plugin-search-dir=. .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --write --plugin-search-dir=. .",
+		"deploy": "node tasks/deploy.js"
 	},
 	"devDependencies": {
 		"@lucide/svelte": "^0.544.0",
