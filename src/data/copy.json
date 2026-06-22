@@ -49,7 +49,7 @@
 		},
 		{
 			"id": "second-gen",
-			"heading": "Bailão nordestino",
+			"heading": "",
 			"years": "2000-2018",
 			"numEnd": "st",
 			"coverAlt": "Mapa de difusão do Brega Funk",
@@ -88,7 +88,7 @@
 		},
 		{
 			"id": "third-gen",
-			"heading": "Pega o passinho",
+			"heading": "",
 			"years": "Dancinhas",
 			"numEnd": "nd",
 			"coverAlt": "Dançarinos fazendo passinho em Recife",
@@ -127,7 +127,7 @@
 		},
 		{
 			"id": "fourth-gen",
-			"heading": "Virou viral",
+			"heading": "",
 			"years": "Redes Sociais",
 			"numEnd": "rd",
 			"coverAlt": "Dancinhas de Tik Tok e Reels",
@@ -166,7 +166,7 @@
 		},
 		{
 			"id": "fifth-gen",
-			"heading": "Bota o paredão",
+			"heading": "",
 			"years": "Playlists",
 			"numEnd": "th",
 			"coverAlt": "Paredão de caixas de som de Brega Funk",
