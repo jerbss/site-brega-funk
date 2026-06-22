@@ -75,7 +75,7 @@
 	.text-wrapper {
 		display: flex;
 		align-items: flex-start;
-		margin: 3rem 0;
+		margin: 2rem 0;
 		justify-content: space-between;
 		gap: 1.5rem;
 		z-index: 2;
@@ -123,7 +123,7 @@
 	}
 
 	.text-block.with-margin {
-		margin: 3rem 0;
+		margin: 2rem 0;
 	}
 
 	.text-block.left {

@@ -28,7 +28,7 @@
 
 <style>
 	section {
-		padding: 5rem 2rem;
+		padding: 3rem 2rem;
 		font-family: var(--font-body);
 		background: linear-gradient(to bottom, var(--background));
 		display: flex;
@@ -52,7 +52,7 @@
 
 	@media (max-width: 600px) {
 		section {
-			padding: 3rem 1.5rem;
+			padding: 2rem 1.5rem;
 		}
 	}
 </style>
