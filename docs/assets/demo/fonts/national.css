@@ -1,7 +1,6 @@
 @font-face {
 	font-family: "National 2 Web";
-	src: url("https://pudding.cool/assets/fonts/national/National2Web-Regular.woff2")
-		format("woff2");
+	src: url("https://pudding.cool/assets/fonts/national/National2Web-Regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
@@ -10,8 +9,7 @@
 
 @font-face {
 	font-family: "National 2 Web";
-	src: url("https://pudding.cool/assets/fonts/national/National2Web-Bold.woff2")
-		format("woff2");
+	src: url("https://pudding.cool/assets/fonts/national/National2Web-Bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: normal;
@@ -20,8 +18,7 @@
 
 @font-face {
 	font-family: "National 2 Narrow Web";
-	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-Regular.woff2")
-		format("woff2");
+	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-Regular.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
@@ -30,8 +27,7 @@
 
 @font-face {
 	font-family: "National 2 Narrow Web";
-	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-Bold.woff2")
-		format("woff2");
+	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-Bold.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: normal;
@@ -40,8 +36,7 @@
 
 @font-face {
 	font-family: "National 2 Narrow Web";
-	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-ExtraLight.woff2")
-		format("woff2");
+	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-ExtraLight.woff2") format("woff2");
 	font-weight: 200;
 	font-style: normal;
 	font-stretch: normal;
@@ -50,8 +45,7 @@
 
 @font-face {
 	font-family: "National 2 Narrow Web";
-	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-Black.woff2")
-		format("woff2");
+	src: url("https://pudding.cool/assets/fonts/national/National2NarrowWeb-Black.woff2") format("woff2");
 	font-weight: 900;
 	font-style: normal;
 	font-stretch: normal;
