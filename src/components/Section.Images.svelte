@@ -43,7 +43,12 @@
 
 <div id={nodeId} class="images-container">
 	{#each images as { src, alt, shape, style, link }, i}
-		<div class="image-wrapper" {style} bind:this={els[i]} class:final-wrapper={shape === "final"}>
+		<div
+			class="image-wrapper"
+			{style}
+			bind:this={els[i]}
+			class:final-wrapper={shape === "final"}
+		>
 			{#if src.includes("mp4")}
 				<video
 					autoplay={true}
@@ -59,7 +64,9 @@
 					class:circle={shape === "circle"}
 					class:oval={shape === "oval"}
 					class:final={shape === "final"}
-					style:transform={shape !== "final" ? `rotate(${Math.random() * 8 - 4}deg)` : 0}
+					style:transform={shape !== "final"
+						? `rotate(${Math.random() * 8 - 4}deg)`
+						: 0}
 					src={hasLoaded ? `assets/img/${sectionId}/${src}` : undefined}
 					{alt}
 				/>

@@ -23,11 +23,7 @@
 		.join(", ");
 </script>
 
-<div
-	id={nodeId}
-	class="image-container"
-	class:full-width={shape === "full"}
->
+<div id={nodeId} class="image-container" class:full-width={shape === "full"}>
 	<div
 		class="image-wrapper"
 		bind:this={el}

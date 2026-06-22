@@ -2,7 +2,8 @@
 	let { availableWidth } = $props();
 
 	// Color matching themes.json for second-gen: #ff007f
-	const embedUrl = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A111143102&color=%23ff007f&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true";
+	const embedUrl =
+		"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A111143102&color=%23ff007f&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true";
 </script>
 
 <div class="soundcloud-container" style="width: {availableWidth}px;">

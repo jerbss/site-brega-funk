@@ -1,12 +1,20 @@
 <script>
-	import { scaleTime, scaleLinear, area, line, curveMonotoneX, extent, max } from 'd3';
-	import dataJson from '$data/google_trends_timeline.json';
+	import {
+		scaleTime,
+		scaleLinear,
+		area,
+		line,
+		curveMonotoneX,
+		extent,
+		max
+	} from "d3";
+	import dataJson from "$data/google_trends_timeline.json";
 
 	let { title, subtitle, availableWidth } = $props();
 
 	// Parse data
-	const data = dataJson.map(d => ({
-		date: new Date(d.date + '-15'), // middle of the month
+	const data = dataJson.map((d) => ({
+		date: new Date(d.date + "-15"), // middle of the month
 		interest: d.interest
 	}));
 
@@ -18,69 +26,69 @@
 
 	let xScale = $derived(
 		scaleTime()
-			.domain(extent(data, d => d.date))
+			.domain(extent(data, (d) => d.date))
 			.range([0, innerWidth])
 	);
 
 	let yScale = $derived(
 		scaleLinear()
-			.domain([0, max(data, d => d.interest) * 1.1])
+			.domain([0, max(data, (d) => d.interest) * 1.1])
 			.range([innerHeight, 0])
 	);
 
 	let areaGenerator = $derived(
 		area()
-			.x(d => xScale(d.date))
+			.x((d) => xScale(d.date))
 			.y0(innerHeight)
-			.y1(d => yScale(d.interest))
+			.y1((d) => yScale(d.interest))
 			.curve(curveMonotoneX)
 	);
 
 	let lineGenerator = $derived(
 		line()
-			.x(d => xScale(d.date))
-			.y(d => yScale(d.interest))
+			.x((d) => xScale(d.date))
+			.y((d) => yScale(d.interest))
 			.curve(curveMonotoneX)
 	);
 
 	// Key annotations
 	const annotations = [
 		{
-			date: new Date('2018-02-15'),
-			label: 'Envolvimento',
-			align: 'center'
+			date: new Date("2018-02-15"),
+			label: "Envolvimento",
+			align: "center"
 		},
 		{
-			date: new Date('2019-09-15'),
-			label: 'Surtada',
-			align: 'center'
+			date: new Date("2019-09-15"),
+			label: "Surtada",
+			align: "center"
 		},
 		{
-			date: new Date('2019-12-15'),
-			label: 'Sentadão',
-			align: 'center'
+			date: new Date("2019-12-15"),
+			label: "Sentadão",
+			align: "center"
 		},
 		{
-			date: new Date('2020-02-15'),
-			label: 'Tudo OK',
-			align: 'center'
+			date: new Date("2020-02-15"),
+			label: "Tudo OK",
+			align: "center"
 		},
 		{
-			date: new Date('2025-12-15'),
-			label: 'Passinho do Jamal',
-			align: 'right'
+			date: new Date("2025-12-15"),
+			label: "Passinho do Jamal",
+			align: "right"
 		}
 	];
 
 	// Year ticks
 	let yearTicks = $derived(
-		[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026].map(y => new Date(`${y}-07-01`))
+		[2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026].map(
+			(y) => new Date(`${y}-07-01`)
+		)
 	);
 
 	// Y-axis ticks
-	let yTicks = $derived(
-		yScale.ticks ? yScale.ticks(4) : [0, 25, 50, 75, 100]
-	);
+	let yTicks = $derived(yScale.ticks ? yScale.ticks(4) : [0, 25, 50, 75, 100]);
 
 	function getMonthContext(date) {
 		const y = date.getFullYear();
@@ -111,7 +119,7 @@
 		const svgEl = event.currentTarget;
 		const rect = svgEl.getBoundingClientRect();
 		const mx = event.clientX - rect.left - margin.left;
-		
+
 		// Find closest data point
 		let closest = data[0];
 		let minDist = Infinity;
@@ -128,7 +136,20 @@
 		tooltipY = yScale(closest.interest) + margin.top;
 	}
 
-	const monthNames = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
+	const monthNames = [
+		"Jan",
+		"Fev",
+		"Mar",
+		"Abr",
+		"Mai",
+		"Jun",
+		"Jul",
+		"Ago",
+		"Set",
+		"Out",
+		"Nov",
+		"Dez"
+	];
 </script>
 
 <div class="chart-container" style="width: {availableWidth}px;">
@@ -137,26 +158,50 @@
 		<p class="subtitle">{@html subtitle}</p>
 	{/if}
 
-	<div class="svg-wrapper" role="img" aria-label="Gráfico de interesse pelo Brega Funk ao longo do tempo">
+	<div
+		class="svg-wrapper"
+		role="img"
+		aria-label="Gráfico de interesse pelo Brega Funk ao longo do tempo"
+	>
 		<!-- svelte-ignore a11y_no_static_element_interactions -->
 		<svg
 			width={availableWidth}
 			{height}
 			onpointermove={handlePointerMove}
-			onpointerleave={() => hoveredData = null}
+			onpointerleave={() => (hoveredData = null)}
 		>
 			<defs>
 				<linearGradient id="area-gradient" x1="0" y1="0" x2="0" y2="1">
-					<stop offset="0%" stop-color="var(--accent, #ff007f)" stop-opacity="0.4" />
-					<stop offset="100%" stop-color="var(--accent, #ff007f)" stop-opacity="0.02" />
+					<stop
+						offset="0%"
+						stop-color="var(--accent, #ff007f)"
+						stop-opacity="0.4"
+					/>
+					<stop
+						offset="100%"
+						stop-color="var(--accent, #ff007f)"
+						stop-opacity="0.02"
+					/>
 				</linearGradient>
 			</defs>
 
 			<g transform={`translate(${margin.left},${margin.top})`}>
 				<!-- Y axis grid -->
 				{#each yTicks as tick}
-					<line x1="0" x2={innerWidth} y1={yScale(tick)} y2={yScale(tick)} class="grid-line" />
-					<text x="-6" y={yScale(tick)} class="y-label" dy="0.35em" text-anchor="end">{tick}</text>
+					<line
+						x1="0"
+						x2={innerWidth}
+						y1={yScale(tick)}
+						y2={yScale(tick)}
+						class="grid-line"
+					/>
+					<text
+						x="-6"
+						y={yScale(tick)}
+						class="y-label"
+						dy="0.35em"
+						text-anchor="end">{tick}</text
+					>
 				{/each}
 
 				<!-- X axis labels -->
@@ -165,8 +210,8 @@
 						x={xScale(tick)}
 						y={innerHeight + 24}
 						class="x-label"
-						text-anchor="middle"
-					>{tick.getFullYear()}</text>
+						text-anchor="middle">{tick.getFullYear()}</text
+					>
 				{/each}
 
 				<!-- Area fill -->
@@ -178,17 +223,32 @@
 				<!-- Annotations -->
 				{#each annotations as ann}
 					{@const ax = xScale(ann.date)}
-					{@const matchedPoint = data.find(d => Math.abs(d.date - ann.date) < 30 * 24 * 60 * 60 * 1000)}
-					{@const ay = matchedPoint ? yScale(matchedPoint.interest) : yScale(50)}
-					<line x1={ax} x2={ax} y1={ay - 8} y2={innerHeight} class="annotation-line" />
+					{@const matchedPoint = data.find(
+						(d) => Math.abs(d.date - ann.date) < 30 * 24 * 60 * 60 * 1000
+					)}
+					{@const ay = matchedPoint
+						? yScale(matchedPoint.interest)
+						: yScale(50)}
+					<line
+						x1={ax}
+						x2={ax}
+						y1={ay - 8}
+						y2={innerHeight}
+						class="annotation-line"
+					/>
 					<circle cx={ax} cy={ay} r="4" class="annotation-dot" />
-					{#each ann.label.split('\n') as textLine, i}
+					{#each ann.label.split("\n") as textLine, i}
 						<text
-							x={ax + (ann.align === 'left' ? 6 : ann.align === 'right' ? -6 : 0)}
-							y={ay - 16 - (ann.label.split('\n').length - 1 - i) * 14}
+							x={ax +
+								(ann.align === "left" ? 6 : ann.align === "right" ? -6 : 0)}
+							y={ay - 16 - (ann.label.split("\n").length - 1 - i) * 14}
 							class="annotation-text"
-							text-anchor={ann.align === 'left' ? 'start' : ann.align === 'right' ? 'end' : 'middle'}
-						>{textLine}</text>
+							text-anchor={ann.align === "left"
+								? "start"
+								: ann.align === "right"
+									? "end"
+									: "middle"}>{textLine}</text
+						>
 					{/each}
 				{/each}
 
@@ -215,9 +275,13 @@
 		{#if hoveredData}
 			{@const context = getMonthContext(hoveredData.date)}
 			<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
-				<div class="tooltip-date">{monthNames[hoveredData.date.getMonth()]} {hoveredData.date.getFullYear()}</div>
+				<div class="tooltip-date">
+					{monthNames[hoveredData.date.getMonth()]}
+					{hoveredData.date.getFullYear()}
+				</div>
 				<div class="tooltip-metric">
-					<strong>Índice:</strong> {hoveredData.interest} / 100
+					<strong>Índice:</strong>
+					{hoveredData.interest} / 100
 				</div>
 				{#if context}
 					<div class="tooltip-context">{context}</div>
@@ -317,7 +381,9 @@
 		min-width: 220px;
 		max-width: 300px;
 		text-align: left;
-		transition: top 0.1s ease, left 0.1s ease;
+		transition:
+			top 0.1s ease,
+			left 0.1s ease;
 	}
 	.tooltip-date {
 		font-family: var(--mono, monospace);

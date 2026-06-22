@@ -39,8 +39,6 @@
 		use:inView
 		onenter={handleEnter}
 	>
-
-
 		{#if Array.isArray(text)}
 			{#each text as { value }}
 				<p>{@html value}</p>
@@ -150,13 +148,10 @@
 		opacity: 1;
 	}
 
-
-
 	@media (max-width: 600px) {
 		.text-block {
 			font-size: var(--14px);
 		}
-
 
 		.text-wrapper {
 			flex-direction: column;

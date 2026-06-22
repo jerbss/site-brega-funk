@@ -4,23 +4,38 @@
 </script>
 
 <svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Syne:wght@800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Syne:wght@800&family=Instrument+Serif:ital@1&display=swap"
+		rel="stylesheet"
+	/>
 </svelte:head>
 
 <section id="title" use:mostInView={"title"}>
 	<div class="title-container">
-		<h1 class="title-line title-como-o fade-in-up" style="animation-delay: 0.2s">
+		<h1
+			class="title-line title-como-o fade-in-up"
+			style="animation-delay: 0.2s"
+		>
 			<span class="serif-italic">Como o</span>
 		</h1>
-		<h1 class="title-line title-brega-funk fade-in-up" style="animation-delay: 0.4s">
+		<h1
+			class="title-line title-brega-funk fade-in-up"
+			style="animation-delay: 0.4s"
+		>
 			<span class="neon-text neon-magenta">BREGA FUNK</span>
 		</h1>
-		<h1 class="title-line title-conquistou fade-in-up" style="animation-delay: 0.6s">
+		<h1
+			class="title-line title-conquistou fade-in-up"
+			style="animation-delay: 0.6s"
+		>
 			<span class="serif-italic">conquistou o Brasil em</span>
 		</h1>
-		<h1 class="title-line title-segundos fade-in-up" style="animation-delay: 0.8s">
+		<h1
+			class="title-line title-segundos fade-in-up"
+			style="animation-delay: 0.8s"
+		>
 			<span class="neon-text neon-yellow">15 SEGUNDOS?</span>
 		</h1>
 
@@ -29,11 +44,11 @@
 			<div class="glow-bar glow-left"></div>
 			<div class="soundwave-icon">
 				<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<rect x="3" y="10" width="2" height="4" rx="1" fill="currentColor"/>
-					<rect x="7" y="7" width="2" height="10" rx="1" fill="currentColor"/>
-					<rect x="11" y="4" width="2" height="16" rx="1" fill="currentColor"/>
-					<rect x="15" y="7" width="2" height="10" rx="1" fill="currentColor"/>
-					<rect x="19" y="10" width="2" height="4" rx="1" fill="currentColor"/>
+					<rect x="3" y="10" width="2" height="4" rx="1" fill="currentColor" />
+					<rect x="7" y="7" width="2" height="10" rx="1" fill="currentColor" />
+					<rect x="11" y="4" width="2" height="16" rx="1" fill="currentColor" />
+					<rect x="15" y="7" width="2" height="10" rx="1" fill="currentColor" />
+					<rect x="19" y="10" width="2" height="4" rx="1" fill="currentColor" />
 				</svg>
 			</div>
 			<div class="glow-bar glow-right"></div>
@@ -105,8 +120,8 @@
 	/* Recife Baile Hot Pink Glow - Subtle and readable */
 	.neon-magenta {
 		color: #ff007f;
-		text-shadow: 
-			0 0 5px rgba(255, 0, 127, 0.8), 
+		text-shadow:
+			0 0 5px rgba(255, 0, 127, 0.8),
 			0 0 15px rgba(255, 0, 127, 0.4);
 		-webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.15);
 	}
@@ -114,8 +129,8 @@
 	/* Recife Yellow Neon Glow - Subtle and readable */
 	.neon-yellow {
 		color: #d4ff00;
-		text-shadow: 
-			0 0 5px rgba(212, 255, 0, 0.8), 
+		text-shadow:
+			0 0 5px rgba(212, 255, 0, 0.8),
 			0 0 15px rgba(212, 255, 0, 0.4);
 		-webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.15);
 	}
@@ -139,12 +154,16 @@
 
 	.glow-left {
 		background: linear-gradient(to right, transparent, #ff007f, #d4ff00);
-		box-shadow: 0 0 8px rgba(255, 0, 127, 0.6), 0 0 15px rgba(212, 255, 0, 0.4);
+		box-shadow:
+			0 0 8px rgba(255, 0, 127, 0.6),
+			0 0 15px rgba(212, 255, 0, 0.4);
 	}
 
 	.glow-right {
 		background: linear-gradient(to right, #d4ff00, #ff007f, transparent);
-		box-shadow: 0 0 8px rgba(212, 255, 0, 0.4), 0 0 15px rgba(255, 0, 127, 0.6);
+		box-shadow:
+			0 0 8px rgba(212, 255, 0, 0.4),
+			0 0 15px rgba(255, 0, 127, 0.6);
 	}
 
 	.soundwave-icon {
@@ -164,7 +183,8 @@
 	}
 
 	@keyframes pulse-wave {
-		0%, 100% {
+		0%,
+		100% {
 			transform: scale(1);
 			color: #ff007f;
 			filter: drop-shadow(0 0 8px rgba(255, 0, 127, 0.8));

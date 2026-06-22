@@ -17,16 +17,16 @@
 		registerNode(nodeId, el);
 	});
 
-	import ChartEnvolvimento from './charts/ChartEnvolvimento.svelte';
-	import SoundCloudSheldon from './charts/SoundCloudSheldon.svelte';
-	import ChartBregaFunkGrowth from './charts/ChartBregaFunkGrowth.svelte';
-	import MapGoogleTrends from './charts/MapGoogleTrends.svelte';
+	import ChartEnvolvimento from "./charts/ChartEnvolvimento.svelte";
+	import SoundCloudSheldon from "./charts/SoundCloudSheldon.svelte";
+	import ChartBregaFunkGrowth from "./charts/ChartBregaFunkGrowth.svelte";
+	import MapGoogleTrends from "./charts/MapGoogleTrends.svelte";
 
 	const components = {
-		'chart-envolvimento-trajectory': ChartEnvolvimento,
-		'audio-early-brega-funk': SoundCloudSheldon,
-		'chart-brega-funk-growth': ChartBregaFunkGrowth,
-		'map-google-trends-brega-funk': MapGoogleTrends
+		"chart-envolvimento-trajectory": ChartEnvolvimento,
+		"audio-early-brega-funk": SoundCloudSheldon,
+		"chart-brega-funk-growth": ChartBregaFunkGrowth,
+		"map-google-trends-brega-funk": MapGoogleTrends
 	};
 	const C = components[id];
 </script>
@@ -35,7 +35,7 @@
 	id={nodeId}
 	bind:this={el}
 	bind:clientWidth={width}
-	class:audio-player={id === 'audio-early-brega-funk'}
+	class:audio-player={id === "audio-early-brega-funk"}
 	style={themes[sectionId]["text-style"] + `; --padding: ${padding}px;`}
 >
 	{#if C}
@@ -48,16 +48,18 @@
 				<p class="placeholder-subtitle">{@html subtitle}</p>
 			{/if}
 			<div class="placeholder-visual-box">
-				<span class="pulse-text">[ Espaço Reservado para o Elemento Interativo ]</span>
+				<span class="pulse-text"
+					>[ Espaço Reservado para o Elemento Interativo ]</span
+				>
 			</div>
 		</div>
 	{/if}
 
-	{#if source && id !== 'audio-early-brega-funk'}
+	{#if source && id !== "audio-early-brega-funk"}
 		<div class="source">{@html source}</div>
 	{/if}
 
-	{#if id === 'audio-early-brega-funk' && source}
+	{#if id === "audio-early-brega-funk" && source}
 		<div class="source-tab">
 			<span class="source-text">{@html source}</span>
 		</div>
@@ -178,8 +180,15 @@
 	}
 
 	@keyframes pulse {
-		0%, 100% { opacity: 0.6; transform: scale(0.98); }
-		50% { opacity: 1; transform: scale(1); }
+		0%,
+		100% {
+			opacity: 0.6;
+			transform: scale(0.98);
+		}
+		50% {
+			opacity: 1;
+			transform: scale(1);
+		}
 	}
 
 	@media (max-width: 600px) {

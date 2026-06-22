@@ -84,7 +84,10 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-image: radial-gradient(rgba(212, 255, 0, 0.03) 1px, transparent 1px);
+		background-image: radial-gradient(
+			rgba(212, 255, 0, 0.03) 1px,
+			transparent 1px
+		);
 		background-size: 24px 24px;
 		opacity: 0.8;
 	}

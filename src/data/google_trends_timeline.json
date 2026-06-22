@@ -1,390 +1,390 @@
 [
-  {
-    "date": "2018-01",
-    "interest": 1
-  },
-  {
-    "date": "2018-02",
-    "interest": 2
-  },
-  {
-    "date": "2018-03",
-    "interest": 2
-  },
-  {
-    "date": "2018-04",
-    "interest": 2
-  },
-  {
-    "date": "2018-05",
-    "interest": 5
-  },
-  {
-    "date": "2018-06",
-    "interest": 5
-  },
-  {
-    "date": "2018-07",
-    "interest": 4
-  },
-  {
-    "date": "2018-08",
-    "interest": 4
-  },
-  {
-    "date": "2018-09",
-    "interest": 3
-  },
-  {
-    "date": "2018-10",
-    "interest": 3
-  },
-  {
-    "date": "2018-11",
-    "interest": 3
-  },
-  {
-    "date": "2018-12",
-    "interest": 4
-  },
-  {
-    "date": "2019-01",
-    "interest": 5
-  },
-  {
-    "date": "2019-02",
-    "interest": 6
-  },
-  {
-    "date": "2019-03",
-    "interest": 10
-  },
-  {
-    "date": "2019-04",
-    "interest": 9
-  },
-  {
-    "date": "2019-05",
-    "interest": 17
-  },
-  {
-    "date": "2019-06",
-    "interest": 31
-  },
-  {
-    "date": "2019-07",
-    "interest": 46
-  },
-  {
-    "date": "2019-08",
-    "interest": 60
-  },
-  {
-    "date": "2019-09",
-    "interest": 70
-  },
-  {
-    "date": "2019-10",
-    "interest": 74
-  },
-  {
-    "date": "2019-11",
-    "interest": 82
-  },
-  {
-    "date": "2019-12",
-    "interest": 100
-  },
-  {
-    "date": "2020-01",
-    "interest": 86
-  },
-  {
-    "date": "2020-02",
-    "interest": 91
-  },
-  {
-    "date": "2020-03",
-    "interest": 63
-  },
-  {
-    "date": "2020-04",
-    "interest": 48
-  },
-  {
-    "date": "2020-05",
-    "interest": 47
-  },
-  {
-    "date": "2020-06",
-    "interest": 42
-  },
-  {
-    "date": "2020-07",
-    "interest": 45
-  },
-  {
-    "date": "2020-08",
-    "interest": 44
-  },
-  {
-    "date": "2020-09",
-    "interest": 43
-  },
-  {
-    "date": "2020-10",
-    "interest": 39
-  },
-  {
-    "date": "2020-11",
-    "interest": 37
-  },
-  {
-    "date": "2020-12",
-    "interest": 35
-  },
-  {
-    "date": "2021-01",
-    "interest": 32
-  },
-  {
-    "date": "2021-02",
-    "interest": 30
-  },
-  {
-    "date": "2021-03",
-    "interest": 27
-  },
-  {
-    "date": "2021-04",
-    "interest": 26
-  },
-  {
-    "date": "2021-05",
-    "interest": 23
-  },
-  {
-    "date": "2021-06",
-    "interest": 23
-  },
-  {
-    "date": "2021-07",
-    "interest": 22
-  },
-  {
-    "date": "2021-08",
-    "interest": 20
-  },
-  {
-    "date": "2021-09",
-    "interest": 18
-  },
-  {
-    "date": "2021-10",
-    "interest": 18
-  },
-  {
-    "date": "2021-11",
-    "interest": 18
-  },
-  {
-    "date": "2021-12",
-    "interest": 19
-  },
-  {
-    "date": "2022-01",
-    "interest": 17
-  },
-  {
-    "date": "2022-02",
-    "interest": 18
-  },
-  {
-    "date": "2022-03",
-    "interest": 17
-  },
-  {
-    "date": "2022-04",
-    "interest": 16
-  },
-  {
-    "date": "2022-05",
-    "interest": 13
-  },
-  {
-    "date": "2022-06",
-    "interest": 14
-  },
-  {
-    "date": "2022-07",
-    "interest": 16
-  },
-  {
-    "date": "2022-08",
-    "interest": 16
-  },
-  {
-    "date": "2022-09",
-    "interest": 16
-  },
-  {
-    "date": "2022-10",
-    "interest": 12
-  },
-  {
-    "date": "2022-11",
-    "interest": 10
-  },
-  {
-    "date": "2022-12",
-    "interest": 12
-  },
-  {
-    "date": "2023-01",
-    "interest": 11
-  },
-  {
-    "date": "2023-02",
-    "interest": 11
-  },
-  {
-    "date": "2023-03",
-    "interest": 8
-  },
-  {
-    "date": "2023-04",
-    "interest": 12
-  },
-  {
-    "date": "2023-05",
-    "interest": 8
-  },
-  {
-    "date": "2023-06",
-    "interest": 8
-  },
-  {
-    "date": "2023-07",
-    "interest": 9
-  },
-  {
-    "date": "2023-08",
-    "interest": 11
-  },
-  {
-    "date": "2023-09",
-    "interest": 11
-  },
-  {
-    "date": "2023-10",
-    "interest": 10
-  },
-  {
-    "date": "2023-11",
-    "interest": 10
-  },
-  {
-    "date": "2023-12",
-    "interest": 13
-  },
-  {
-    "date": "2024-01",
-    "interest": 11
-  },
-  {
-    "date": "2024-02",
-    "interest": 14
-  },
-  {
-    "date": "2024-03",
-    "interest": 13
-  },
-  {
-    "date": "2024-04",
-    "interest": 11
-  },
-  {
-    "date": "2024-05",
-    "interest": 12
-  },
-  {
-    "date": "2024-06",
-    "interest": 13
-  },
-  {
-    "date": "2024-07",
-    "interest": 13
-  },
-  {
-    "date": "2024-08",
-    "interest": 14
-  },
-  {
-    "date": "2024-09",
-    "interest": 14
-  },
-  {
-    "date": "2024-10",
-    "interest": 11
-  },
-  {
-    "date": "2024-11",
-    "interest": 13
-  },
-  {
-    "date": "2024-12",
-    "interest": 13
-  },
-  {
-    "date": "2025-01",
-    "interest": 11
-  },
-  {
-    "date": "2025-02",
-    "interest": 11
-  },
-  {
-    "date": "2025-03",
-    "interest": 11
-  },
-  {
-    "date": "2025-04",
-    "interest": 12
-  },
-  {
-    "date": "2025-05",
-    "interest": 11
-  },
-  {
-    "date": "2025-06",
-    "interest": 11
-  },
-  {
-    "date": "2025-07",
-    "interest": 12
-  },
-  {
-    "date": "2025-08",
-    "interest": 12
-  },
-  {
-    "date": "2025-09",
-    "interest": 12
-  },
-  {
-    "date": "2025-10",
-    "interest": 12
-  },
-  {
-    "date": "2025-11",
-    "interest": 13
-  },
-  {
-    "date": "2025-12",
-    "interest": 25
-  },
-  {
-    "date": "2026-01",
-    "interest": 17
-  }
+	{
+		"date": "2018-01",
+		"interest": 1
+	},
+	{
+		"date": "2018-02",
+		"interest": 2
+	},
+	{
+		"date": "2018-03",
+		"interest": 2
+	},
+	{
+		"date": "2018-04",
+		"interest": 2
+	},
+	{
+		"date": "2018-05",
+		"interest": 5
+	},
+	{
+		"date": "2018-06",
+		"interest": 5
+	},
+	{
+		"date": "2018-07",
+		"interest": 4
+	},
+	{
+		"date": "2018-08",
+		"interest": 4
+	},
+	{
+		"date": "2018-09",
+		"interest": 3
+	},
+	{
+		"date": "2018-10",
+		"interest": 3
+	},
+	{
+		"date": "2018-11",
+		"interest": 3
+	},
+	{
+		"date": "2018-12",
+		"interest": 4
+	},
+	{
+		"date": "2019-01",
+		"interest": 5
+	},
+	{
+		"date": "2019-02",
+		"interest": 6
+	},
+	{
+		"date": "2019-03",
+		"interest": 10
+	},
+	{
+		"date": "2019-04",
+		"interest": 9
+	},
+	{
+		"date": "2019-05",
+		"interest": 17
+	},
+	{
+		"date": "2019-06",
+		"interest": 31
+	},
+	{
+		"date": "2019-07",
+		"interest": 46
+	},
+	{
+		"date": "2019-08",
+		"interest": 60
+	},
+	{
+		"date": "2019-09",
+		"interest": 70
+	},
+	{
+		"date": "2019-10",
+		"interest": 74
+	},
+	{
+		"date": "2019-11",
+		"interest": 82
+	},
+	{
+		"date": "2019-12",
+		"interest": 100
+	},
+	{
+		"date": "2020-01",
+		"interest": 86
+	},
+	{
+		"date": "2020-02",
+		"interest": 91
+	},
+	{
+		"date": "2020-03",
+		"interest": 63
+	},
+	{
+		"date": "2020-04",
+		"interest": 48
+	},
+	{
+		"date": "2020-05",
+		"interest": 47
+	},
+	{
+		"date": "2020-06",
+		"interest": 42
+	},
+	{
+		"date": "2020-07",
+		"interest": 45
+	},
+	{
+		"date": "2020-08",
+		"interest": 44
+	},
+	{
+		"date": "2020-09",
+		"interest": 43
+	},
+	{
+		"date": "2020-10",
+		"interest": 39
+	},
+	{
+		"date": "2020-11",
+		"interest": 37
+	},
+	{
+		"date": "2020-12",
+		"interest": 35
+	},
+	{
+		"date": "2021-01",
+		"interest": 32
+	},
+	{
+		"date": "2021-02",
+		"interest": 30
+	},
+	{
+		"date": "2021-03",
+		"interest": 27
+	},
+	{
+		"date": "2021-04",
+		"interest": 26
+	},
+	{
+		"date": "2021-05",
+		"interest": 23
+	},
+	{
+		"date": "2021-06",
+		"interest": 23
+	},
+	{
+		"date": "2021-07",
+		"interest": 22
+	},
+	{
+		"date": "2021-08",
+		"interest": 20
+	},
+	{
+		"date": "2021-09",
+		"interest": 18
+	},
+	{
+		"date": "2021-10",
+		"interest": 18
+	},
+	{
+		"date": "2021-11",
+		"interest": 18
+	},
+	{
+		"date": "2021-12",
+		"interest": 19
+	},
+	{
+		"date": "2022-01",
+		"interest": 17
+	},
+	{
+		"date": "2022-02",
+		"interest": 18
+	},
+	{
+		"date": "2022-03",
+		"interest": 17
+	},
+	{
+		"date": "2022-04",
+		"interest": 16
+	},
+	{
+		"date": "2022-05",
+		"interest": 13
+	},
+	{
+		"date": "2022-06",
+		"interest": 14
+	},
+	{
+		"date": "2022-07",
+		"interest": 16
+	},
+	{
+		"date": "2022-08",
+		"interest": 16
+	},
+	{
+		"date": "2022-09",
+		"interest": 16
+	},
+	{
+		"date": "2022-10",
+		"interest": 12
+	},
+	{
+		"date": "2022-11",
+		"interest": 10
+	},
+	{
+		"date": "2022-12",
+		"interest": 12
+	},
+	{
+		"date": "2023-01",
+		"interest": 11
+	},
+	{
+		"date": "2023-02",
+		"interest": 11
+	},
+	{
+		"date": "2023-03",
+		"interest": 8
+	},
+	{
+		"date": "2023-04",
+		"interest": 12
+	},
+	{
+		"date": "2023-05",
+		"interest": 8
+	},
+	{
+		"date": "2023-06",
+		"interest": 8
+	},
+	{
+		"date": "2023-07",
+		"interest": 9
+	},
+	{
+		"date": "2023-08",
+		"interest": 11
+	},
+	{
+		"date": "2023-09",
+		"interest": 11
+	},
+	{
+		"date": "2023-10",
+		"interest": 10
+	},
+	{
+		"date": "2023-11",
+		"interest": 10
+	},
+	{
+		"date": "2023-12",
+		"interest": 13
+	},
+	{
+		"date": "2024-01",
+		"interest": 11
+	},
+	{
+		"date": "2024-02",
+		"interest": 14
+	},
+	{
+		"date": "2024-03",
+		"interest": 13
+	},
+	{
+		"date": "2024-04",
+		"interest": 11
+	},
+	{
+		"date": "2024-05",
+		"interest": 12
+	},
+	{
+		"date": "2024-06",
+		"interest": 13
+	},
+	{
+		"date": "2024-07",
+		"interest": 13
+	},
+	{
+		"date": "2024-08",
+		"interest": 14
+	},
+	{
+		"date": "2024-09",
+		"interest": 14
+	},
+	{
+		"date": "2024-10",
+		"interest": 11
+	},
+	{
+		"date": "2024-11",
+		"interest": 13
+	},
+	{
+		"date": "2024-12",
+		"interest": 13
+	},
+	{
+		"date": "2025-01",
+		"interest": 11
+	},
+	{
+		"date": "2025-02",
+		"interest": 11
+	},
+	{
+		"date": "2025-03",
+		"interest": 11
+	},
+	{
+		"date": "2025-04",
+		"interest": 12
+	},
+	{
+		"date": "2025-05",
+		"interest": 11
+	},
+	{
+		"date": "2025-06",
+		"interest": 11
+	},
+	{
+		"date": "2025-07",
+		"interest": 12
+	},
+	{
+		"date": "2025-08",
+		"interest": 12
+	},
+	{
+		"date": "2025-09",
+		"interest": 12
+	},
+	{
+		"date": "2025-10",
+		"interest": 12
+	},
+	{
+		"date": "2025-11",
+		"interest": 13
+	},
+	{
+		"date": "2025-12",
+		"interest": 25
+	},
+	{
+		"date": "2026-01",
+		"interest": 17
+	}
 ]

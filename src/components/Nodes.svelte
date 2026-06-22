@@ -1,5 +1,5 @@
 <script>
-		import _ from "lodash";
+	import _ from "lodash";
 	import { setContext, onMount } from "svelte";
 	import Text from "$components/Section.Text.svelte";
 	import Image from "$components/Section.Image.svelte";
@@ -34,7 +34,7 @@
 
 			const midY = startY + gapY / 2;
 			const dx = Math.abs(endX - startX);
-			
+
 			let r = 20;
 			if (gapY / 2 < r) {
 				r = gapY / 2;

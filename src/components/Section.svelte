@@ -9,8 +9,8 @@
 	let visible = $state(false);
 
 	function handleEnter() {
-        visible = true;
-    }
+		visible = true;
+	}
 
 	const style = Object.entries(themes[id] || {})
 		.filter(([key, value]) => !key.endsWith("-style"))

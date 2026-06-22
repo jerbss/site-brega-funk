@@ -1,21 +1,23 @@
 <script>
-	import { scaleTime, scaleLinear, line, curveMonotoneX, extent } from 'd3';
-	import dataCsv from '$data/envolvimento_chart.csv';
-	
+	import { scaleTime, scaleLinear, line, curveMonotoneX, extent } from "d3";
+	import dataCsv from "$data/envolvimento_chart.csv";
+
 	let { title, subtitle, availableWidth } = $props();
 
 	// Parse CSV data
-	const data = dataCsv.map(d => {
-		// Ajustando timezone off-by-one para data local
-		const [year, month, day] = d.week.split('-');
-		return {
-			date: new Date(year, month - 1, day),
-			rank: +d.rank,
-			streams: +d.streams,
-			weeks_on_chart: +d.weeks_on_chart,
-			peak_rank: +d.peak_rank
-		};
-	}).sort((a, b) => a.date - b.date);
+	const data = dataCsv
+		.map((d) => {
+			// Ajustando timezone off-by-one para data local
+			const [year, month, day] = d.week.split("-");
+			return {
+				date: new Date(year, month - 1, day),
+				rank: +d.rank,
+				streams: +d.streams,
+				weeks_on_chart: +d.weeks_on_chart,
+				peak_rank: +d.peak_rank
+			};
+		})
+		.sort((a, b) => a.date - b.date);
 
 	let height = 350;
 	let margin = { top: 40, right: 30, bottom: 40, left: 10 };
@@ -25,7 +27,7 @@
 
 	let xScale = $derived(
 		scaleTime()
-			.domain(extent(data, d => d.date))
+			.domain(extent(data, (d) => d.date))
 			.range([0, innerWidth])
 	);
 
@@ -37,8 +39,8 @@
 
 	let pathGenerator = $derived(
 		line()
-			.x(d => xScale(d.date))
-			.y(d => yScale(d.rank))
+			.x((d) => xScale(d.date))
+			.y((d) => yScale(d.rank))
 			.curve(curveMonotoneX)
 	);
 
@@ -47,8 +49,8 @@
 	let tooltipY = $state(0);
 
 	function formatStreams(val) {
-		if (val >= 1000000) return (val / 1000000).toFixed(1) + 'M';
-		if (val >= 1000) return (val / 1000).toFixed(0) + 'k';
+		if (val >= 1000000) return (val / 1000000).toFixed(1) + "M";
+		if (val >= 1000) return (val / 1000).toFixed(0) + "k";
 		return val;
 	}
 
@@ -65,19 +67,59 @@
 		<p class="subtitle">{@html subtitle}</p>
 	{/if}
 
-	<div class="svg-wrapper" role="img" aria-label="Gráfico de linha mostrando a trajetória da música">
-		<svg width={availableWidth} {height} onmouseleave={() => hoveredData = null}>
+	<div
+		class="svg-wrapper"
+		role="img"
+		aria-label="Gráfico de linha mostrando a trajetória da música"
+	>
+		<svg
+			width={availableWidth}
+			{height}
+			onmouseleave={() => (hoveredData = null)}
+		>
 			<g transform={`translate(${margin.left},${margin.top})`}>
-				
 				<!-- Linhas de Base (Grid) -->
-				<line x1="0" x2={innerWidth} y1={yScale(1)} y2={yScale(1)} class="grid-line peak-line" />
-				<text x={innerWidth} y={yScale(1) - 6} class="grid-label" text-anchor="end">#1</text>
-				
-				<line x1="0" x2={innerWidth} y1={yScale(100)} y2={yScale(100)} class="grid-line" />
-				<text x={innerWidth} y={yScale(100) - 6} class="grid-label" text-anchor="end">#100</text>
-				
-				<line x1="0" x2={innerWidth} y1={yScale(200)} y2={yScale(200)} class="grid-line" />
-				<text x={innerWidth} y={yScale(200) - 6} class="grid-label" text-anchor="end">#200</text>
+				<line
+					x1="0"
+					x2={innerWidth}
+					y1={yScale(1)}
+					y2={yScale(1)}
+					class="grid-line peak-line"
+				/>
+				<text
+					x={innerWidth}
+					y={yScale(1) - 6}
+					class="grid-label"
+					text-anchor="end">#1</text
+				>
+
+				<line
+					x1="0"
+					x2={innerWidth}
+					y1={yScale(100)}
+					y2={yScale(100)}
+					class="grid-line"
+				/>
+				<text
+					x={innerWidth}
+					y={yScale(100) - 6}
+					class="grid-label"
+					text-anchor="end">#100</text
+				>
+
+				<line
+					x1="0"
+					x2={innerWidth}
+					y1={yScale(200)}
+					y2={yScale(200)}
+					class="grid-line"
+				/>
+				<text
+					x={innerWidth}
+					y={yScale(200) - 6}
+					class="grid-label"
+					text-anchor="end">#200</text
+				>
 
 				<!-- Linha Principal -->
 				<path d={pathGenerator(data)} class="line-path" />
@@ -85,9 +127,9 @@
 				<!-- Pontos Transparentes para interatividade fácil (Hitbox maior) -->
 				{#each data as d}
 					<!-- svelte-ignore a11y_no_static_element_interactions -->
-					<circle 
-						cx={xScale(d.date)} 
-						cy={yScale(d.rank)} 
+					<circle
+						cx={xScale(d.date)}
+						cy={yScale(d.rank)}
 						r="12"
 						class="hit-area"
 						onpointerenter={(e) => handleMousemove(e, d)}
@@ -96,9 +138,9 @@
 
 				<!-- Pontos Visíveis -->
 				{#each data as d}
-					<circle 
-						cx={xScale(d.date)} 
-						cy={yScale(d.rank)} 
+					<circle
+						cx={xScale(d.date)}
+						cy={yScale(d.rank)}
 						r={hoveredData === d ? 5 : 3}
 						class="data-point"
 						class:active={hoveredData === d}
@@ -106,16 +148,19 @@
 				{/each}
 			</g>
 		</svg>
-		
+
 		<!-- Tooltip -->
 		{#if hoveredData}
 			<div class="tooltip" style="left: {tooltipX}px; top: {tooltipY}px;">
-				<div class="tooltip-date">{hoveredData.date.toLocaleDateString('pt-BR')}</div>
+				<div class="tooltip-date">
+					{hoveredData.date.toLocaleDateString("pt-BR")}
+				</div>
 				<div class="tooltip-metric">
 					<strong>Rank:</strong> #{hoveredData.rank}
 				</div>
 				<div class="tooltip-metric">
-					<strong>Streams:</strong> {formatStreams(hoveredData.streams)}
+					<strong>Streams:</strong>
+					{formatStreams(hoveredData.streams)}
 				</div>
 				{#if hoveredData.rank === 2}
 					<div class="tooltip-note">
@@ -179,7 +224,9 @@
 		stroke: var(--color-link-hover, #ccff00);
 		stroke-width: 2;
 		pointer-events: none;
-		transition: r 0.2s ease, fill 0.2s ease;
+		transition:
+			r 0.2s ease,
+			fill 0.2s ease;
 	}
 	.data-point.active {
 		fill: var(--color-link-hover, #ccff00);
@@ -203,7 +250,9 @@
 		z-index: 10;
 		min-width: 120px;
 		text-align: left;
-		transition: top 0.1s ease, left 0.1s ease;
+		transition:
+			top 0.1s ease,
+			left 0.1s ease;
 	}
 	.tooltip-date {
 		font-family: var(--mono, monospace);

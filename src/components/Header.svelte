@@ -17,17 +17,15 @@
 </script>
 
 <header>
-
-
 	<nav class:visible={current.section !== "title"}>
 		<ul>
-			{#each copy.sections.filter(s => s.heading && s.numEnd) as { id, numEnd, years }}
+			{#each copy.sections.filter((s) => s.heading && s.numEnd) as { id, numEnd, years }}
 				{@const active = current.section === id}
 				{@const title = _.upperCase(id)}
 				<li>
 					<button onclick={() => onClick(id)} class:active>
 						<div class="num">
-							<img src="assets/img/{id}/num.png" alt="number for {id}"/>
+							<img src="assets/img/{id}/num.png" alt="number for {id}" />
 						</div>
 						<div class="label">
 							<p>{numEnd} gen</p>
@@ -134,7 +132,7 @@
 	.num {
 		height: 30px;
 		display: flex;
-    	align-items: center;
+		align-items: center;
 	}
 
 	.num img {
@@ -142,7 +140,7 @@
 		width: auto;
 		display: block;
 		object-fit: contain;
-		}
+	}
 
 	.label {
 		display: flex;
