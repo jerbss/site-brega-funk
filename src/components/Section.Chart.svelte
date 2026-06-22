@@ -31,6 +31,7 @@
 	id={nodeId}
 	bind:this={el}
 	bind:clientWidth={width}
+	class:audio-player={id === 'audio-early-brega-funk'}
 	style={themes[sectionId]["text-style"] + `; --padding: ${padding}px;`}
 >
 	{#if C}
@@ -48,8 +49,14 @@
 		</div>
 	{/if}
 
-	{#if source}
+	{#if source && id !== 'audio-early-brega-funk'}
 		<div class="source">{@html source}</div>
+	{/if}
+
+	{#if id === 'audio-early-brega-funk' && source}
+		<div class="source-tab">
+			<span class="source-text">{@html source}</span>
+		</div>
 	{/if}
 
 	<figcaption class="sr-only">{figcaption}</figcaption>
@@ -77,6 +84,32 @@
 		margin-top: 1rem;
 		align-self: start;
 		font-size: var(--12px);
+	}
+
+	.source-tab {
+		position: absolute;
+		left: 1.5rem;
+		top: 100%;
+		margin-top: -2px;
+		padding: 4px 12px;
+		background: #0d0d0d;
+		border: 2px solid var(--border);
+		border-top: none;
+		border-radius: 0 0 6px 6px;
+		z-index: 3;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+		max-width: 85%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.source-text {
+		font-family: var(--mono, monospace);
+		font-size: var(--11px, 11px);
+		color: var(--border);
+		letter-spacing: 0.5px;
+		opacity: 0.85;
 	}
 
 	.placeholder-graphic {

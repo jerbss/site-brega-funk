@@ -95,7 +95,7 @@
 		margin-left: 1.5rem; /* Margem da borda para não ficar colado na extremidade */
 		margin-top: -2px; /* Sobrepõe a borda inferior da imagem */
 		padding: 4px 12px;
-		background: var(--text-bg, #0d0d0d); /* Cor de fundo do site */
+		background: #0d0d0d; /* Cor de fundo do site */
 		border: 2px solid var(--border);
 		border-top: none; /* Elimina a borda superior para parecer uma aba conectada */
 		border-radius: 0 0 6px 6px;
@@ -110,7 +110,7 @@
 	.source-text {
 		font-family: var(--mono, monospace);
 		font-size: var(--11px, 11px);
-		color: var(--color-link-hover, #ccff00); /* Neon color or similar highlighting link color */
+		color: var(--border); /* Matches border color */
 		letter-spacing: 0.5px;
 		opacity: 0.85;
 	}
