@@ -14,7 +14,7 @@
 
 	let el;
 	let width = $state(0);
-	let padding = $derived(id === "loma-video" ? 0 : (dimensions.width < 600 ? 16 : 32));
+	let padding = $derived(dimensions.width < 600 ? 16 : 32);
 	let availableWidth = $derived(width - 2 * padding);
 
 	onMount(() => {
@@ -34,21 +34,9 @@
 	id={nodeId}
 	bind:this={el}
 	bind:clientWidth={width}
-	class:is-video={id === "loma-video"}
 	style={themes[sectionId]["text-style"] + `; --padding: ${padding}px;`}
 >
-	{#if id === "loma-video"}
-		<div class="video-container">
-			<iframe
-				src="https://www.youtube-nocookie.com/embed/pOpyq-T4fnQ?si=jwnnH8FP0Xsc6OxI"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				referrerpolicy="strict-origin-when-cross-origin"
-				allowfullscreen
-			></iframe>
-		</div>
-	{:else if C}
+	{#if C}
 		<C {title} {subtitle} {availableWidth} />
 	{:else}
 		<div class="placeholder-graphic">
@@ -161,24 +149,5 @@
 		:global(figure h3) {
 			font-size: var(--20px);
 		}
-	}
-
-	figure.is-video {
-		padding: 0;
-		overflow: hidden;
-		background: transparent;
-	}
-
-	.video-container {
-		width: 100%;
-		aspect-ratio: 16 / 9;
-		display: block;
-	}
-
-	.video-container iframe {
-		width: 100%;
-		height: 100%;
-		border: none;
-		display: block;
 	}
 </style>
