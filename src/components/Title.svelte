@@ -23,6 +23,21 @@
 		<h1 class="title-line title-segundos fade-in-up" style="animation-delay: 0.8s">
 			<span class="neon-text neon-yellow">15 SEGUNDOS?</span>
 		</h1>
+
+		<!-- Neon Laser Divider -->
+		<div class="laser-divider fade-in-up" style="animation-delay: 1.0s">
+			<div class="glow-bar glow-left"></div>
+			<div class="soundwave-icon">
+				<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<rect x="3" y="10" width="2" height="4" rx="1" fill="currentColor"/>
+					<rect x="7" y="7" width="2" height="10" rx="1" fill="currentColor"/>
+					<rect x="11" y="4" width="2" height="16" rx="1" fill="currentColor"/>
+					<rect x="15" y="7" width="2" height="10" rx="1" fill="currentColor"/>
+					<rect x="19" y="10" width="2" height="4" rx="1" fill="currentColor"/>
+				</svg>
+			</div>
+			<div class="glow-bar glow-right"></div>
+		</div>
 	</div>
 </section>
 
@@ -105,6 +120,62 @@
 		-webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.15);
 	}
 
+	/* Neon Laser Divider */
+	.laser-divider {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		width: 100%;
+		max-width: 500px;
+		margin-top: 3.5rem;
+	}
+
+	.glow-bar {
+		height: 2px;
+		flex-grow: 1;
+		border-radius: 1px;
+	}
+
+	.glow-left {
+		background: linear-gradient(to right, transparent, #ff007f, #d4ff00);
+		box-shadow: 0 0 8px rgba(255, 0, 127, 0.6), 0 0 15px rgba(212, 255, 0, 0.4);
+	}
+
+	.glow-right {
+		background: linear-gradient(to right, #d4ff00, #ff007f, transparent);
+		box-shadow: 0 0 8px rgba(212, 255, 0, 0.4), 0 0 15px rgba(255, 0, 127, 0.6);
+	}
+
+	.soundwave-icon {
+		width: 32px;
+		height: 32px;
+		color: #ff007f;
+		filter: drop-shadow(0 0 8px #ff007f);
+		animation: pulse-wave 3s infinite ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.soundwave-icon svg {
+		width: 100%;
+		height: 100%;
+	}
+
+	@keyframes pulse-wave {
+		0%, 100% {
+			transform: scale(1);
+			color: #ff007f;
+			filter: drop-shadow(0 0 8px rgba(255, 0, 127, 0.8));
+		}
+		50% {
+			transform: scale(1.15);
+			color: #d4ff00;
+			filter: drop-shadow(0 0 12px rgba(212, 255, 0, 0.9));
+		}
+	}
+
 	/* Elegant Fade In Up entrance animation */
 	.fade-in-up {
 		opacity: 0;
@@ -122,6 +193,11 @@
 	@media (max-width: 600px) {
 		#title {
 			padding: 6rem 1rem 3rem 1rem;
+		}
+
+		.laser-divider {
+			max-width: 80%;
+			margin-top: 2rem;
 		}
 	}
 </style>
