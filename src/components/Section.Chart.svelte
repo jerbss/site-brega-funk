@@ -94,26 +94,29 @@
 		position: absolute;
 		left: 1.5rem;
 		top: 100%;
-		margin-top: -2px;
-		padding: 4px 12px;
-		background: #0d0d0d;
+		margin-top: 0; /* Alinha exatamente com a borda inferior, sem subir para o padding */
+		padding: 6px 12px;
+		background: var(--border); /* Cor de fundo idêntica à borda */
 		border: 2px solid var(--border);
 		border-top: none;
 		border-radius: 0 0 6px 6px;
 		z-index: 3;
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-		max-width: 85%;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
+		max-width: 75%; /* Ajustado para evitar sobrepor a curva do canto direito em telas menores */
+		width: 260px; /* Largura fixa no desktop */
+		white-space: normal; /* Permite quebra de linha */
+		word-break: break-word;
+		box-sizing: border-box;
 	}
 
 	.source-text {
 		font-family: var(--mono, monospace);
 		font-size: var(--11px, 11px);
-		color: var(--border);
+		color: #121212; /* Dark text for contrast against bright background */
+		font-weight: 700;
 		letter-spacing: 0.5px;
-		opacity: 0.85;
+		line-height: 1.3; /* Espaçamento de linha para múltiplas linhas */
+		display: inline-block;
 	}
 
 	.placeholder-graphic {
