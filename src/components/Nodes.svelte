@@ -1,6 +1,6 @@
 <script>
-	import _ from "lodash";
-	import { setContext } from "svelte";
+		import _ from "lodash";
+	import { setContext, onMount } from "svelte";
 	import Text from "$components/Section.Text.svelte";
 	import Image from "$components/Section.Image.svelte";
 	import Images from "$components/Section.Images.svelte";
@@ -20,30 +20,47 @@
 		Video
 	};
 
-	const curvedPath = (a, b, aSide, bSide, offset = 50) => {
-		const R = 20;
-
-		const tooClose = Math.abs(b.x - a.x) < R * 2;
-		const startX =
-			tooClose && a.x < b.x ? a.x - R * 2 : tooClose ? a.x + R * 2 : a.x;
+	const curvedPath = (a, b, aSide, bSide) => {
+		const startX = a.x;
 		const startY = a.y;
 		const endX = b.x;
 		const endY = b.y;
 
-		let d = `M ${startX},${startY}`;
-
-		// ---- BOTTOM → TOP ----
 		if (aSide === "bottom" && bSide === "top") {
-			d += `
-				L ${startX},${startY + offset - R}
-				A ${R},${R} 0 0 ${startX < endX ? 0 : 1} ${startX < endX ? startX + R : startX - R},${startY + offset}
-				L ${startX < endX ? endX - R : endX + R},${startY + offset}
-				A ${R},${R} 0 0 ${startX < endX ? 1 : 0} ${endX},${startY + offset + R}
-				L ${endX},${endY}
-			`;
+			const gapY = endY - startY;
+			if (gapY <= 0) {
+				return `M ${startX},${startY} L ${endX},${endY}`;
+			}
+
+			const midY = startY + gapY / 2;
+			const dx = Math.abs(endX - startX);
+			
+			let r = 20;
+			if (gapY / 2 < r) {
+				r = gapY / 2;
+			}
+			if (dx / 2 < r) {
+				r = dx / 2;
+			}
+
+			if (dx < 1) {
+				return `M ${startX},${startY} L ${endX},${endY}`;
+			}
+
+			const sweep1 = startX < endX ? 0 : 1;
+			const sweep2 = startX < endX ? 1 : 0;
+			const targetX1 = startX < endX ? startX + r : startX - r;
+			const targetX2 = startX < endX ? endX - r : endX + r;
+
+			return `M ${startX},${startY}
+				L ${startX},${midY - r}
+				A ${r},${r} 0 0 ${sweep1} ${targetX1},${midY}
+				L ${targetX2},${midY}
+				A ${r},${r} 0 0 ${sweep2} ${endX},${midY + r}
+				L ${endX},${endY}`;
 		}
 
-		return d;
+		return `M ${startX},${startY} L ${endX},${endY}`;
 	};
 
 	const registerNode = (id, el) => {
@@ -59,7 +76,10 @@
 	let anchors = $state({});
 	let nodeEls = $state(new Map());
 	let nodeIds = $derived(
-		_.orderBy(Array.from(nodeEls.keys()), (id) => id.split("-")[2])
+		_.orderBy(Array.from(nodeEls.keys()), (key) => {
+			const parts = key.split("-");
+			return parseInt(parts[parts.length - 1], 10);
+		})
 	);
 
 	const connections = $derived(
@@ -114,6 +134,7 @@
 		const result = {};
 
 		for (const [nodeId, el] of nodeEls) {
+			if (!el) continue;
 			const rect = el.getBoundingClientRect();
 			const outlineWidth = el.style["outline-width"] || "0px";
 			const outlineOffset = el.style["outline-offset"] || "0px";
@@ -138,7 +159,37 @@
 		anchors = result;
 	};
 
-	$effect(() => calculateAnchors(nodeEls, dimensions.width));
+	let resizeObserver;
+
+	onMount(() => {
+		resizeObserver = new ResizeObserver(() => {
+			calculateAnchors();
+		});
+
+		for (const el of nodeEls.values()) {
+			if (el) resizeObserver.observe(el);
+		}
+
+		return () => {
+			if (resizeObserver) resizeObserver.disconnect();
+		};
+	});
+
+	$effect(() => {
+		if (resizeObserver) {
+			resizeObserver.disconnect();
+			for (const el of nodeEls.values()) {
+				if (el) resizeObserver.observe(el);
+			}
+		}
+		calculateAnchors();
+	});
+
+	$effect(() => {
+		// Keep dependency on width to force recalculation on window resize
+		const _w = dimensions.width;
+		calculateAnchors();
+	});
 </script>
 
 <div class="content">
@@ -167,8 +218,10 @@
 	</svg>
 	{#each nodes as { type, value }, i}
 		{@const C = components[type]}
-		{@const isFirstSpeaker = value.speaker !== undefined && nodes.findIndex(n => n.value?.speaker === value.speaker) === i}
-		<C sectionId={id} nodeId={`${id}-${i}`} isFirstSpeaker={isFirstSpeaker} {...value} />
+		{@const isFirstSpeaker =
+			value.speaker !== undefined &&
+			nodes.findIndex((n) => n.value?.speaker === value.speaker) === i}
+		<C sectionId={id} nodeId={`${id}-${i}`} {isFirstSpeaker} {...value} />
 	{/each}
 </div>
 
