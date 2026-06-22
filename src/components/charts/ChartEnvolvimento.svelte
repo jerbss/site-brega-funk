@@ -117,6 +117,11 @@
 				<div class="tooltip-metric">
 					<strong>Streams:</strong> {formatStreams(hoveredData.streams)}
 				</div>
+				{#if hoveredData.rank === 2}
+					<div class="tooltip-note">
+						Atrás apenas de "Vai Malandra" (Anitta)
+					</div>
+				{/if}
 			</div>
 		{/if}
 	</div>
@@ -214,5 +219,13 @@
 	.tooltip-metric strong {
 		color: var(--color-link-hover, #ccff00);
 		font-weight: 600;
+	}
+	.tooltip-note {
+		margin-top: 6px;
+		font-size: 11px;
+		color: rgba(255, 255, 255, 0.75);
+		border-top: 1px solid rgba(255, 255, 255, 0.15);
+		padding-top: 6px;
+		font-style: italic;
 	}
 </style>
