@@ -1,8 +1,4 @@
 <script>
-	import DebutChart from "$components/Section.DebutChart.svelte";
-	import GangnamChart from "$components/Section.GangnamChart.svelte";
-	import YouTubeChart from "$components/Section.YouTubeChart.svelte";
-	import ConcertsChart from "$components/Section.ConcertsChart.svelte";
 	import themes from "$data/themes.json";
 	import { getContext, onMount } from "svelte";
 	import _ from "lodash";
@@ -22,10 +18,7 @@
 	});
 
 	const components = {
-		debuts: DebutChart,
-		"gangnam-style": GangnamChart,
-		"youtube-records": YouTubeChart,
-		concerts: ConcertsChart
+		// Novos componentes de gráfico serão registrados aqui
 	};
 	const C = components[id];
 </script>
