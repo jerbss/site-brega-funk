@@ -18,9 +18,11 @@
 	});
 
 	import ChartEnvolvimento from './charts/ChartEnvolvimento.svelte';
+	import SoundCloudSheldon from './charts/SoundCloudSheldon.svelte';
 
 	const components = {
-		'chart-envolvimento-trajectory': ChartEnvolvimento
+		'chart-envolvimento-trajectory': ChartEnvolvimento,
+		'audio-early-brega-funk': SoundCloudSheldon
 	};
 	const C = components[id];
 </script>
