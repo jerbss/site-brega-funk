@@ -92,38 +92,7 @@
 				/>
 			{/each}
 
-			<!-- State labels (only for larger/important states) -->
-			{#each Object.entries(stateCentroids) as [code, pos]}
-				{@const interest = interestByState[code]?.interest ?? 0}
-				{@const isLarge = [
-					"AM",
-					"PA",
-					"MT",
-					"BA",
-					"MG",
-					"SP",
-					"PE",
-					"CE",
-					"MA",
-					"GO",
-					"MS",
-					"RS",
-					"PR",
-					"TO",
-					"PI",
-					"RO"
-				].includes(code)}
-				{#if isLarge}
-					<text
-						x={pos.x}
-						y={pos.y}
-						class="state-label"
-						text-anchor="middle"
-						dy="0.35em"
-						fill={interest > 50 ? "#fff" : "rgba(255,255,255,0.6)"}>{code}</text
-					>
-				{/if}
-			{/each}
+
 
 
 		</svg>
