@@ -99,18 +99,18 @@
 					"type": "Chart",
 					"value": {
 						"id": "chart-brega-funk-growth",
-						"title": "Crescimento do Brega Funk no Spotify Charts Brasil",
-						"subtitle": "Quantidade de faixas do gênero no Top 200 anual (2018 - 2025). Demonstra graficamente a explosão do ritmo de zero faixas em 2017 para dezenas por semana nos anos seguintes.",
-						"source": "Fonte: Spotify Charts Brasil (2018 - 2025)"
+						"title": "Explosão de Interesse pelo Brega Funk",
+						"subtitle": "Evolução mensal do interesse de buscas pelo termo <em>brega funk</em> no Brasil (2017 - 2025). O pico coincide com o viral de \"Envolvimento\" no Carnaval de 2018, seguido de um crescimento sustentado com novos picos em 2020 (Deezer +680%) e 2025 (Passinho do Jamal / BBB 26).",
+						"source": "Fonte: Google Trends Brasil (2017 - 2025)"
 					}
 				},
 				{
 					"type": "Chart",
 					"value": {
 						"id": "map-google-trends-brega-funk",
-						"title": "Mapa de Calor: Interesse por Estado (Google Trends)",
-						"subtitle": "Mapa geográfico de buscas pelo termo 'brega funk' no Brasil, mostrando a concentração inicial em Pernambuco/Nordeste e posterior difusão para Sudeste e Sul.",
-						"source": "Fonte: Google Trends Brasil"
+						"title": "De Recife para o Brasil",
+						"subtitle": "Mapa de interesse relativo pelo termo <em>brega funk</em> por estado brasileiro. Pernambuco lidera com ampla margem, mas o Nordeste inteiro vibra com o ritmo e o Sudeste/Sul demonstram penetração crescente.",
+						"source": "Fonte: Google Trends Brasil (Interesse por sub-região)"
 					}
 				},
 				{

@@ -19,10 +19,14 @@
 
 	import ChartEnvolvimento from './charts/ChartEnvolvimento.svelte';
 	import SoundCloudSheldon from './charts/SoundCloudSheldon.svelte';
+	import ChartBregaFunkGrowth from './charts/ChartBregaFunkGrowth.svelte';
+	import MapGoogleTrends from './charts/MapGoogleTrends.svelte';
 
 	const components = {
 		'chart-envolvimento-trajectory': ChartEnvolvimento,
-		'audio-early-brega-funk': SoundCloudSheldon
+		'audio-early-brega-funk': SoundCloudSheldon,
+		'chart-brega-funk-growth': ChartBregaFunkGrowth,
+		'map-google-trends-brega-funk': MapGoogleTrends
 	};
 	const C = components[id];
 </script>
