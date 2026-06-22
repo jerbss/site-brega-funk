@@ -20,8 +20,15 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "No início de 2018, três adolescentes da periferia de Jaboatão dos Guararapes, em Pernambuco, decidiram criar um clipe de música. Sem recursos, Paloma Roberta (MC Loma) e as irmãs Mirella e Mariely Santos (as Gêmeas Lacração) usaram um celular emprestado para filmar a si mesmas dançando pelas ruas de barro de seu bairro, sob um orçamento de 40 reais.",
+						"text": "No início de 2018, três adolescentes da periferia de Jaboatão dos Guararapes, em Pernambuco, decidiram criar um clipe de música. Sem recursos, Paloma Roberta (MC Loma) e as irmãs Mirella e Mariely Santos (as Gêmeas Lacração) usaram um celular emprestado para filmar a si mesmas dançando pelas ruas de seu bairro, sob um orçamento de 40 reais.",
 						"speaker": "eunice"
+					}
+				},
+				{
+					"type": "Chart",
+					"value": {
+						"id": "loma-video",
+						"figcaption": "Videoclipe oficial de Envolvimento por MC Loma e as Gêmeas Lacração"
 					}
 				},
 				{
