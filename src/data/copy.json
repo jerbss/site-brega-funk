@@ -181,7 +181,7 @@
 						"id": "chart-song-duration-trend",
 						"title": "Tendência de Queda na Duração das Músicas",
 						"subtitle": "Evolução da duração mediana das músicas no Top 200 Brasil (2018 - 2025). Pontos destacados mostram como as faixas de brega funk anteciparam essa redução geral sob a economia da atenção.",
-						"source": "Fonte: Spotify Audio Features API"
+						"source": "Fonte: Spotify Charts Brasil & Metadados do Spotify Web Player"
 					}
 				},
 				{

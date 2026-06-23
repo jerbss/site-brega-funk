@@ -22,13 +22,15 @@
 	import ChartBregaFunkGrowth from "./charts/ChartBregaFunkGrowth.svelte";
 	import MapGoogleTrends from "./charts/MapGoogleTrends.svelte";
 	import GridPassinhoContexts from "./charts/GridPassinhoContexts.svelte";
+	import ChartSongDurationTrend from "./charts/ChartSongDurationTrend.svelte";
 
 	const components = {
 		"chart-envolvimento-trajectory": ChartEnvolvimento,
 		"audio-early-brega-funk": SoundCloudSheldon,
 		"chart-brega-funk-growth": ChartBregaFunkGrowth,
 		"map-google-trends-brega-funk": MapGoogleTrends,
-		"grid-passinho-contexts": GridPassinhoContexts
+		"grid-passinho-contexts": GridPassinhoContexts,
+		"chart-song-duration-trend": ChartSongDurationTrend
 	};
 	const C = components[id];
 </script>

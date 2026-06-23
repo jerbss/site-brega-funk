@@ -1,0 +1,58 @@
+[
+  {
+    "year": 2018,
+    "duration_ms": 193489.13757225435,
+    "duration_min": 3.2248189595375725,
+    "formatted": "3:13",
+    "sample_size": 10380
+  },
+  {
+    "year": 2019,
+    "duration_ms": 191717.18668846783,
+    "duration_min": 3.195286444807797,
+    "formatted": "3:11",
+    "sample_size": 10397
+  },
+  {
+    "year": 2020,
+    "duration_ms": 194533.3456801819,
+    "duration_min": 3.2422224280030316,
+    "formatted": "3:14",
+    "sample_size": 10556
+  },
+  {
+    "year": 2021,
+    "duration_ms": 189425.79118976629,
+    "duration_min": 3.1570965198294383,
+    "formatted": "3:09",
+    "sample_size": 10397
+  },
+  {
+    "year": 2022,
+    "duration_ms": 192436.6971824214,
+    "duration_min": 3.20727828637369,
+    "formatted": "3:12",
+    "sample_size": 10399
+  },
+  {
+    "year": 2023,
+    "duration_ms": 185903.09045371352,
+    "duration_min": 3.0983848408952253,
+    "formatted": "3:05",
+    "sample_size": 10381
+  },
+  {
+    "year": 2024,
+    "duration_ms": 192959.23111111112,
+    "duration_min": 3.215987185185185,
+    "formatted": "3:12",
+    "sample_size": 10350
+  },
+  {
+    "year": 2025,
+    "duration_ms": 198234.86628186627,
+    "duration_min": 3.3039144380311045,
+    "formatted": "3:18",
+    "sample_size": 10395
+  }
+]

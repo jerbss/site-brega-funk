@@ -1,0 +1,66 @@
+[
+  {
+    "year": 2018,
+    "total_tracks": 10380,
+    "under_2m30s_count": 855,
+    "under_2m30s_pct": 8.236994219653178,
+    "under_2m00s_count": 14,
+    "under_2m00s_pct": 0.1348747591522158
+  },
+  {
+    "year": 2019,
+    "total_tracks": 10397,
+    "under_2m30s_count": 1154,
+    "under_2m30s_pct": 11.099355583341348,
+    "under_2m00s_count": 45,
+    "under_2m00s_pct": 0.43281715879580646
+  },
+  {
+    "year": 2020,
+    "total_tracks": 10556,
+    "under_2m30s_count": 1191,
+    "under_2m30s_pct": 11.282682834406971,
+    "under_2m00s_count": 79,
+    "under_2m00s_pct": 0.7483895414929898
+  },
+  {
+    "year": 2021,
+    "total_tracks": 10397,
+    "under_2m30s_count": 1685,
+    "under_2m30s_pct": 16.206598057131867,
+    "under_2m00s_count": 210,
+    "under_2m00s_pct": 2.0198134077137637
+  },
+  {
+    "year": 2022,
+    "total_tracks": 10399,
+    "under_2m30s_count": 1987,
+    "under_2m30s_pct": 19.10760650062506,
+    "under_2m00s_count": 234,
+    "under_2m00s_pct": 2.2502163669583615
+  },
+  {
+    "year": 2023,
+    "total_tracks": 10381,
+    "under_2m30s_count": 2493,
+    "under_2m30s_pct": 24.015027454002507,
+    "under_2m00s_count": 327,
+    "under_2m00s_pct": 3.149985550524997
+  },
+  {
+    "year": 2024,
+    "total_tracks": 10350,
+    "under_2m30s_count": 2491,
+    "under_2m30s_pct": 24.067632850241548,
+    "under_2m00s_count": 459,
+    "under_2m00s_pct": 4.434782608695651
+  },
+  {
+    "year": 2025,
+    "total_tracks": 10395,
+    "under_2m30s_count": 1966,
+    "under_2m30s_pct": 18.912938912938912,
+    "under_2m00s_count": 384,
+    "under_2m00s_pct": 3.694083694083694
+  }
+]

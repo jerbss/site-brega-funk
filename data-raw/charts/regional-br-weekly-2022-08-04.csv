@@ -1,201 +1,201 @@
-rank,uri,artist_names,track_name,source,peak_rank,previous_rank,weeks_on_chart,streams
-1,"spotify:track:7AwVSKaQxpidrtYBerkHKk","Ana Castela, Melody, Dj Chris No Beat","Pipoco","Ana Castela",1,1,10,"6194825"
-2,"spotify:track:7KWKWJnbGJ3Soag6Oopion","Luísa Sonza","CACHORRINHAS","Sony Music Entertainment",2,2,3,"5521245"
-3,"spotify:track:5vC8UAOHeG95ehRzZChniB","L7NNON, DJ Biel do Furduncinho, Bianca","Ai preto","Papatunes Records",1,3,8,"5450500"
-4,"spotify:track:4xxeEWGQNFQ6qehlnev5LS","Marília Mendonça","Te Amo Demais","Som Livre",4,4,2,"5081113"
-5,"spotify:track:5PZAbR6JHYYV9xp5gv0XES","Zé Felipe, MC Mari","Bandido","Som Livre",1,5,7,"4786094"
-6,"spotify:track:0i4UV3HjjvsUuV3BajEXoD","MC Tairon, Mc Vitin Da Igrejinha, Dj Win, life song","Baile no Morro","ID1642 - Life Song Records",1,6,7,"4638881"
-7,"spotify:track:6gEOM9IEBzvTdbwNrSkBdC","Gusttavo Lima","Fala Mal de Mim - Ao Vivo","Sony Music Entertainment",6,7,4,"4454934"
-8,"spotify:track:1ELsaYdj2NlxLvkx9g24xZ","Guilherme & Benuto, Hugo & Guilherme","Haja Colírio (feat. Hugo & Guilherme) - Ao Vivo","Sony Music Entertainment",8,9,6,"4341720"
-9,"spotify:track:5PSkF3QpVMlAx8U5Inxj39","Mc Jacaré, Dj Tk","Vento Forte","A Chave",9,26,3,"4324360"
-10,"spotify:track:4NNZZXHgn9F3cCgC1YGmLl","Jorge & Mateus","Todo Seu - Ao Vivo","Som Livre",9,10,13,"4156030"
-11,"spotify:track:2qmG7dokbGpDGD0T5wORWt","Matheus Fernandes, Xand Avião","Balanço da Rede","Som Livre",1,8,21,"3901121"
-12,"spotify:track:1rJFFWDXrlMS0C5JlbqFbI","Nivaldo Marques, NATTAN","Tem Cabaré Essa Noite","SUA Musica/ WK Records",12,15,3,"3863884"
-13,"spotify:track:6Zw25LRLP0j0MsezDFIUM4","Hugo & Guilherme, Marília Mendonça","Mal Feito - Ao Vivo","Som Livre",2,11,29,"3687194"
-14,"spotify:track:7bhvRvE56NHBvedx0EeALS","Mari Fernandez, NATTAN","Comunicação Falhou - Ao Vivo","Sony Music Entertainment",14,14,14,"3630465"
-15,"spotify:track:0sjhY8nPIm6cPOQfyUPmJe","Luan Santana, Henrique & Juliano","ERRO PLANEJADO - Ao Vivo","Sony Music Entertainment",4,12,16,"3532623"
-16,"spotify:track:4m1mqQuy34Nzh0480VR364","MC Kevin o Chris","Incendeia","MC Kevin o Chris",16,20,4,"3532574"
-17,"spotify:track:6Ulh9GPYz6JKdv04qc3q2U","João Gomes","Dengo","JG Shows",3,13,13,"3476905"
-18,"spotify:track:1K8AtBJXcdq5mywMnZuARP","Gusttavo Lima","Termina Comigo Antes - Ao Vivo","Sony Music Entertainment",3,16,18,"3398665"
-19,"spotify:track:7qD2vjd3btuOgwpQPEY7ci","Mc Don Juan, MC G15, Mc Davi","EU VOU COM CARINHO ELA QUER COM FORÇA","WM Brazil",4,18,11,"3287511"
-20,"spotify:track:3sd2p4kE7xQmFH3lPnFl6h","Davi Kneip, Mc Frog, Dj Gabriel do Borel, Luísa Sonza","sentaDONA (Remix) s2","Davi Kneip",1,19,20,"3140032"
-21,"spotify:track:3ShKPhFkexrwl7WoyTtNND","Rogerinho, Wesley Safadão","Tchuco Nela","AgitoFunk",5,21,16,"3107170"
-22,"spotify:track:42nZBOwXNdO24Ml032bLBS","Matheus & Kauan","Gatilho - Ao Vivo","Universal Music Ltda.",21,22,20,"3015442"
-23,"spotify:track:4QWumyD2uwiePBBha9XBHI","Felipe Amorim","No Ouvidinho","One Play",1,17,19,"2961781"
-24,"spotify:track:6bTdZ7xfKp3NqqADJ8HLyj","Matuê, WIU, Teto","Vampiro","Sony Music Entertainment",1,25,18,"2853953"
-25,"spotify:track:4a0sqvCBo7aRIS4GzBQpnp","MC Braz, MC Tairon, Dj Win","Kikando e Me Olhando","Duetti",14,24,17,"2829250"
-26,"spotify:track:3XF598RmEUF3XW4XKo1lyP","Hugo & Guilherme, Jorge & Mateus","Meu Número - Ao Vivo","Som Livre",17,23,16,"2743830"
-27,"spotify:track:6bwx7pcKJY05D9S6CVa1k6","Israel & Rodolffo, Maiara & Maraisa","Nem Namorado e Nem Ficante - Ao Vivo | Faixa Bônus","Som Livre",27,28,10,"2626278"
-28,"spotify:track:2wSCalnGOnXdAJC0Fn8OUY","George Henrique & Rodrigo, Marília Mendonça","Vai Lá Em Casa Hoje - Ao Vivo","Worldshow Promoções e Eventos",1,27,41,"2548581"
-29,"spotify:track:53RxHysDJ0cjugMcPymwja","Luan Santana","ABALO EMOCIONAL - Ao Vivo","Sony Music Entertainment",6,29,26,"2548211"
-30,"spotify:track:1OZ4uv7OAP24Ix6j3vojLt","Mc Paiva ZS, MC Ryan SP, Kotim","Casei Com a Putaria","Love Funk",30,61,4,"2485427"
-31,"spotify:track:3ZtHHGpAPSWC7Gnios4lmK","sxmmerx","Metflix","sxmmerx",31,56,2,"2441406"
-32,"spotify:track:3ITkrUvAA6gzxer2UIom3P","Jorge & Mateus","Molhando o Volante","Som Livre",8,32,34,"2427929"
-33,"spotify:track:5zNxUkUW9WiV5oyg6gh2wB","PEDRO SAMPAIO, Mc Pedrinho","DANÇARINA","WM Brazil",1,31,26,"2375368"
-34,"spotify:track:1Hohk6AufHZOrrhMXZppax","Beyoncé","ALIEN SUPERSTAR","Parkwood Entertainment/Columbia",34,-1,1,"2341102"
-35,"spotify:track:4Dvkj6JhhA12EX05fT7y2e","Harry Styles","As It Was","Columbia",10,37,18,"2330661"
-36,"spotify:track:14JKzKrJbPDflw8XyATMey","Henrique & Juliano","A Maior Saudade (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",10,34,48,"2322778"
-37,"spotify:track:6BF3nZQkAg9qvE0DLVSfyH","Baco Exu do Blues, Luísa Sonza","Hotel Caro","Baco Exu do Blues",4,35,8,"2280058"
-38,"spotify:track:7afaZ37wJJL6880z1NRgJS","Teto","Fim de Semana no Rio","Sony Music Entertainment",3,42,18,"2278283"
-39,"spotify:track:7HdWqZjUmIHK5B8zwPCRds","Léo Santana, Mc Don Juan, Mari Fernandez","Áudio Que Te Entrega - Faixa Bônus","Universal Music Ltda.",19,41,19,"2253764"
-40,"spotify:track:5etfNcFAD9M8uibXpYMxfQ","Wesley Safadão","Tu Tava Na Revoada - Ao Vivo","Wesley Safadao",28,33,11,"2217746"
-41,"spotify:track:4qsOrxBv09HhNSpsgMRXdC","Marília Mendonça, Maiara & Maraisa","Esqueça-Me Se For Capaz","Som Livre",1,36,42,"2176352"
-42,"spotify:track:5lCAtKxkZL6tFDyGX9t87j","Wesley Safadão","Eu Já Tava Bem - Ao Vivo","Wesley Safadao",19,40,35,"2161296"
-43,"spotify:track:5ildQOEKmJuWGl2vRkFdYc","ROSALÍA","DESPECHÁ","Columbia",43,-1,1,"2146360"
-44,"spotify:track:0MKd4uZd8Ag8qyReZBTarP","Murilo Huff","Pino da Granada - Ao Vivo em Rio Preto","M Show",43,43,10,"2087869"
-45,"spotify:track:3jPp5Aukksz9Ir0gZy6lZM","Paulo e Nathan, Hugo & Guilherme","Acabei de Terminar - Ao Vivo","Sony Music Entertainment",45,58,17,"2082449"
-46,"spotify:track:5pyoxDZ1PX0KxBxiRVxA4U","Beyoncé","BREAK MY SOUL","Parkwood Entertainment/Columbia",46,182,7,"2066453"
-47,"spotify:track:6hFwju6M40CKovKBPu5IpY","Jovem Dionisio","ACORDA PEDRINHO","Jovem Dionisio",1,39,12,"2037741"
-48,"spotify:track:1RgJ4lexKGNBlKnyxB5SRt","Teto, Mateca","Balazul","Sony Music Entertainment",31,51,9,"1940135"
-49,"spotify:track:2ebFBmle5uXcdbrCAOvPcZ","Guilherme & Benuto","Vagabundo Chora - Ao Vivo","Sony Music Entertainment",20,45,25,"1904252"
-50,"spotify:track:1xzi1Jcr7mEi9K2RfzLOqS","Beyoncé","CUFF IT","Parkwood Entertainment/Columbia",50,-1,1,"1855164"
-51,"spotify:track:75FEaRjZTKLhTrFGsfMUXR","Kate Bush","Running Up That Hill (A Deal With God)","Fish People",16,47,10,"1846476"
-52,"spotify:track:11fqunD6qlOCrRd88kMOk6","Henrique & Juliano","Evento Cancelado (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",22,57,11,"1840826"
-53,"spotify:track:4NJKCE1TBC653P3dCnto0u","Mc Gabzin, DJ Marcus Vinicius","Simplesmente Ela","Sony Music Entertainment",22,50,20,"1824339"
-54,"spotify:track:7gVzhRCrLRUBEGdS7zNTp0","Zé Felipe","Malvada","Som Livre",2,46,27,"1781514"
-55,"spotify:track:0dcHD9QhnWRA41zoLnC83X","MC Cabelinho, Dallass","X1","MC Cabelinho",55,65,13,"1776099"
-56,"spotify:track:6nkoWsFZeFt5dUdNmlIceh","Gusttavo Lima","Bloqueado - Ao Vivo","Sony Music Entertainment",4,52,36,"1757530"
-57,"spotify:track:0NBgyml7T0IvUNbXIkcSpH","Xamã, Gustah, Neo Beats, Bagua Records","Malvadão 3","Bagua Records",1,49,35,"1737964"
-58,"spotify:track:3IMLoeLerS7TMpKjxUgAhx","Henrique & Juliano","Arranhão (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",1,59,52,"1732119"
-59,"spotify:track:1ih3nbYJ0lugsku6065BC5","O Tubarão, Treyce","Me Chama de Amor - Arrochadeira Remix","Tops da Arrochadeira",33,54,14,"1722111"
-60,"spotify:track:4IX43MpJlpxzRMLb9QayrJ","Luan Santana","PERIGO NOTURNO - Ao Vivo","Sony Music Entertainment",44,48,5,"1674949"
-61,"spotify:track:3lQnTQFBxk1HMsj8aa4syY","Kadu Martins","Virando o Olhinho","Kadu Martins",57,60,4,"1674534"
-62,"spotify:track:72g37RoelSnovZakG5MwnF","Mari Fernandez, Marcynho Sensação","Parada Louca","Sony Music Entertainment",8,55,38,"1667543"
-63,"spotify:track:1MpCaOeUWhox2Fgigbe1cL","Beyoncé","I'M THAT GIRL","Parkwood Entertainment/Columbia",63,-1,1,"1632974"
-64,"spotify:track:3QxKHcpNt6CWNUYCLLBHeZ","MC CH da Z.O, MC Myres, Danado do Recife, eoo kendy, Deyvinho PL","Escolhe o Bandido","Tão Falando Por ai",64,64,4,"1631686"
-65,"spotify:track:4x5q5T5mhE1xvoCVXY6qrN","DJ AK BR, Dj Darge, Niack","Melodia Alucinógena","DJ AK BR",65,-1,1,"1614704"
-66,"spotify:track:6Lk3kU7JcQ5dZ7jbmhJzQN","Zé Neto & Cristiano","Melhor Ser uma Saudade","Som Livre",13,62,27,"1610232"
-67,"spotify:track:0tM4J8aID6qYZOE3e14sCj","Henrique & Juliano","Acordo (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",21,63,41,"1610121"
-68,"spotify:track:2LEV3lTRxKqLBfmt5BWkLj","Gusttavo Lima","Não Pega Ninguém Ainda (Ao Vivo)","Sony Music Entertainment",19,53,9,"1564666"
-69,"spotify:track:5TPXcKSOlPaz2pkYbWiWHU","Clayton & Romário","Ai Eu Chorei - Ao Vivo","Virgin Music Label And Artist Services (S&D)",69,74,5,"1558964"
-70,"spotify:track:0314PeD1sQNonfVWix3B2K","Beyoncé, BEAM","ENERGY (feat. Beam)","Parkwood Entertainment/Columbia",70,-1,1,"1549914"
-71,"spotify:track:4aoZBldNDVYmTwmeoI49ud","Mc Gabzin, DJ TAK VADIÃO, dj sv","O Poder Dessa Garota","Sony Music Entertainment",63,70,14,"1543855"
-72,"spotify:track:75fCsUnTiDelE4HMd06t4O","Mc Pepeu, DJ Swat, Doug Hits","Gostosinho Tu Cai","Doug Filmes",19,73,15,"1541670"
-73,"spotify:track:3gCWngngUs1uojw33vrE8K","Jorge & Mateus","5 Regras - Ao Vivo","Som Livre",73,-1,1,"1517187"
-74,"spotify:track:0yDMhYTryvQoR634wDgQ1j","MC Hariel, DJ BOY","O Fim é Triste (feat. DJ BOY)","WM Brazil",62,71,6,"1513432"
-75,"spotify:track:1XcmAgREOuJQb91sr68AAD","Dyamante DJ, Mc Gw","Sentadinha Diferente","NWS",75,77,4,"1507465"
-76,"spotify:track:0mKGwFMHzTprtS2vpR3b6s","Beyoncé","COZY","Parkwood Entertainment/Columbia",76,-1,1,"1476251"
-77,"spotify:track:4EVzu5mYyigjyLrryKbZs7","Gloria Groove","VERMELHO","SB Music",9,68,25,"1429039"
-78,"spotify:track:0mBP9X2gPCuapvpZ7TGDk3","Charlie Puth, Jung Kook, BTS","Left and Right (Feat. Jung Kook of BTS)","Atlantic Records",58,111,6,"1428783"
-79,"spotify:track:04vzhKfl5HtPEgrdZJCZ7L","Mc Paiva ZS, Kotim","Bagulho Louco","Love Funk",79,101,12,"1402399"
-80,"spotify:track:3YvE7uo4ffseBoJPh8IhHp","Marília Mendonça, Maiara & Maraisa","Presepada","Som Livre",3,67,39,"1393386"
-81,"spotify:track:0qYW2jULeN9giEty0ee9Fy","Rogerinho","Botadinha Saliente","MC Rogerinho Oficial",5,72,26,"1389745"
-82,"spotify:track:5DhiTYpD599fu3q7fCepgL","BIN, Major RD, Mainstreet, Ajaxx","Dior","Mainstreet Records",54,69,7,"1385842"
-83,"spotify:track:7qq40cRIYNKZCDt1STfBqt","Niack","Bruna, Tu Já Parou Pra Pensar","WM Brazil",78,78,5,"1382763"
-84,"spotify:track:7fzgTaVhUxmEzjtcd9NdWo","Tayrone, Marília Mendonça","Cê Tá Preparada - Ao Vivo","Universal Music Ltda.",16,80,55,"1375189"
-85,"spotify:track:3HyR1j49TY5ACP2lseF1jx","Beyoncé","SUMMER RENAISSANCE","Parkwood Entertainment/Columbia",85,-1,1,"1330765"
-86,"spotify:track:347KmRWwYXcZSUgelz7Cit","Filipe Ret, L7NNON, Nagalli","Konteiner","Som Livre",36,66,7,"1317149"
-87,"spotify:track:3qHN7TSBfVQPF9ojUVT9ZT","Mc Livinho, Dj LK da Escócia, DJ Breno, DJ Pedrin","Pras Novinha (feat. DJ Pedrin)","MBB Diamond",80,83,7,"1307514"
-88,"spotify:track:48LEhRW4gLMCVSYFEZvt8b","João Bosco e Gabriel, Diego & Victor Hugo","Assume a Gente - Ao Vivo","Som Livre",40,79,19,"1305154"
-89,"spotify:track:2mqTtvbKxH7SoEQ2oGAnsA","Beyoncé","CHURCH GIRL","Parkwood Entertainment/Columbia",89,-1,1,"1278969"
-90,"spotify:track:6KKT8dzP21J4WwBp9swjob","Filipe Ret, Mc Poze do Rodo, Nagalli","Sonho Dos Cria","Som Livre",48,81,7,"1268144"
-91,"spotify:track:28m65cMH7QXHzFnZSTtNHY","Marília Mendonça, Maiara & Maraisa","Não Sei o Que Lá","Som Livre",21,76,44,"1259978"
-92,"spotify:track:0yL7K9MzC20uBesZTPY81r","DJ Matt D, Menor MC, MC GP, Vulgo FK","Pandora","GREE CASSUA",6,85,35,"1240541"
-93,"spotify:track:7GARzfC1mwhDuk4t9WOACq","j-hope","MORE","BIGHIT MUSIC",61,103,5,"1226224"
-94,"spotify:track:7bh2ybqXcEoIYL8FwiAMou","Mari Fernandez","Intuição - Ao Vivo","Sony Music Entertainment",92,92,7,"1221231"
-95,"spotify:track:7HjZD0NPC1hzFpjUjo45GR","Mc Poze do Rodo, Filipe Ret, Mainstreet, Ajaxx","Me Sinto Abençoado","Mainstreet Records",33,88,34,"1216771"
-96,"spotify:track:4can6ssapSsRCEbZZfYL8K","Filipe Ret, Caio Luccas, BIN, BUDAH, Borges, Marina Sena, Teto, Luiz Lins, Pineapple StormTv","Poesia Acústica #12 Pra Sempre","Pineapple StormTV",24,89,23,"1196539"
-97,"spotify:track:3fSxnkjdgPucRCskjmAlgx","Mc Poze do Rodo, Orochi, Filipe Ret, Mainstreet, Bielzin","A Cara do Crime 3 (Brinde à Liberdade)","Mainstreet Records",43,86,10,"1189899"
-98,"spotify:track:14uWxelOuAUajP8fDvc0Ct","Thiaguinho","Falta Você","Virgin Music Label And Artist Services (S&D)",93,93,9,"1166389"
-99,"spotify:track:0Fl4eWzVaMUOdXcOrj6F1q","Beyoncé","VIRGO'S GROOVE","Parkwood Entertainment/Columbia",99,-1,1,"1153097"
-100,"spotify:track:66K83nVy3aTJ5zLxbiMi7I","Marília Mendonça","Te Amo Que Mais Posso Dizer (More Than I Can Say)","Som Livre",30,30,2,"1143385"
-101,"spotify:track:3jrxlhAtoxi83qc76NT9EG","Filipe Ret, MC Cabelinho, MC Maneirinho","7 Meiota","Som Livre",69,90,7,"1140680"
-102,"spotify:track:053zWWZDziDJd3U94x8RuP","Marília Mendonça, Maiara & Maraisa","Todo Mundo Menos Você","Som Livre",2,82,45,"1112743"
-103,"spotify:track:0sPtV4stCHkFJB6GpoaZ1f","Luísa Sonza, LUDMILLA","CAFÉ DA MANHÃ ;P","Universal Music Ltda.",14,84,26,"1111818"
-104,"spotify:track:130HVxaVe9EYcLJmuOR9Rw","Henrique & Juliano","Até A Próxima Vida (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",87,95,23,"1102773"
-105,"spotify:track:3xt7v3bMNnQ8ie8RjhmkX2","Matheus & Kauan","Imagina A Sentada - Ao Vivo","Universal Music Ltda.",18,97,34,"1081328"
-106,"spotify:track:6ufcuVInt0ocHrUimDjGlb","Beyoncé","PLASTIC OFF THE SOFA","Parkwood Entertainment/Columbia",106,-1,1,"1057384"
-107,"spotify:track:30rrBGpna63eIJ2BrXlWDC","Henrique & Juliano","Minha Cópia Atual (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",58,98,18,"1056012"
-108,"spotify:track:6W56j9ijl9n2l76Hs4hgGn","Léo & Raphael, Jorge","Larga AÍ Pra Ver - Ao Vivo","Léo e Raphael",69,96,17,"1053657"
-109,"spotify:track:20yfr4F5QmZ5V3Cu1Rx4Kp","Lauana Prado","Elevador - Ao Vivo","Universal Music Ltda.",109,-1,1,"1052202"
-110,"spotify:track:2VbKpQWIMRelKmEy8rSCAf","Kako, MC Erik, MC GP, MC Ryan SP, MC Marks, MC Joãozinho VT, DJ BOY, Dj GM","Set Tatuapé Conceito 2","Sonar Music",110,130,4,"1045699"
-111,"spotify:track:3FkeNbs9Zeiqkr3WkbOiGp","Anitta","Envolver","Warner Records",1,91,38,"1042168"
-112,"spotify:track:2AQJRDfQJbfgmTf5e62Czl","Matuê, L7NNON","Sem Dó","Sony Music Entertainment",25,102,31,"1040207"
-113,"spotify:track:0XyPPyGes0omXppV5YE8gy","Felipe Amorim","Gostosinha é Ela","One Play",113,-1,1,"1036629"
-114,"spotify:track:3QGxgNaqaFSpORp2OVLXHR","Chefin, Mainstreet","212","Mainstreet Records",2,100,29,"1026237"
-115,"spotify:track:5IgjP7X4th6nMNDh4akUHb","Chris Brown","Under The Influence","Chris Brown Entertainment/RCA Records",115,-1,1,"1020211"
-116,"spotify:track:71fwkaKdNrxiZZbkzSqmFJ","Anitta, Papatinho, MC Kevin o Chris, Mr. Catra, YG","Que Rabão (feat. Mr. Catra e YG)","Warner Records",18,75,16,"1018396"
-117,"spotify:track:3JFB72hbbt3zy30puJTc3q","LUDMILLA, Luísa Sonza","Lud Session #3: Tudo porque você mentiu / penhasco / De rolê / CAFÉ DA MANHÃ ;P / Doutora 3","WM Brazil",46,87,5,"1017761"
-118,"spotify:track:1iaPDgTbsKrlznVu13EWIf","MC Cabelinho, Bielzin, Mc Poze do Rodo, Tz da Coronel, Neo Beats","ESSÊNCIA DE CRIA","MC Cabelinho",64,113,32,"1017432"
-119,"spotify:track:6JIC3hbC28JZKZ8AlAqX8h","Elton John, Dua Lipa, PNAU","Cold Heart - PNAU Remix","EMI",52,107,47,"1012196"
-120,"spotify:track:6EDj1nbl9wo6ivGI1t59G4","Jão","Idiota","Universal Music Ltda.",21,108,33,"1008599"
-121,"spotify:track:0ssgd2ZvDawP0KHGfBYRpv","Filipe Ret, Caio Luccas, Dallass","Good Vibe","Som Livre",67,128,7,"996519"
-122,"spotify:track:5r9CZJMoMmxio2AnJdxuDS","Grupo Menos É Mais, Di Propósito, Vou Zuar","Pot-Pourri: Melhor Eu Ir / Ligando Os Fatos / Sonho de Amor / Deixa Eu Te Querer - Ao Vivo","Som Livre",21,104,113,"993922"
-123,"spotify:track:45VwwcqkVl61khE9JT2OxK","Braão, LIT UP, Dj Nattan","Baile da Serra","FERA ENTRETENIMENTO SP",41,109,14,"989234"
-124,"spotify:track:1TyxXIXVVpHwhKaF73z8nw","Henrique & Juliano","Rasteira (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",46,110,46,"980081"
-125,"spotify:track:6xGruZOHLs39ZbVccQTuPZ","Joji","Glimpse of Us","88rising Music",57,105,7,"980075"
-126,"spotify:track:42cdiwjkfYVjI8JtAQwsG5","Lauana Prado","Um Sonhador / Não Precisa / Não Aprendi A Dizer Adeus - Ao Vivo","Universal Music Ltda.",126,133,2,"979930"
-127,"spotify:track:68qqVn5kHBv4zc45SDGLnh","Filipe Ret, L7NNON, Chris Beats Zn","Corte Americano","Som Livre",60,118,67,"978455"
-128,"spotify:track:53V8gDkg4I7vDKnIyEuyoB","Marília Mendonça","Não Era Pra Ser Assim","Som Livre",38,38,2,"973855"
-129,"spotify:track:0E0OENqh3jaZ4VpDFTOLGj","Mc Delux, DJ ABDO, CLUB DA DZ7","EU BEM QUE TE AVISEI - TU EMPINOU ELE PEI","Club da DZ7",25,115,16,"970912"
-130,"spotify:track:2xebCnKCjYWBhJ4Ai8hO5E","Mc Davi, Mc Kevin, Mc Don Juan, MC Hariel, MC Marks, MC G15, Mc Phe Cachorrera, Gaab, MC Menor da VG, MC Ryan SP, MC Kapela, Perera DJ, Veiga no Beat","Set dos Casados","GR6 Music",22,121,43,"960105"
-131,"spotify:track:1w7cgGZR86yWz1pA2puVJD","Beyoncé","HEATED","Parkwood Entertainment/Columbia",131,-1,1,"956291"
-132,"spotify:track:1M5OUvKG03C0QtzvxRS4Zk","Dj Guuga, Wesley Safadão, Zé Felipe","Depende","Dj Guuga",8,106,28,"955842"
-133,"spotify:track:0roEMqT0P7Z82rJTwcID3Z","Hugo & Guilherme","Felicidade Dela - Ao Vivo","Som Livre",42,117,19,"953413"
-134,"spotify:track:0OJ8KWhqLMHkfI59yh398v","L7NNON, DJ Biel do Furduncinho","Sei Que Tu Gosta Muito","Papatunes Records",55,112,18,"952260"
-135,"spotify:track:2kJRlOyrxsy7Ot3c5TZ8Q6","João Gomes","Meu Pedaço de Pecado","JG Shows",1,116,61,"949372"
-136,"spotify:track:5YLGlPYkZBDXieMwzVve7g","Beyoncé, Grace Jones, Tems","MOVE (feat. Grace Jones & Tems)","Parkwood Entertainment/Columbia",136,-1,1,"948144"
-137,"spotify:track:6sZYCAvTEYjTtQ9Tt5ACbX","Renanzin Pressão","São João Chegou","Immed Solution",137,-1,1,"947059"
-138,"spotify:track:2s8kT1fuBVjxept8bH68Sw","MC Hariel, Mc IG, MC Marks, MC Joãozinho VT, MC Ryan SP, MC Neguinho do Kaxeta, Mc Kanhoto, Mc Don Juan, DJ BOY, Matheuszin DJ","SET MK 2","GR6 Music",96,132,9,"943258"
-139,"spotify:track:0cHflpV8SSGbE0NKaasEfT","Filipe Ret, Dallass","F* F* M*","Som Livre",57,123,42,"942876"
-140,"spotify:track:7aZusA4cWXz3Wv9e9uhavz","Matuê","Quer Voar","Sony Music Entertainment",2,129,52,"935892"
-141,"spotify:track:1wdhj1r7aeWVDUl9d18YKu","Matheus & Kauan","Expectativa x Realidade","Universal Music Ltda.",15,131,57,"932231"
-142,"spotify:track:2gkKA2pRAsMzbiGPo9gxsc","Clayton & Romário, Jorge & Mateus","Água Nos Zói - Ao Vivo","Virgin Music Label And Artist Services (S&D)",35,124,42,"926458"
-143,"spotify:track:1LCm0lFnEsxR2oPqyHLGX9","Beyoncé","THIQUE","Parkwood Entertainment/Columbia",143,-1,1,"922745"
-144,"spotify:track:3HdEOUNuFuoWj06rXpQQ4o","Kawe, WIU, Original Quality","Jovens do Reggae","Som Livre",97,134,6,"921983"
-145,"spotify:track:3aOnJBwzo1DVQmIJwgj8Au","Filipe Ret, Kayuá, Dallass, Honaiser","A Meu Favor","Som Livre",85,125,7,"919783"
-146,"spotify:track:7pvrsbBKUQI2QmA74WCJa5","Zé Neto & Cristiano","Ela e Ela","Som Livre",3,135,49,"916396"
-147,"spotify:track:0HIhSuAe5lq7ywxqlAt5Nl","Bruno & Marrone, Henrique & Juliano","Deixa Ela Em Paz","Worldshow Promoções e Eventos",92,99,6,"902883"
-148,"spotify:track:4grGI2vFnknrfmHT1JOVFU","George Henrique & Rodrigo, Gusttavo Lima","Tesão Da Madrugada - Ao Vivo","World Show Produções",41,122,25,"894420"
-149,"spotify:track:4AAIAVjSyiq1N7SXKkwXZe","Marília Mendonça","Troca de Calçada","Som Livre",7,94,79,"892750"
-150,"spotify:track:28k6fDcRo7iONQhMxt2OFA","Júnior e Cézar","Clone - Ao Vivo","Universal Music Ltda.",95,143,25,"886343"
-151,"spotify:track:13Rf6RaZT13TW4xLQR3MQr","MC Cabelinho, Bob do Contra, Azzy, Filipe Ret, Dudu, Xamã, Orochi, Maquiny, Pineapple StormTv","Poesia Acústica #6 Era uma Vez","Pineapple StormTV",18,146,164,"884208"
-152,"spotify:track:5PjdY0CKGZdEuoNab3yDmX","The Kid LAROI, Justin Bieber","STAY (with Justin Bieber)","Columbia",30,140,56,"881340"
-153,"spotify:track:0OpZrC2lgx4i6m41A2oTn9","Wesley Safadão","Macetando","Wesley Safadao",153,-1,1,"878513"
-154,"spotify:track:4DByEumlGTZKSzuVEZ35eo","Beyoncé","PURE/HONEY","Parkwood Entertainment/Columbia",154,-1,1,"872114"
-155,"spotify:track:5yRgMxdDhdYlbUQNCOlW3o","Mc Don Juan, Tarcísio do Acordeon, DG e Batidão Stronda","Não Vou Te Bloquear - Ao vivo","WM Brazil",17,126,31,"870055"
-156,"spotify:track:4SIBZgMomGFnrIWjmq7Np8","L7NNON, Os Hawaianos, DJ Bel da CDD, DJ Biel do Furduncinho","Desenrola Bate Joga de Ladin - feat. DJ Biel do Furduncinho","Papatunes Records",9,114,17,"867366"
-157,"spotify:track:5qtQJJqJUjk2zNjRroqgLk","Filipe Ret, Anitta, Dallass","Tudo Nosso","Som Livre",45,119,7,"867279"
-158,"spotify:track:3vP4dkFp5iHDuKDdLOJJZb","Marília Mendonça","Sendo Assim / Muito Estranho (Cuida Bem de Mim)","Som Livre",44,44,2,"858542"
-159,"spotify:track:02MWAaffLxlfxAUY7c5dvx","Glass Animals","Heat Waves","Polydor Records",43,150,41,"856914"
-160,"spotify:track:5Z4TYur0O9OxmxIo6GC2Gq","Vulgo FK, AMUSIK, WEY, Wall Hein","Oi, Como Ce Tá?","Elenko Music",13,149,24,"843312"
-161,"spotify:track:5VTjBl3ddZEiG2LrH4VzyR","Zé Felipe, Mc Danny","Toma Toma Vapo Vapo","Som Livre",3,127,38,"839763"
-162,"spotify:track:2VATVdFqb7QqxfAcQPvNpc","Israel & Rodolffo","Ex Alcoolizado - Ao Vivo","Som Livre",61,144,18,"834918"
-163,"spotify:track:6UelLqGlWMcVH1E5c4H7lY","Harry Styles","Watermelon Sugar","Columbia",27,151,130,"833192"
-164,"spotify:track:7LdYiTZzlxsPKi8kvNXeBS","MC G15, Mc Davi, Mc Pedrinho, MC Ryan SP, Gaab, Mc Don Juan, MC JottaPê, MC Menor da VG, DJ 900, Perera DJ, Dj GBR","Set do G15 - A Revoada Começou","GR6 Music",84,156,12,"832982"
-165,"spotify:track:2342lPAZ9zddhgAQEiLx4V","Luísa Sonza, Mariah Angeliq","ANACONDA *o* ~~~","Universal Music Ltda.",27,120,34,"824321"
-166,"spotify:track:1bWBG6IkMnDr3qvCKSvQT7","Matheus Fernandes, Dilsinho","Baby Me Atende - Ao Vivo","Som Livre",3,142,71,"822324"
-167,"spotify:track:5Z9KJZvQzH6PFmb8SNkxuk","Lil Nas X, Jack Harlow","INDUSTRY BABY (feat. Jack Harlow)","Columbia",8,147,54,"820485"
-168,"spotify:track:5TKvgxadaDeZ31XbiJMF7D","Vitor e Luan","Lucidez","Vitor e Luan",168,-1,1,"816097"
-169,"spotify:track:2XMAWynSTIst5KmLSv0Npf","Beyoncé","AMERICA HAS A PROBLEM","Parkwood Entertainment/Columbia",169,-1,1,"813926"
-170,"spotify:track:1gKXrwKn5ub6wyefqMsnZp","MC Braz, MC Gabluca, DJ 2w","Joga na Cara","Funk Explode Records",98,154,25,"812186"
-171,"spotify:track:5QQKWOwPjG9vcDBTQ5Hv5Q","PEDRO SAMPAIO, Anitta, Dadju, Mc Pedrinho, Nicky Jam","DANÇARINA (feat. Nicky Jam, MC Pedrinho) - Remix","WM Brazil",81,141,8,"810787"
-172,"spotify:track:4nRa5qkXIfswPbt20rkslI","Felipe Amorim, João Gomes","Debaixo do Cobertor","One Play",69,136,7,"807638"
-173,"spotify:track:4phWuswkCNopB7piK6E8Mb","Chefin, Racovi Oficial, Bren Oficial, Victor WAO, Mainstreet","A Nova Era","Mainstreet Records",66,139,4,"802429"
-174,"spotify:track:3k4CoiIQXiNBrwrmbBMDxj","Beyoncé","ALL UP IN YOUR MIND","Parkwood Entertainment/Columbia",174,-1,1,"800335"
-175,"spotify:track:4GF7CEf70lzZQwdYaiiCpY","Mari Fernandez","Para de Me Assistir - Ao Vivo","Sony Music Entertainment",120,145,5,"798216"
-176,"spotify:track:6zJejIfVYLgjud3lTk4DLB","Rosa Linn","SNAP","Nvak Collective",176,-1,1,"797785"
-177,"spotify:track:3gK5ckT0cq3t5enyqzzRgV","PEDRO SAMPAIO, Mc Danflin","GALOPA","WM Brazil",4,148,46,"797384"
-178,"spotify:track:06VHFg61ePkcCQfYFEuz5c","Orochi, L7NNON, MC Paulin da Capital, Mainstreet, RUXN","Pixadão","Mainstreet Records",152,152,3,"796594"
-179,"spotify:track:4OjLi2Ji9UhVsHjqzRGCsM","Gusttavo Lima, Dendelzinho","Quebrando Protocolo - Ao Vivo","Sony Music Entertainment",45,153,40,"795834"
-180,"spotify:track:4ktho8rCAMhuDWrWqLZK8C","Léo & Raphael","Cidade do Interior - Ao Vivo","Léo e Raphael",180,-1,1,"794679"
-181,"spotify:track:3CIyK1V4JEJkg02E4EJnDl","Imagine Dragons, JID, Arcane, League of Legends","Enemy (with JID) - from the series Arcane League of Legends","Kid Ina Korner / Interscope",39,159,40,"789018"
-182,"spotify:track:0pZIBIJ253pH9gJtXE0Ouf","KayBlack, Marquinho no Beat, Wall Hein","Vestido da Fendi","Elenko Music",153,180,10,"787046"
-183,"spotify:track:6wrkP23fHC8KDHCfs8MpJ9","Henrique & Juliano","Chá De Casa Nova (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",67,160,34,"785761"
-184,"spotify:track:7G2LNG0EDgU5IyeeP6pevW","Mari Fernandez, Xand Avião","Pode Apostar - Ao Vivo","Sony Music Entertainment",128,158,8,"784749"
-185,"spotify:track:1TFqH3zKOiTZoVe0OQuJte","Grupo Menos É Mais","Até Que Durou / Tu Mandas No Meu Coração / Adorei / Supera - Ao Vivo","Som Livre",140,161,7,"777970"
-186,"spotify:track:3qmdfYpfvKRIXmWaLllHZ3","MC Teteu, Dj Serpinha, 2Click","Black Lança (Catucando Gostosinho)","2click Produções",19,167,28,"774052"
-187,"spotify:track:6MvaRZ6JZgJuXz9b1CMB1y","Baco Exu do Blues","20 Ligações","Baco Exu Do Blues",84,184,27,"773296"
-188,"spotify:track:17QN5kFprJqHdHLMj7hz4s","Gusttavo Lima","Ficha Limpa - Ao Vivo","Sony Music Entertainment",3,157,60,"771276"
-189,"spotify:track:4GOs8fPjp4M9CBHanTMwsQ","Henrique & Juliano","Seu Perfil (Ao Vivo)","Vida Nova Produções, sob licença exclusiva para Virgin Music Group",67,175,27,"767822"
-190,"spotify:track:0VjIjW4GlUZAMYd2vXMi3b","The Weeknd","Blinding Lights","Republic Records",25,170,135,"765328"
-191,"spotify:track:6jxE4XjFVSKF18kfo7FCl9","Borges, L3OZIN, Mainstreet","Iphone Branco","Mainstreet",65,165,23,"764147"
-192,"spotify:track:2jIaDVi0tKGjPZxVIxH1Al","Gustavo Moura & Rafael","Cara de Golpe","Astro Produções",164,164,6,"759770"
-193,"spotify:track:1xvfsV9kFl65F1r7YqWuVk","Heitor, Ana Castela","Casalzão (Ao Vivo)","iLHA43",193,-1,1,"749568"
-194,"spotify:track:6ve9hbVnSgJ0vrsRpj18OH","Gusttavo Lima","Não Me Arranha - Ao Vivo","Sony Music Entertainment",24,168,43,"748742"
-195,"spotify:track:2XymTaHTrQWDEuSyhfZvqF","Matuê","Antes","Sony Music Entertainment",12,189,27,"745686"
-196,"spotify:track:46Xq7I6GwGzFCXVuit55dE","Mari Fernandez, Simone & Simaria","Eu Quero Recair - Ao Vivo","Sony Music Entertainment",137,137,2,"742110"
-197,"spotify:track:40KZgKCIvRVIoZqv9lNBoP","Jessé Aguiar, Todah Music","Alívio","Todah Music",119,193,49,"738963"
-198,"spotify:track:5II8BRTRPM8QY5dhS0pM8s","Yasmin Santos, Hugo & Guilherme","Dói Saber (feat. Hugo & Guilherme) - Ao Vivo","Sony Music Entertainment",198,-1,1,"735604"
-199,"spotify:track:2QjOHCTQ1Jl3zawyYOpxh6","The Neighbourhood","Sweater Weather","Columbia",165,191,28,"732124"
-200,"spotify:track:6qdJZIjxrPaJjaGqlXFLSs","Gusttavo Lima","Nota de Repúdio - Ao Vivo","Sony Music Entertainment",4,171,48,"727076"
+rank,uri,artist_names,track_name,source,peak_rank,previous_rank,weeks_on_chart,streams,duration_ms
+1,spotify:track:7AwVSKaQxpidrtYBerkHKk,"Ana Castela, Melody, Dj Chris No Beat",Pipoco,Ana Castela,1,1,10,6194825,194022
+2,spotify:track:7KWKWJnbGJ3Soag6Oopion,Luísa Sonza,CACHORRINHAS,Sony Music Entertainment,2,2,3,5521245,134936
+3,spotify:track:5vC8UAOHeG95ehRzZChniB,"L7NNON, DJ Biel do Furduncinho, Bianca",Ai preto,Papatunes Records,1,3,8,5450500,131583
+4,spotify:track:4xxeEWGQNFQ6qehlnev5LS,Marília Mendonça,Te Amo Demais,Som Livre,4,4,2,5081113,205685
+5,spotify:track:5PZAbR6JHYYV9xp5gv0XES,"Zé Felipe, MC Mari",Bandido,Som Livre,1,5,7,4786094,132044
+6,spotify:track:0i4UV3HjjvsUuV3BajEXoD,"MC Tairon, Mc Vitin Da Igrejinha, Dj Win, life song",Baile no Morro,ID1642 - Life Song Records,1,6,7,4638881,140307
+7,spotify:track:6gEOM9IEBzvTdbwNrSkBdC,Gusttavo Lima,Fala Mal de Mim - Ao Vivo,Sony Music Entertainment,6,7,4,4454934,204937
+8,spotify:track:1ELsaYdj2NlxLvkx9g24xZ,"Guilherme & Benuto, Hugo & Guilherme",Haja Colírio (feat. Hugo & Guilherme) - Ao Vivo,Sony Music Entertainment,8,9,6,4341720,173366
+9,spotify:track:5PSkF3QpVMlAx8U5Inxj39,"Mc Jacaré, Dj Tk",Vento Forte,A Chave,9,26,3,4324360,123711
+10,spotify:track:4NNZZXHgn9F3cCgC1YGmLl,Jorge & Mateus,Todo Seu - Ao Vivo,Som Livre,9,10,13,4156030,171712
+11,spotify:track:2qmG7dokbGpDGD0T5wORWt,"Matheus Fernandes, Xand Avião",Balanço da Rede,Som Livre,1,8,21,3901121,166435
+12,spotify:track:1rJFFWDXrlMS0C5JlbqFbI,"Nivaldo Marques, NATTAN",Tem Cabaré Essa Noite,SUA Musica/ WK Records,12,15,3,3863884,202631
+13,spotify:track:6Zw25LRLP0j0MsezDFIUM4,"Hugo & Guilherme, Marília Mendonça",Mal Feito - Ao Vivo,Som Livre,2,11,29,3687194,177934
+14,spotify:track:7bhvRvE56NHBvedx0EeALS,"Mari Fernandez, NATTAN",Comunicação Falhou - Ao Vivo,Sony Music Entertainment,14,14,14,3630465,180410
+15,spotify:track:0sjhY8nPIm6cPOQfyUPmJe,"Luan Santana, Henrique & Juliano",ERRO PLANEJADO - Ao Vivo,Sony Music Entertainment,4,12,16,3532623,154868
+16,spotify:track:4m1mqQuy34Nzh0480VR364,MC Kevin o Chris,Incendeia,MC Kevin o Chris,16,20,4,3532574,239999
+17,spotify:track:6Ulh9GPYz6JKdv04qc3q2U,João Gomes,Dengo,JG Shows,3,13,13,3476905,153958
+18,spotify:track:1K8AtBJXcdq5mywMnZuARP,Gusttavo Lima,Termina Comigo Antes - Ao Vivo,Sony Music Entertainment,3,16,18,3398665,187381
+19,spotify:track:7qD2vjd3btuOgwpQPEY7ci,"Mc Don Juan, MC G15, Mc Davi",EU VOU COM CARINHO ELA QUER COM FORÇA,WM Brazil,4,18,11,3287511,144000
+20,spotify:track:3sd2p4kE7xQmFH3lPnFl6h,"Davi Kneip, Mc Frog, Dj Gabriel do Borel, Luísa Sonza",sentaDONA (Remix) s2,Davi Kneip,1,19,20,3140032,125245
+21,spotify:track:3ShKPhFkexrwl7WoyTtNND,"Rogerinho, Wesley Safadão",Tchuco Nela,AgitoFunk,5,21,16,3107170,170880
+22,spotify:track:42nZBOwXNdO24Ml032bLBS,Matheus & Kauan,Gatilho - Ao Vivo,Universal Music Ltda.,21,22,20,3015442,155284
+23,spotify:track:4QWumyD2uwiePBBha9XBHI,Felipe Amorim,No Ouvidinho,One Play,1,17,19,2961781,183870
+24,spotify:track:6bTdZ7xfKp3NqqADJ8HLyj,"Matuê, WIU, Teto",Vampiro,Sony Music Entertainment,1,25,18,2853953,250434
+25,spotify:track:4a0sqvCBo7aRIS4GzBQpnp,"MC Braz, MC Tairon, Dj Win",Kikando e Me Olhando,Duetti,14,24,17,2829250,210461
+26,spotify:track:3XF598RmEUF3XW4XKo1lyP,"Hugo & Guilherme, Jorge & Mateus",Meu Número - Ao Vivo,Som Livre,17,23,16,2743830,208007
+27,spotify:track:6bwx7pcKJY05D9S6CVa1k6,"Israel & Rodolffo, Maiara & Maraisa",Nem Namorado e Nem Ficante - Ao Vivo | Faixa Bônus,Som Livre,27,28,10,2626278,166600
+28,spotify:track:2wSCalnGOnXdAJC0Fn8OUY,"George Henrique & Rodrigo, Marília Mendonça",Vai Lá Em Casa Hoje - Ao Vivo,Worldshow Promoções e Eventos,1,27,41,2548581,191523
+29,spotify:track:53RxHysDJ0cjugMcPymwja,Luan Santana,ABALO EMOCIONAL - Ao Vivo,Sony Music Entertainment,6,29,26,2548211,153225
+30,spotify:track:1OZ4uv7OAP24Ix6j3vojLt,"Mc Paiva ZS, MC Ryan SP, Kotim",Casei Com a Putaria,Love Funk,30,61,4,2485427,157500
+31,spotify:track:3ZtHHGpAPSWC7Gnios4lmK,sxmmerx,Metflix,sxmmerx,31,56,2,2441406,133333
+32,spotify:track:3ITkrUvAA6gzxer2UIom3P,Jorge & Mateus,Molhando o Volante,Som Livre,8,32,34,2427929,162538
+33,spotify:track:5zNxUkUW9WiV5oyg6gh2wB,"PEDRO SAMPAIO, Mc Pedrinho",DANÇARINA,WM Brazil,1,31,26,2375368,110222
+34,spotify:track:1Hohk6AufHZOrrhMXZppax,Beyoncé,ALIEN SUPERSTAR,Parkwood Entertainment/Columbia,34,-1,1,2341102,215459
+35,spotify:track:4Dvkj6JhhA12EX05fT7y2e,Harry Styles,As It Was,Columbia,10,37,18,2330661,167303
+36,spotify:track:14JKzKrJbPDflw8XyATMey,Henrique & Juliano,A Maior Saudade (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",10,34,48,2322778,190161
+37,spotify:track:6BF3nZQkAg9qvE0DLVSfyH,"Baco Exu do Blues, Luísa Sonza",Hotel Caro,Baco Exu do Blues,4,35,8,2280058,221857
+38,spotify:track:7afaZ37wJJL6880z1NRgJS,Teto,Fim de Semana no Rio,Sony Music Entertainment,3,42,18,2278283,165882
+39,spotify:track:7HdWqZjUmIHK5B8zwPCRds,"Léo Santana, Mc Don Juan, Mari Fernandez",Áudio Que Te Entrega - Faixa Bônus,Universal Music Ltda.,19,41,19,2253764,171409
+40,spotify:track:5etfNcFAD9M8uibXpYMxfQ,Wesley Safadão,Tu Tava Na Revoada - Ao Vivo,Wesley Safadao,28,33,11,2217746,156000
+41,spotify:track:4qsOrxBv09HhNSpsgMRXdC,"Marília Mendonça, Maiara & Maraisa",Esqueça-Me Se For Capaz,Som Livre,1,36,42,2176352,169058
+42,spotify:track:5lCAtKxkZL6tFDyGX9t87j,Wesley Safadão,Eu Já Tava Bem - Ao Vivo,Wesley Safadao,19,40,35,2161296,135200
+43,spotify:track:5ildQOEKmJuWGl2vRkFdYc,ROSALÍA,DESPECHÁ,Columbia,43,-1,1,2146360,157017
+44,spotify:track:0MKd4uZd8Ag8qyReZBTarP,Murilo Huff,Pino da Granada - Ao Vivo em Rio Preto,M Show,43,43,10,2087869,185407
+45,spotify:track:3jPp5Aukksz9Ir0gZy6lZM,"Paulo e Nathan, Hugo & Guilherme",Acabei de Terminar - Ao Vivo,Sony Music Entertainment,45,58,17,2082449,223489
+46,spotify:track:5pyoxDZ1PX0KxBxiRVxA4U,Beyoncé,BREAK MY SOUL,Parkwood Entertainment/Columbia,46,182,7,2066453,278281
+47,spotify:track:6hFwju6M40CKovKBPu5IpY,Jovem Dionisio,ACORDA PEDRINHO,Jovem Dionisio,1,39,12,2037741,173085
+48,spotify:track:1RgJ4lexKGNBlKnyxB5SRt,"Teto, Mateca",Balazul,Sony Music Entertainment,31,51,9,1940135,202909
+49,spotify:track:2ebFBmle5uXcdbrCAOvPcZ,Guilherme & Benuto,Vagabundo Chora - Ao Vivo,Sony Music Entertainment,20,45,25,1904252,161845
+50,spotify:track:1xzi1Jcr7mEi9K2RfzLOqS,Beyoncé,CUFF IT,Parkwood Entertainment/Columbia,50,-1,1,1855164,225388
+51,spotify:track:75FEaRjZTKLhTrFGsfMUXR,Kate Bush,Running Up That Hill (A Deal With God),Fish People,16,47,10,1846476,298933
+52,spotify:track:11fqunD6qlOCrRd88kMOk6,Henrique & Juliano,Evento Cancelado (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",22,57,11,1840826,183244
+53,spotify:track:4NJKCE1TBC653P3dCnto0u,"Mc Gabzin, DJ Marcus Vinicius",Simplesmente Ela,Sony Music Entertainment,22,50,20,1824339,161076
+54,spotify:track:7gVzhRCrLRUBEGdS7zNTp0,Zé Felipe,Malvada,Som Livre,2,46,27,1781514,145853
+55,spotify:track:0dcHD9QhnWRA41zoLnC83X,"MC Cabelinho, Dallass",X1,MC Cabelinho,55,65,13,1776099,188852
+56,spotify:track:6nkoWsFZeFt5dUdNmlIceh,Gusttavo Lima,Bloqueado - Ao Vivo,Sony Music Entertainment,4,52,36,1757530,168689
+57,spotify:track:0NBgyml7T0IvUNbXIkcSpH,"Xamã, Gustah, Neo Beats, Bagua Records",Malvadão 3,Bagua Records,1,49,35,1737964,141769
+58,spotify:track:3IMLoeLerS7TMpKjxUgAhx,Henrique & Juliano,Arranhão (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",1,59,52,1732119,153409
+59,spotify:track:1ih3nbYJ0lugsku6065BC5,"O Tubarão, Treyce",Me Chama de Amor - Arrochadeira Remix,Tops da Arrochadeira,33,54,14,1722111,129194
+60,spotify:track:4IX43MpJlpxzRMLb9QayrJ,Luan Santana,PERIGO NOTURNO - Ao Vivo,Sony Music Entertainment,44,48,5,1674949,201896
+61,spotify:track:3lQnTQFBxk1HMsj8aa4syY,Kadu Martins,Virando o Olhinho,Kadu Martins,57,60,4,1674534,142694
+62,spotify:track:72g37RoelSnovZakG5MwnF,"Mari Fernandez, Marcynho Sensação",Parada Louca,Sony Music Entertainment,8,55,38,1667543,179031
+63,spotify:track:1MpCaOeUWhox2Fgigbe1cL,Beyoncé,I'M THAT GIRL,Parkwood Entertainment/Columbia,63,-1,1,1632974,208014
+64,spotify:track:3QxKHcpNt6CWNUYCLLBHeZ,"MC CH da Z.O, MC Myres, Danado do Recife, eoo kendy, Deyvinho PL",Escolhe o Bandido,Tão Falando Por ai,64,64,4,1631686,144056
+65,spotify:track:4x5q5T5mhE1xvoCVXY6qrN,"DJ AK BR, Dj Darge, Niack",Melodia Alucinógena,DJ AK BR,65,-1,1,1614704,183716
+66,spotify:track:6Lk3kU7JcQ5dZ7jbmhJzQN,Zé Neto & Cristiano,Melhor Ser uma Saudade,Som Livre,13,62,27,1610232,158716
+67,spotify:track:0tM4J8aID6qYZOE3e14sCj,Henrique & Juliano,Acordo (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",21,63,41,1610121,169771
+68,spotify:track:2LEV3lTRxKqLBfmt5BWkLj,Gusttavo Lima,Não Pega Ninguém Ainda (Ao Vivo),Sony Music Entertainment,19,53,9,1564666,175466
+69,spotify:track:5TPXcKSOlPaz2pkYbWiWHU,Clayton & Romário,Ai Eu Chorei - Ao Vivo,Virgin Music Label And Artist Services (S&D),69,74,5,1558964,176491
+70,spotify:track:0314PeD1sQNonfVWix3B2K,"Beyoncé, BEAM",ENERGY (feat. Beam),Parkwood Entertainment/Columbia,70,-1,1,1549914,116727
+71,spotify:track:4aoZBldNDVYmTwmeoI49ud,"Mc Gabzin, DJ TAK VADIÃO, dj sv",O Poder Dessa Garota,Sony Music Entertainment,63,70,14,1543855,136615
+72,spotify:track:75fCsUnTiDelE4HMd06t4O,"Mc Pepeu, DJ Swat, Doug Hits",Gostosinho Tu Cai,Doug Filmes,19,73,15,1541670,132922
+73,spotify:track:3gCWngngUs1uojw33vrE8K,Jorge & Mateus,5 Regras - Ao Vivo,Som Livre,73,-1,1,1517187,161469
+74,spotify:track:0yDMhYTryvQoR634wDgQ1j,"MC Hariel, DJ BOY",O Fim é Triste (feat. DJ BOY),WM Brazil,62,71,6,1513432,158117
+75,spotify:track:1XcmAgREOuJQb91sr68AAD,"Dyamante DJ, Mc Gw",Sentadinha Diferente,NWS,75,77,4,1507465,123230
+76,spotify:track:0mKGwFMHzTprtS2vpR3b6s,Beyoncé,COZY,Parkwood Entertainment/Columbia,76,-1,1,1476251,210372
+77,spotify:track:4EVzu5mYyigjyLrryKbZs7,Gloria Groove,VERMELHO,SB Music,9,68,25,1429039,152690
+78,spotify:track:0mBP9X2gPCuapvpZ7TGDk3,"Charlie Puth, Jung Kook, BTS",Left and Right (Feat. Jung Kook of BTS),Atlantic Records,58,111,6,1428783,154486
+79,spotify:track:04vzhKfl5HtPEgrdZJCZ7L,"Mc Paiva ZS, Kotim",Bagulho Louco,Love Funk,79,101,12,1402399,124238
+80,spotify:track:3YvE7uo4ffseBoJPh8IhHp,"Marília Mendonça, Maiara & Maraisa",Presepada,Som Livre,3,67,39,1393386,196209
+81,spotify:track:0qYW2jULeN9giEty0ee9Fy,Rogerinho,Botadinha Saliente,MC Rogerinho Oficial,5,72,26,1389745,158000
+82,spotify:track:5DhiTYpD599fu3q7fCepgL,"BIN, Major RD, Mainstreet, Ajaxx",Dior,Mainstreet Records,54,69,7,1385842,229894
+83,spotify:track:7qq40cRIYNKZCDt1STfBqt,Niack,"Bruna, Tu Já Parou Pra Pensar",WM Brazil,78,78,5,1382763,162653
+84,spotify:track:7fzgTaVhUxmEzjtcd9NdWo,"Tayrone, Marília Mendonça",Cê Tá Preparada - Ao Vivo,Universal Music Ltda.,16,80,55,1375189,213006
+85,spotify:track:3HyR1j49TY5ACP2lseF1jx,Beyoncé,SUMMER RENAISSANCE,Parkwood Entertainment/Columbia,85,-1,1,1330765,273997
+86,spotify:track:347KmRWwYXcZSUgelz7Cit,"Filipe Ret, L7NNON, Nagalli",Konteiner,Som Livre,36,66,7,1317149,150697
+87,spotify:track:3qHN7TSBfVQPF9ojUVT9ZT,"Mc Livinho, Dj LK da Escócia, DJ Breno, DJ Pedrin",Pras Novinha (feat. DJ Pedrin),MBB Diamond,80,83,7,1307514,149032
+88,spotify:track:48LEhRW4gLMCVSYFEZvt8b,"João Bosco e Gabriel, Diego & Victor Hugo",Assume a Gente - Ao Vivo,Som Livre,40,79,19,1305154,171524
+89,spotify:track:2mqTtvbKxH7SoEQ2oGAnsA,Beyoncé,CHURCH GIRL,Parkwood Entertainment/Columbia,89,-1,1,1278969,224472
+90,spotify:track:6KKT8dzP21J4WwBp9swjob,"Filipe Ret, Mc Poze do Rodo, Nagalli",Sonho Dos Cria,Som Livre,48,81,7,1268144,143255
+91,spotify:track:28m65cMH7QXHzFnZSTtNHY,"Marília Mendonça, Maiara & Maraisa",Não Sei o Que Lá,Som Livre,21,76,44,1259978,169586
+92,spotify:track:0yL7K9MzC20uBesZTPY81r,"DJ Matt D, Menor MC, MC GP, Vulgo FK",Pandora,GREE CASSUA,6,85,35,1240541,177000
+93,spotify:track:7GARzfC1mwhDuk4t9WOACq,j-hope,MORE,BIGHIT MUSIC,61,103,5,1226224,180022
+94,spotify:track:7bh2ybqXcEoIYL8FwiAMou,Mari Fernandez,Intuição - Ao Vivo,Sony Music Entertainment,92,92,7,1221231,171429
+95,spotify:track:7HjZD0NPC1hzFpjUjo45GR,"Mc Poze do Rodo, Filipe Ret, Mainstreet, Ajaxx",Me Sinto Abençoado,Mainstreet Records,33,88,34,1216771,214235
+96,spotify:track:4can6ssapSsRCEbZZfYL8K,"Filipe Ret, Caio Luccas, BIN, BUDAH, Borges, Marina Sena, Teto, Luiz Lins, Pineapple StormTv",Poesia Acústica #12 Pra Sempre,Pineapple StormTV,24,89,23,1196539,472173
+97,spotify:track:3fSxnkjdgPucRCskjmAlgx,"Mc Poze do Rodo, Orochi, Filipe Ret, Mainstreet, Bielzin",A Cara do Crime 3 (Brinde à Liberdade),Mainstreet Records,43,86,10,1189899,300689
+98,spotify:track:14uWxelOuAUajP8fDvc0Ct,Thiaguinho,Falta Você,Virgin Music Label And Artist Services (S&D),93,93,9,1166389,220437
+99,spotify:track:0Fl4eWzVaMUOdXcOrj6F1q,Beyoncé,VIRGO'S GROOVE,Parkwood Entertainment/Columbia,99,-1,1,1153097,368758
+100,spotify:track:66K83nVy3aTJ5zLxbiMi7I,Marília Mendonça,Te Amo Que Mais Posso Dizer (More Than I Can Say),Som Livre,30,30,2,1143385,156937
+101,spotify:track:3jrxlhAtoxi83qc76NT9EG,"Filipe Ret, MC Cabelinho, MC Maneirinho",7 Meiota,Som Livre,69,90,7,1140680,190000
+102,spotify:track:053zWWZDziDJd3U94x8RuP,"Marília Mendonça, Maiara & Maraisa",Todo Mundo Menos Você,Som Livre,2,82,45,1112743,206171
+103,spotify:track:0sPtV4stCHkFJB6GpoaZ1f,"Luísa Sonza, LUDMILLA",CAFÉ DA MANHÃ ;P,Universal Music Ltda.,14,84,26,1111818,181173
+104,spotify:track:130HVxaVe9EYcLJmuOR9Rw,Henrique & Juliano,Até A Próxima Vida (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",87,95,23,1102773,194310
+105,spotify:track:3xt7v3bMNnQ8ie8RjhmkX2,Matheus & Kauan,Imagina A Sentada - Ao Vivo,Universal Music Ltda.,18,97,34,1081328,171500
+106,spotify:track:6ufcuVInt0ocHrUimDjGlb,Beyoncé,PLASTIC OFF THE SOFA,Parkwood Entertainment/Columbia,106,-1,1,1057384,254319
+107,spotify:track:30rrBGpna63eIJ2BrXlWDC,Henrique & Juliano,Minha Cópia Atual (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",58,98,18,1056012,183382
+108,spotify:track:6W56j9ijl9n2l76Hs4hgGn,"Léo & Raphael, Jorge",Larga AÍ Pra Ver - Ao Vivo,Léo e Raphael,69,96,17,1053657,159317
+109,spotify:track:20yfr4F5QmZ5V3Cu1Rx4Kp,Lauana Prado,Elevador - Ao Vivo,Universal Music Ltda.,109,-1,1,1052202,167124
+110,spotify:track:2VbKpQWIMRelKmEy8rSCAf,"Kako, MC Erik, MC GP, MC Ryan SP, MC Marks, MC Joãozinho VT, DJ BOY, Dj GM",Set Tatuapé Conceito 2,Sonar Music,110,130,4,1045699,406588
+111,spotify:track:3FkeNbs9Zeiqkr3WkbOiGp,Anitta,Envolver,Warner Records,1,91,38,1042168,193805
+112,spotify:track:2AQJRDfQJbfgmTf5e62Czl,"Matuê, L7NNON",Sem Dó,Sony Music Entertainment,25,102,31,1040207,267130
+113,spotify:track:0XyPPyGes0omXppV5YE8gy,Felipe Amorim,Gostosinha é Ela,One Play,113,-1,1,1036629,138000
+114,spotify:track:3QGxgNaqaFSpORp2OVLXHR,"Chefin, Mainstreet",212,Mainstreet Records,2,100,29,1026237,150610
+115,spotify:track:5IgjP7X4th6nMNDh4akUHb,Chris Brown,Under The Influence,Chris Brown Entertainment/RCA Records,115,-1,1,1020211,184203
+116,spotify:track:71fwkaKdNrxiZZbkzSqmFJ,"Anitta, Papatinho, MC Kevin o Chris, Mr. Catra, YG",Que Rabão (feat. Mr. Catra e YG),Warner Records,18,75,16,1018396,176193
+117,spotify:track:3JFB72hbbt3zy30puJTc3q,"LUDMILLA, Luísa Sonza",Lud Session #3: Tudo porque você mentiu / penhasco / De rolê / CAFÉ DA MANHÃ ;P / Doutora 3,WM Brazil,46,87,5,1017761,579562
+118,spotify:track:1iaPDgTbsKrlznVu13EWIf,"MC Cabelinho, Bielzin, Mc Poze do Rodo, Tz da Coronel, Neo Beats",ESSÊNCIA DE CRIA,MC Cabelinho,64,113,32,1017432,192194
+119,spotify:track:6JIC3hbC28JZKZ8AlAqX8h,"Elton John, Dua Lipa, PNAU",Cold Heart - PNAU Remix,EMI,52,107,47,1012196,202735
+120,spotify:track:6EDj1nbl9wo6ivGI1t59G4,Jão,Idiota,Universal Music Ltda.,21,108,33,1008599,181626
+121,spotify:track:0ssgd2ZvDawP0KHGfBYRpv,"Filipe Ret, Caio Luccas, Dallass",Good Vibe,Som Livre,67,128,7,996519,181818
+122,spotify:track:5r9CZJMoMmxio2AnJdxuDS,"Grupo Menos É Mais, Di Propósito, Vou Zuar",Pot-Pourri: Melhor Eu Ir / Ligando Os Fatos / Sonho de Amor / Deixa Eu Te Querer - Ao Vivo,Som Livre,21,104,113,993922,521088
+123,spotify:track:45VwwcqkVl61khE9JT2OxK,"Braão, LIT UP, Dj Nattan",Baile da Serra,FERA ENTRETENIMENTO SP,41,109,14,989234,205058
+124,spotify:track:1TyxXIXVVpHwhKaF73z8nw,Henrique & Juliano,Rasteira (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",46,110,46,980081,189007
+125,spotify:track:6xGruZOHLs39ZbVccQTuPZ,Joji,Glimpse of Us,88rising Music,57,105,7,980075,233456
+126,spotify:track:42cdiwjkfYVjI8JtAQwsG5,Lauana Prado,Um Sonhador / Não Precisa / Não Aprendi A Dizer Adeus - Ao Vivo,Universal Music Ltda.,126,133,2,979930,276096
+127,spotify:track:68qqVn5kHBv4zc45SDGLnh,"Filipe Ret, L7NNON, Chris Beats Zn",Corte Americano,Som Livre,60,118,67,978455,139534
+128,spotify:track:53V8gDkg4I7vDKnIyEuyoB,Marília Mendonça,Não Era Pra Ser Assim,Som Livre,38,38,2,973855,231050
+129,spotify:track:0E0OENqh3jaZ4VpDFTOLGj,"Mc Delux, DJ ABDO, CLUB DA DZ7",EU BEM QUE TE AVISEI - TU EMPINOU ELE PEI,Club da DZ7,25,115,16,970912,158769
+130,spotify:track:2xebCnKCjYWBhJ4Ai8hO5E,"Mc Davi, Mc Kevin, Mc Don Juan, MC Hariel, MC Marks, MC G15, Mc Phe Cachorrera, Gaab, MC Menor da VG, MC Ryan SP, MC Kapela, Perera DJ, Veiga no Beat",Set dos Casados,GR6 Music,22,121,43,960105,643200
+131,spotify:track:1w7cgGZR86yWz1pA2puVJD,Beyoncé,HEATED,Parkwood Entertainment/Columbia,131,-1,1,956291,260770
+132,spotify:track:1M5OUvKG03C0QtzvxRS4Zk,"Dj Guuga, Wesley Safadão, Zé Felipe",Depende,Dj Guuga,8,106,28,955842,156922
+133,spotify:track:0roEMqT0P7Z82rJTwcID3Z,Hugo & Guilherme,Felicidade Dela - Ao Vivo,Som Livre,42,117,19,953413,165558
+134,spotify:track:0OJ8KWhqLMHkfI59yh398v,"L7NNON, DJ Biel do Furduncinho",Sei Que Tu Gosta Muito,Papatunes Records,55,112,18,952260,133384
+135,spotify:track:2kJRlOyrxsy7Ot3c5TZ8Q6,João Gomes,Meu Pedaço de Pecado,JG Shows,1,116,61,949372,157175
+136,spotify:track:5YLGlPYkZBDXieMwzVve7g,"Beyoncé, Grace Jones, Tems",MOVE (feat. Grace Jones & Tems),Parkwood Entertainment/Columbia,136,-1,1,948144,203383
+137,spotify:track:6sZYCAvTEYjTtQ9Tt5ACbX,Renanzin Pressão,São João Chegou,Immed Solution,137,-1,1,947059,114573
+138,spotify:track:2s8kT1fuBVjxept8bH68Sw,"MC Hariel, Mc IG, MC Marks, MC Joãozinho VT, MC Ryan SP, MC Neguinho do Kaxeta, Mc Kanhoto, Mc Don Juan, DJ BOY, Matheuszin DJ",SET MK 2,GR6 Music,96,132,9,943258,564705
+139,spotify:track:0cHflpV8SSGbE0NKaasEfT,"Filipe Ret, Dallass",F* F* M*,Som Livre,57,123,42,942876,176000
+140,spotify:track:7aZusA4cWXz3Wv9e9uhavz,Matuê,Quer Voar,Sony Music Entertainment,2,129,52,935892,187636
+141,spotify:track:1wdhj1r7aeWVDUl9d18YKu,Matheus & Kauan,Expectativa x Realidade,Universal Music Ltda.,15,131,57,932231,163324
+142,spotify:track:2gkKA2pRAsMzbiGPo9gxsc,"Clayton & Romário, Jorge & Mateus",Água Nos Zói - Ao Vivo,Virgin Music Label And Artist Services (S&D),35,124,42,926458,188951
+143,spotify:track:1LCm0lFnEsxR2oPqyHLGX9,Beyoncé,THIQUE,Parkwood Entertainment/Columbia,143,-1,1,922745,244792
+144,spotify:track:3HdEOUNuFuoWj06rXpQQ4o,"Kawe, WIU, Original Quality",Jovens do Reggae,Som Livre,97,134,6,921983,183652
+145,spotify:track:3aOnJBwzo1DVQmIJwgj8Au,"Filipe Ret, Kayuá, Dallass, Honaiser",A Meu Favor,Som Livre,85,125,7,919783,135384
+146,spotify:track:7pvrsbBKUQI2QmA74WCJa5,Zé Neto & Cristiano,Ela e Ela,Som Livre,3,135,49,916396,168644
+147,spotify:track:0HIhSuAe5lq7ywxqlAt5Nl,"Bruno & Marrone, Henrique & Juliano",Deixa Ela Em Paz,Worldshow Promoções e Eventos,92,99,6,902883,201151
+148,spotify:track:4grGI2vFnknrfmHT1JOVFU,"George Henrique & Rodrigo, Gusttavo Lima",Tesão Da Madrugada - Ao Vivo,World Show Produções,41,122,25,894420,173375
+149,spotify:track:4AAIAVjSyiq1N7SXKkwXZe,Marília Mendonça,Troca de Calçada,Som Livre,7,94,79,892750,203158
+150,spotify:track:28k6fDcRo7iONQhMxt2OFA,Júnior e Cézar,Clone - Ao Vivo,Universal Music Ltda.,95,143,25,886343,171573
+151,spotify:track:13Rf6RaZT13TW4xLQR3MQr,"MC Cabelinho, Bob do Contra, Azzy, Filipe Ret, Dudu, Xamã, Orochi, Maquiny, Pineapple StormTv",Poesia Acústica #6 Era uma Vez,Pineapple StormTV,18,146,164,884208,577819
+152,spotify:track:5PjdY0CKGZdEuoNab3yDmX,"The Kid LAROI, Justin Bieber",STAY (with Justin Bieber),Columbia,30,140,56,881340,141805
+153,spotify:track:0OpZrC2lgx4i6m41A2oTn9,Wesley Safadão,Macetando,Wesley Safadao,153,-1,1,878513,171905
+154,spotify:track:4DByEumlGTZKSzuVEZ35eo,Beyoncé,PURE/HONEY,Parkwood Entertainment/Columbia,154,-1,1,872114,288254
+155,spotify:track:5yRgMxdDhdYlbUQNCOlW3o,"Mc Don Juan, Tarcísio do Acordeon, DG e Batidão Stronda",Não Vou Te Bloquear - Ao vivo,WM Brazil,17,126,31,870055,168312
+156,spotify:track:4SIBZgMomGFnrIWjmq7Np8,"L7NNON, Os Hawaianos, DJ Bel da CDD, DJ Biel do Furduncinho",Desenrola Bate Joga de Ladin - feat. DJ Biel do Furduncinho,Papatunes Records,9,114,17,867366,115846
+157,spotify:track:5qtQJJqJUjk2zNjRroqgLk,"Filipe Ret, Anitta, Dallass",Tudo Nosso,Som Livre,45,119,7,867279,168813
+158,spotify:track:3vP4dkFp5iHDuKDdLOJJZb,Marília Mendonça,Sendo Assim / Muito Estranho (Cuida Bem de Mim),Som Livre,44,44,2,858542,311434
+159,spotify:track:02MWAaffLxlfxAUY7c5dvx,Glass Animals,Heat Waves,Polydor Records,43,150,41,856914,238805
+160,spotify:track:5Z4TYur0O9OxmxIo6GC2Gq,"Vulgo FK, AMUSIK, WEY, Wall Hein","Oi, Como Ce Tá?",Elenko Music,13,149,24,843312,156153
+161,spotify:track:5VTjBl3ddZEiG2LrH4VzyR,"Zé Felipe, Mc Danny",Toma Toma Vapo Vapo,Som Livre,3,127,38,839763,156760
+162,spotify:track:2VATVdFqb7QqxfAcQPvNpc,Israel & Rodolffo,Ex Alcoolizado - Ao Vivo,Som Livre,61,144,18,834918,162444
+163,spotify:track:6UelLqGlWMcVH1E5c4H7lY,Harry Styles,Watermelon Sugar,Columbia,27,151,130,833192,173991
+164,spotify:track:7LdYiTZzlxsPKi8kvNXeBS,"MC G15, Mc Davi, Mc Pedrinho, MC Ryan SP, Gaab, Mc Don Juan, MC JottaPê, MC Menor da VG, DJ 900, Perera DJ, Dj GBR",Set do G15 - A Revoada Começou,GR6 Music,84,156,12,832982,542000
+165,spotify:track:2342lPAZ9zddhgAQEiLx4V,"Luísa Sonza, Mariah Angeliq",ANACONDA *o* ~~~,Universal Music Ltda.,27,120,34,824321,183100
+166,spotify:track:1bWBG6IkMnDr3qvCKSvQT7,"Matheus Fernandes, Dilsinho",Baby Me Atende - Ao Vivo,Som Livre,3,142,71,822324,225671
+167,spotify:track:5Z9KJZvQzH6PFmb8SNkxuk,"Lil Nas X, Jack Harlow",INDUSTRY BABY (feat. Jack Harlow),Columbia,8,147,54,820485,212352
+168,spotify:track:5TKvgxadaDeZ31XbiJMF7D,Vitor e Luan,Lucidez,Vitor e Luan,168,-1,1,816097,161685
+169,spotify:track:2XMAWynSTIst5KmLSv0Npf,Beyoncé,AMERICA HAS A PROBLEM,Parkwood Entertainment/Columbia,169,-1,1,813926,198897
+170,spotify:track:1gKXrwKn5ub6wyefqMsnZp,"MC Braz, MC Gabluca, DJ 2w",Joga na Cara,Funk Explode Records,98,154,25,812186,109846
+171,spotify:track:5QQKWOwPjG9vcDBTQ5Hv5Q,"PEDRO SAMPAIO, Anitta, Dadju, Mc Pedrinho, Nicky Jam","DANÇARINA (feat. Nicky Jam, MC Pedrinho) - Remix",WM Brazil,81,141,8,810787,212000
+172,spotify:track:4nRa5qkXIfswPbt20rkslI,"Felipe Amorim, João Gomes",Debaixo do Cobertor,One Play,69,136,7,807638,154285
+173,spotify:track:4phWuswkCNopB7piK6E8Mb,"Chefin, Racovi Oficial, Bren Oficial, Victor WAO, Mainstreet",A Nova Era,Mainstreet Records,66,139,4,802429,194312
+174,spotify:track:3k4CoiIQXiNBrwrmbBMDxj,Beyoncé,ALL UP IN YOUR MIND,Parkwood Entertainment/Columbia,174,-1,1,800335,169819
+175,spotify:track:4GF7CEf70lzZQwdYaiiCpY,Mari Fernandez,Para de Me Assistir - Ao Vivo,Sony Music Entertainment,120,145,5,798216,173814
+176,spotify:track:6zJejIfVYLgjud3lTk4DLB,Rosa Linn,SNAP,Nvak Collective,176,-1,1,797785,179551
+177,spotify:track:3gK5ckT0cq3t5enyqzzRgV,"PEDRO SAMPAIO, Mc Danflin",GALOPA,WM Brazil,4,148,46,797384,140500
+178,spotify:track:06VHFg61ePkcCQfYFEuz5c,"Orochi, L7NNON, MC Paulin da Capital, Mainstreet, RUXN",Pixadão,Mainstreet Records,152,152,3,796594,310344
+179,spotify:track:4OjLi2Ji9UhVsHjqzRGCsM,"Gusttavo Lima, Dendelzinho",Quebrando Protocolo - Ao Vivo,Sony Music Entertainment,45,153,40,795834,175216
+180,spotify:track:4ktho8rCAMhuDWrWqLZK8C,Léo & Raphael,Cidade do Interior - Ao Vivo,Léo e Raphael,180,-1,1,794679,155405
+181,spotify:track:3CIyK1V4JEJkg02E4EJnDl,"Imagine Dragons, JID, Arcane, League of Legends",Enemy (with JID) - from the series Arcane League of Legends,Kid Ina Korner / Interscope,39,159,40,789018,173381
+182,spotify:track:0pZIBIJ253pH9gJtXE0Ouf,"KayBlack, Marquinho no Beat, Wall Hein",Vestido da Fendi,Elenko Music,153,180,10,787046,164203
+183,spotify:track:6wrkP23fHC8KDHCfs8MpJ9,Henrique & Juliano,Chá De Casa Nova (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",67,160,34,785761,176585
+184,spotify:track:7G2LNG0EDgU5IyeeP6pevW,"Mari Fernandez, Xand Avião",Pode Apostar - Ao Vivo,Sony Music Entertainment,128,158,8,784749,193834
+185,spotify:track:1TFqH3zKOiTZoVe0OQuJte,Grupo Menos É Mais,Até Que Durou / Tu Mandas No Meu Coração / Adorei / Supera - Ao Vivo,Som Livre,140,161,7,777970,453018
+186,spotify:track:3qmdfYpfvKRIXmWaLllHZ3,"MC Teteu, Dj Serpinha, 2Click",Black Lança (Catucando Gostosinho),2click Produções,19,167,28,774052,153230
+187,spotify:track:6MvaRZ6JZgJuXz9b1CMB1y,Baco Exu do Blues,20 Ligações,Baco Exu Do Blues,84,184,27,773296,193600
+188,spotify:track:17QN5kFprJqHdHLMj7hz4s,Gusttavo Lima,Ficha Limpa - Ao Vivo,Sony Music Entertainment,3,157,60,771276,194800
+189,spotify:track:4GOs8fPjp4M9CBHanTMwsQ,Henrique & Juliano,Seu Perfil (Ao Vivo),"Vida Nova Produções, sob licença exclusiva para Virgin Music Group",67,175,27,767822,183568
+190,spotify:track:0VjIjW4GlUZAMYd2vXMi3b,The Weeknd,Blinding Lights,Republic Records,25,170,135,765328,200040
+191,spotify:track:6jxE4XjFVSKF18kfo7FCl9,"Borges, L3OZIN, Mainstreet",Iphone Branco,Mainstreet,65,165,23,764147,137142
+192,spotify:track:2jIaDVi0tKGjPZxVIxH1Al,Gustavo Moura & Rafael,Cara de Golpe,Astro Produções,164,164,6,759770,185726
+193,spotify:track:1xvfsV9kFl65F1r7YqWuVk,"Heitor, Ana Castela",Casalzão (Ao Vivo),iLHA43,193,-1,1,749568,133528
+194,spotify:track:6ve9hbVnSgJ0vrsRpj18OH,Gusttavo Lima,Não Me Arranha - Ao Vivo,Sony Music Entertainment,24,168,43,748742,159750
+195,spotify:track:2XymTaHTrQWDEuSyhfZvqF,Matuê,Antes,Sony Music Entertainment,12,189,27,745686,169092
+196,spotify:track:46Xq7I6GwGzFCXVuit55dE,"Mari Fernandez, Simone & Simaria",Eu Quero Recair - Ao Vivo,Sony Music Entertainment,137,137,2,742110,179539
+197,spotify:track:40KZgKCIvRVIoZqv9lNBoP,"Jessé Aguiar, Todah Music",Alívio,Todah Music,119,193,49,738963,285098
+198,spotify:track:5II8BRTRPM8QY5dhS0pM8s,"Yasmin Santos, Hugo & Guilherme",Dói Saber (feat. Hugo & Guilherme) - Ao Vivo,Sony Music Entertainment,198,-1,1,735604,206480
+199,spotify:track:2QjOHCTQ1Jl3zawyYOpxh6,The Neighbourhood,Sweater Weather,Columbia,165,191,28,732124,240400
+200,spotify:track:6qdJZIjxrPaJjaGqlXFLSs,Gusttavo Lima,Nota de Repúdio - Ao Vivo,Sony Music Entertainment,4,171,48,727076,164949
