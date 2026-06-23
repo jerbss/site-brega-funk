@@ -1,6 +1,7 @@
 <script>
 	import themes from "$data/themes.json";
 	import { getContext, onMount } from "svelte";
+	import { base } from "$app/paths";
 
 	let { sectionId, nodeId, src, alt, shape = "rectangle", source } = $props();
 	const { registerNode } = getContext("nodeRegistry");
@@ -30,7 +31,7 @@
 		style={insetShadows ? `--inset-shadows: ${insetShadows}` : ""}
 	>
 		<img
-			src={`assets/img/${sectionId}/${src}`}
+			src={`${base}/assets/img/${sectionId}/${src}`}
 			class:rectangle={shape === "rectangle" || shape === "full"}
 			class:circle={shape === "circle"}
 			class:oval={shape === "oval"}

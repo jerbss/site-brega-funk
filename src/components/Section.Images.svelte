@@ -1,5 +1,6 @@
 <script>
 	import { getContext, onMount, tick } from "svelte";
+	import { base } from "$app/paths";
 	import { current } from "$runes/misc.svelte.js";
 
 	let { nodeId, sectionId, images } = $props();
@@ -55,7 +56,7 @@
 					loop={true}
 					muted={true}
 					playsinline={true}
-					src={hasLoaded ? `assets/img/${sectionId}/${src}` : undefined}
+					src={hasLoaded ? `${base}/assets/img/${sectionId}/${src}` : undefined}
 				></video>
 				<a class="caption" href={link} target="_blank">Full video</a>
 			{:else}
@@ -67,7 +68,7 @@
 					style:transform={shape !== "final"
 						? `rotate(${Math.random() * 8 - 4}deg)`
 						: 0}
-					src={hasLoaded ? `assets/img/${sectionId}/${src}` : undefined}
+					src={hasLoaded ? `${base}/assets/img/${sectionId}/${src}` : undefined}
 					{alt}
 				/>
 			{/if}

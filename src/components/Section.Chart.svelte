@@ -24,6 +24,7 @@
 	import GridPassinhoContexts from "./charts/GridPassinhoContexts.svelte";
 	import ChartSongDurationTrend from "./charts/ChartSongDurationTrend.svelte";
 	import InteractiveBPMComparator from "./charts/InteractiveBPMComparator.svelte";
+	import PlaylistBregaFunk from "./charts/PlaylistBregaFunk.svelte";
 
 	const components = {
 		"chart-envolvimento-trajectory": ChartEnvolvimento,
@@ -32,7 +33,8 @@
 		"map-google-trends-brega-funk": MapGoogleTrends,
 		"grid-passinho-contexts": GridPassinhoContexts,
 		"chart-song-duration-trend": ChartSongDurationTrend,
-		"interactive-bpm-comparator": InteractiveBPMComparator
+		"interactive-bpm-comparator": InteractiveBPMComparator,
+		"playlist-brega-funk-anthology": PlaylistBregaFunk
 	};
 	const C = components[id];
 </script>

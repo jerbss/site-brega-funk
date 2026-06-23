@@ -219,23 +219,21 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "Essa engrenagem para prender a atenção no Spotify não gerou apenas cliques na internet. Ela mudou a realidade financeira nas comunidades de Recife. Sem depender de grandes gravadoras, jovens DJs, MCs e dançarinos começaram a produzir seus próprios hits de dentro do quarto e a divulgá-los pelo WhatsApp, criando um mercado independente que hoje sustenta famílias inteiras na periferia.",
+						"text": "Essa aceleração das músicas para agradar o algoritmo gerou um mercado real e independente no Recife. Longe das grandes gravadoras, jovens DJs, MCs e dançarinos passaram a viver da música que produzem nos próprios quartos e a divulgar pelo WhatsApp. No documentário abaixo, os artistas mostram como criam as batidas usando panelas no computador e como grupos de dança, como o de Santo Amaro, mudaram a rotina dos jovens locais.",
 						"speaker": "eunice"
 					}
 				},
 				{
-					"type": "Chart",
+					"type": "Video",
 					"value": {
-						"id": "grid-artists-cards",
-						"title": "Quem Fez a Cena: Protagonistas do Brega Funk",
-						"subtitle": "Grade de cards com foto, cidade natal e principal sucesso dos produtores, MCs e dançarinos mais influentes da história do ritmo.",
-						"source": "Fonte: Curadoria Editorial"
+						"url": "https://www.youtube-nocookie.com/embed/3qLr-qILt1k?si=QAm_N7EtdYuzVBJm",
+						"title": "Documentário Brega Funk Vai Dominar o Mundo (Spotify)"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "No fim das contas, a resposta para a nossa pergunta é simples. O brega funk conquistou o Brasil em 15 segundos porque soube unir as duas pontas da internet: a coreografia do passinho, feita sob medida para um vídeo curto, e um refrão que explode logo na largada, antes que você tenha tempo de pular a música. Juntando dança viral e hits adaptados para a nossa pressa, o som do Recife quebrou o monopólio cultural de Rio e São Paulo e fez o país inteiro dançar no ritmo dele.",
+						"text": "No fim das contas, o brega funk conquistou o Brasil porque uniu a coreografia rápida do passinho, que mistura passos de frevo e funk, com músicas que começam direto no refrão para ninguém pular. Essa combinação, feita para prender o ouvinte nos primeiros segundos, levou o som do Recife para o topo das plataformas de streaming e quebrou o domínio das produções do Sudeste no rádio e na internet.",
 						"speaker": "minji"
 					}
 				}

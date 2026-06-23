@@ -1,5 +1,6 @@
 <script>
 	import _ from "lodash";
+	import { base } from "$app/paths";
 	import playSvg from "$svg/play-circle.svg";
 	import pauseSvg from "$svg/pause-circle.svg";
 	import inView from "$actions/inView.js";
@@ -61,12 +62,12 @@
 	<div class="cover-art">
 		{#if id}
 			<img
-				src={`assets/img/songs/${id}.jpg`}
+				src={`${base}/assets/img/songs/${id}.jpg`}
 				alt={`Cover art for ${title} by ${artist}`}
 			/>
 			<audio
 				bind:this={audioEl}
-				src={`assets/audio/${id}.m4a`}
+				src={`${base}/assets/audio/${id}.m4a`}
 				bind:paused
 				bind:currentTime
 				bind:duration

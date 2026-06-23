@@ -1,6 +1,7 @@
 <script>
 	import _ from "lodash";
 	import { prefersReducedMotion } from "svelte/motion";
+	import { base } from "$app/paths";
 	import copy from "$data/copy.json";
 
 	import { current } from "$runes/misc.svelte.js";
@@ -19,13 +20,13 @@
 <header>
 	<nav class:visible={current.section !== "title"}>
 		<ul>
-			{#each copy.sections.filter((s) => s.heading && s.numEnd) as { id, numEnd, years }}
+			{#each copy.sections.filter((s) => s.numEnd) as { id, numEnd, years }}
 				{@const active = current.section === id}
 				{@const title = _.upperCase(id)}
 				<li>
 					<button onclick={() => onClick(id)} class:active>
 						<div class="num">
-							<img src="assets/img/{id}/num.png" alt="number for {id}" />
+							<img src="{base}/assets/img/{id}/num.png" alt="number for {id}" />
 						</div>
 						<div class="label">
 							<p>{numEnd} gen</p>
