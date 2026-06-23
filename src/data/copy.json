@@ -195,8 +195,8 @@
 					"type": "Chart",
 					"value": {
 						"id": "interactive-bpm-comparator",
-						"title": "A Engenharia de 'Surtada': Original vs. Remix",
-						"subtitle": "Comparativo interativo de arranjo e andamento (BPM) das versões Original (Calibre 2.1) e Remix (Brega Funk) de \"Surtada\". Dê play ou navegue nas timelines para comparar a estrutura linear tradicional contra o início imediato e drop dinâmico do remix.",
+						"title": "\"SURTADA\": ORIGINAL VS. REMIX",
+						"subtitle": "O comparativo demonstra a alteração estrutural e rítmica entre as duas versões da composição. O arranjo original segue um padrão linear com o clímax aos 0:57. Em contraste, a produção do brega funk descarta as introduções acústicas, eleva o andamento para 154 BPM e entrega o refrão logo no oitavo segundo de reprodução, reformatando a faixa para a velocidade de consumo da internet.",
 						"source": "Fonte: Metadados do Spotify & Genius"
 					}
 				},
