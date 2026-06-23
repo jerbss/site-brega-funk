@@ -132,7 +132,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "A consolidação do brega funk no país ocorreu em sintonia com o passinho, estilo de dança urbana que serve como a tradução visual das batidas. O movimento começou como forma de expressão de jovens da periferia, que encontravam na dança uma linguagem própria de reconhecimento.",
+						"text": "A popularização do brega funk no Brasil andou de mãos dadas com a cultura do \"passinho dos maloka\". Antes de dominar as redes sociais, a dança já era febre entre os jovens das periferias do Recife, que formavam grupos para inventar coreografias e acompanhar as batidas aceleradas.",
 						"speaker": "eunice"
 					}
 				},
@@ -140,22 +140,22 @@
 					"type": "Chart",
 					"value": {
 						"id": "grid-passinho-contexts",
-						"title": "Múltiplos Contextos do Passinho",
-						"subtitle": "Grid interativo com vídeos curtos ou GIFs comparativos do passinho em 4 cenários: nas calçadas de Recife (raiz), nas comemorações de futebol (Neymar), na televisão nacional e no TikTok.",
-						"source": "Curadoria e Acervo de Redes Sociais (YouTube / TikTok)"
+						"title": "",
+						"subtitle": "",
+						"source": ""
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "Um dos maiores exemplos dessa cultura foi o Passinho do Jamal, criado no bairro de Santo Amaro, em Recife, por Romero Júnior e Eo Chapa. Os passos rápidos de pés e movimentos de mãos tornaram-se assinatura visual do gênero, espalhando-se por vídeos caseiros gravados nas calçadas das comunidades.",
+						"text": "Com o avanço dos vídeos curtos, os passos ganharam novas variações que dominaram a internet. Um dos maiores exemplos recentes dessa febre foi o Passinho do Jamal, criado no bairro de Santo Amaro, no Recife, pelos amigos Romero Júnior e Pedro Henrique. Os movimentos rápidos de mãos e pés tornaram-se assinatura visual do gênero na era do TikTok.",
 						"speaker": "minji"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "A coreografia ultrapassou as redes e chegou a comemorações de jogadores de futebol, programas de televisão e reality shows. Esse apelo corporal ajudou a atrair novos públicos e alimentar os algoritmos de vídeos curtos em plataformas digitais.",
+						"text": "A coreografia ultrapassou as redes e chegou a comemorações de jogadores de futebol, programas de televisão e reality shows. Esse apelo corporal ajudou a atrair novos públicos e alimentar os algoritmos das plataformas digitais.",
 						"speaker": "eunice"
 					}
 				}
@@ -203,7 +203,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "Essa dinâmica produziu anomalias nas plataformas de dados. Embora a velocidade real do brega funk varie de 115 a 135 BPM, o Spotify registra faixas como Envolvimento com 165 BPM. A síncope das palmas e o compasso acelerado da dança confundem o algoritmo de leitura automática de andamento.",
+						"text": "Essa dinâmica gerou uma nova engenharia musical. Para contornar as barreiras do algoritmo e maximizar a monetização, muitas faixas de brega funk dispensam a tradicional introdução e começam diretamente no refrão. A estratégia garante que o ouvinte não pule a música antes dos trinta segundos cruciais, transformando a impaciência das redes sociais na fórmula exata para liderar o streaming.",
 						"speaker": "minji"
 					}
 				}

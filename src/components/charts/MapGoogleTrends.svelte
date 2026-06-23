@@ -163,12 +163,7 @@
 		stroke-width: 2;
 		filter: drop-shadow(0 0 8px rgba(255, 0, 127, 0.6));
 	}
-	.state-label {
-		font-family: var(--mono, monospace);
-		font-size: 9px;
-		pointer-events: none;
-		font-weight: 600;
-	}
+
 
 	.legend {
 		display: flex;

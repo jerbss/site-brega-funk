@@ -44,7 +44,7 @@
 
 		<!-- Credits Section -->
 		<div class="credits-container">
-			<h3>Créditos</h3>
+			<h3>Ficha Técnica</h3>
 			<div class="team-grid">
 				{#each team as member}
 					<div
