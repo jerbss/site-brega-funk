@@ -1,5 +1,6 @@
 <script>
 	import { onDestroy } from "svelte";
+	import { base } from "$app/paths";
 	import waveformsData from "$data/surtada_waveforms.json";
 
 	let { title, subtitle, availableWidth } = $props();
@@ -11,8 +12,8 @@
 	};
 
 	const audioPaths = {
-		original: "/assets/img/songs/Surtada_spotdown.org.mp3",
-		remix: "/assets/img/songs/Surtada - Remix Brega Funk_spotdown.org.mp3"
+		original: `${base}/assets/img/songs/surtada_original.mp3`,
+		remix: `${base}/assets/img/songs/surtada_remix.mp3`
 	};
 
 	// Estados de reprodução independentes por faixa
