@@ -195,9 +195,9 @@
 					"type": "Chart",
 					"value": {
 						"id": "interactive-bpm-comparator",
-						"title": "Dissonância Rítmica: O que o Algoritmo Ouve",
-						"subtitle": "Comparador de batidas por minuto (BPM). O algoritmo do Spotify registra faixas como \"Envolvimento\" a ~165 BPM, enquanto o andamento real do ritmo é o compasso binário de ~82 BPM. Clique para ouvir o metrônomo correspondente.",
-						"source": "Fonte: Spotify Audio Features API & Medições Manuais"
+						"title": "A Engenharia de 'Surtada': Original vs. Remix",
+						"subtitle": "Comparativo interativo de arranjo e andamento (BPM) das versões Original (Calibre 2.1) e Remix (Brega Funk) de \"Surtada\". Dê play ou navegue nas timelines para comparar a estrutura linear tradicional contra o início imediato e drop dinâmico do remix.",
+						"source": "Fonte: Metadados do Spotify & Genius"
 					}
 				},
 				{
