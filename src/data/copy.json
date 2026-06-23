@@ -179,8 +179,8 @@
 					"type": "Chart",
 					"value": {
 						"id": "chart-song-duration-trend",
-						"title": "Tendência de Queda na Duração das Músicas",
-						"subtitle": "Evolução da duração mediana das músicas no Top 200 Brasil (2018 - 2025). Pontos destacados mostram como as faixas de brega funk anteciparam essa redução geral sob a economia da atenção.",
+						"title": "A Invasão dos Hits Curtos",
+						"subtitle": "O gráfico demonstra o crescimento de hits curtos nas paradas nacionais. Em 2018, as faixas com menos de 2 minutos e meio representavam apenas 8,2% do Top 200, proporção que saltou para 24,1% em 2024 impulsionada pela economia da atenção de plataformas de vídeos curtos.",
 						"source": "Fonte: Spotify Charts Brasil & Metadados do Spotify Web Player"
 					}
 				},
