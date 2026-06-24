@@ -44,7 +44,7 @@
 	bind:this={el}
 	bind:clientWidth={width}
 	class:audio-player={id === "audio-early-brega-funk"}
-	style={themes[sectionId]["text-style"] + `; --padding: ${padding}px;`}
+	style={themes[sectionId]["text-style"] ? `${themes[sectionId]["text-style"]}; --padding: ${padding}px;` : `--padding: ${padding}px;`}
 >
 	{#if C}
 		<C {title} {subtitle} {availableWidth} />
@@ -63,11 +63,7 @@
 		</div>
 	{/if}
 
-	{#if source && id !== "audio-early-brega-funk"}
-		<div class="source">{@html source}</div>
-	{/if}
-
-	{#if id === "audio-early-brega-funk" && source}
+	{#if source}
 		<div class="source-tab">
 			<span class="source-text">{@html source}</span>
 		</div>
@@ -92,12 +88,6 @@
 		flex-direction: column;
 		align-items: center;
 		z-index: 2;
-	}
-
-	.source {
-		margin-top: 1rem;
-		align-self: start;
-		font-size: var(--12px);
 	}
 
 	.source-tab {

@@ -3,7 +3,9 @@
 		"verbatimModuleSyntax": true,
 		"moduleResolution": "bundler",
 		"module": "ESNext",
-		"target": "ESNext"
+		"target": "ESNext",
+		"allowJs": true,
+		"checkJs": false
 	},
-	"include": ["src/**/*"]
+	"include": ["src/**/*", "src/**/*.js", "src/**/*.svelte"]
 }

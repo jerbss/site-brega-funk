@@ -16,7 +16,7 @@
 	id={nodeId}
 	bind:this={el}
 	class="video-wrapper"
-	style={themes[sectionId]["text-style"]}
+	style={themes[sectionId]["text-style"] || null}
 >
 	<iframe
 		src={url}

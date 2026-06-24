@@ -33,7 +33,7 @@
 		class:with-margin={withMargin}
 		class:is-visible={visible}
 		bind:this={el}
-		style={themes[sectionId]["text-style"]}
+		style={themes[sectionId]["text-style"] || null}
 		use:inView
 		onenter={handleEnter}
 	>

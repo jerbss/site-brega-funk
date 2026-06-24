@@ -338,6 +338,7 @@
 	.year-slider {
 		width: 100%;
 		-webkit-appearance: none;
+		appearance: none;
 		background: rgba(255, 255, 255, 0.1);
 		height: 6px;
 		border-radius: 3px;
