@@ -30,8 +30,6 @@
 	<div
 		id={nodeId}
 		class="text-block"
-		class:left={speaker === "eunice"}
-		class:right={speaker === "minji"}
 		class:with-margin={withMargin}
 		class:is-visible={visible}
 		bind:this={el}
@@ -50,20 +48,8 @@
 {/snippet}
 
 {#if song}
-	<div
-		class="text-wrapper"
-		class:reverse={(speaker === "eunice" && song.direction === "before") ||
-			(speaker === "minji" && song.direction === "after")}
-	>
-		{#if song && speaker === "minji"}
-			<Song {...song} />
-		{/if}
-
+	<div class="text-wrapper">
 		{@render textBlock(false)}
-
-		{#if song && speaker === "eunice"}
-			<Song {...song} />
-		{/if}
 	</div>
 {:else}
 	{@render textBlock(true)}
@@ -81,12 +67,19 @@
 
 	.text-block {
 		--speaker-overhang: 1.75rem;
-		border-radius: var(--border-radius);
+		border-radius: var(--border-radius, 12px);
 		padding: 2rem;
-		width: calc(100% - var(--speaker-overhang));
+		width: 100%;
 		max-width: 666px;
 		position: relative;
 		z-index: 1000;
+		margin: 0 auto;
+
+		/* Retornando o estilo do retângulo */
+		color: var(--text-color, #ffffff);
+		background: var(--text-bg, rgba(255, 255, 255, 0.05));
+		border: 2px solid var(--border, rgba(255, 255, 255, 0.2));
+		box-shadow: var(--box-shadow, 0px 0px 15px rgba(255, 255, 255, 0.05));
 	}
 
 	@media (prefers-reduced-motion: no-preference) {
@@ -99,49 +92,6 @@
 			will-change: transform, opacity;
 		}
 
-		.text-block.left {
-			transform: translateX(-30px) !important;
-		}
-
-		.text-block.right {
-			transform: translateX(30px) !important;
-		}
-
-		.text-block.is-visible {
-			opacity: 1;
-			transform: translateX(0) !important;
-		}
-	}
-
-	@media (prefers-reduced-motion: reduce) {
-		.text-block.left,
-		.text-block.right {
-			transform: none !important;
-		}
-	}
-
-	.text-block.with-margin {
-		margin: 2rem 0;
-	}
-
-	.text-block.left {
-		align-self: start;
-		margin-left: var(--speaker-overhang);
-		color: var(--eunice-text-color, var(--text-color));
-		background: var(--eunice-text-bg, var(--text-bg));
-		border: 2px solid var(--eunice-border, var(--border));
-		outline-color: var(--eunice-border, var(--border));
-		box-shadow: var(--eunice-box-shadow, var(--box-shadow));
-	}
-
-	.text-block.right {
-		align-self: end;
-		margin-right: var(--speaker-overhang);
-		color: var(--minji-text-color, var(--text-color));
-		background: var(--minji-text-bg, var(--text-bg));
-		border: 2px solid var(--minji-border, var(--border));
-		outline-color: var(--minji-border, var(--border));
-		box-shadow: var(--minji-box-shadow, var(--box-shadow));
 	}
 
 	.text-block.is-visible {

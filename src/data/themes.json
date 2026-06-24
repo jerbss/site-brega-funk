@@ -8,10 +8,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#d4ff00",
-		"box-shadow": "0px 0px 15px rgba(212, 255, 0, 0.2)",
-		"eunice-text-bg": "rgba(212, 255, 0, 0.1)"
+		"box-shadow": "0px 0px 15px rgba(212, 255, 0, 0.2)"
 	},
-
 	"second-gen": {
 		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
 		"heading-color": "#ff007f",
@@ -20,13 +18,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#ff007f",
-		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)",
-		"eunice-text-color": "#ffffff",
-		"eunice-text-bg": "rgba(255, 0, 127, 0.1)",
-		"eunice-border": "#ff007f",
-		"eunice-box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)"
 	},
-
 	"third-gen": {
 		"background": "transparent, rgba(0, 243, 255, 0.04) 50%, transparent",
 		"heading-color": "#00f3ff",
@@ -35,10 +28,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#00f3ff",
-		"box-shadow": "0px 0px 15px rgba(0, 243, 255, 0.2)",
-		"minji-border": "#00f3ff"
+		"box-shadow": "0px 0px 15px rgba(0, 243, 255, 0.2)"
 	},
-
 	"fourth-gen": {
 		"background": "transparent, rgba(189, 0, 255, 0.04) 50%, transparent",
 		"heading-color": "#bd00ff",
@@ -47,10 +38,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#bd00ff",
-		"box-shadow": "0px 0px 15px rgba(189, 0, 255, 0.2)",
-		"eunice-box-shadow": "0px 0px 15px rgba(189, 0, 255, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(189, 0, 255, 0.2)"
 	},
-
 	"fifth-gen": {
 		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
 		"heading-color": "#ff007f",
@@ -59,14 +48,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#ff007f",
-		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)",
-		"minji-heading-color": "#d4ff00",
-		"minji-heading-shadow": "0 0 15px rgba(212, 255, 0, 0.4)",
-		"minji-line-stroke": "#d4ff00",
-		"minji-text-color": "#ffffff",
-		"minji-box-shadow": "0px 0px 15px rgba(212, 255, 0, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)"
 	},
-
 	"extra-playlist": {
 		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
 		"heading-color": "#ff007f",

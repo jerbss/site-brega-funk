@@ -1,42 +1,9 @@
 <script>
-	import _ from "lodash";
-	import { prefersReducedMotion } from "svelte/motion";
-	import { base } from "$app/paths";
-	import copy from "$data/copy.json";
-
-	import { current } from "$runes/misc.svelte.js";
-	import useWindowDimensions from "$runes/useWindowDimensions.svelte.js";
-	let dimensions = new useWindowDimensions();
-
-	const onClick = (id) => {
-		const el = document.getElementById(id);
-		if (el)
-			el.scrollIntoView({
-				behavior: prefersReducedMotion.current ? "instant" : "smooth"
-			});
-	};
 </script>
 
+
 <header>
-	<nav class:visible={current.section !== "title"}>
-		<ul>
-			{#each copy.sections.filter((s) => s.numEnd) as { id, numEnd, years }}
-				{@const active = current.section === id}
-				{@const title = _.upperCase(id)}
-				<li>
-					<button onclick={() => onClick(id)} class:active>
-						<div class="num">
-							<img src="{base}/assets/img/{id}/num.png" alt="number for {id}" />
-						</div>
-						<div class="label">
-							<p>{numEnd} gen</p>
-							<!-- <div class="years">{years}</div> -->
-						</div>
-					</button>
-				</li>
-			{/each}
-		</ul>
-	</nav>
+	<!-- Navegação por geração removida para o projeto Brega Funk -->
 </header>
 
 <style>
@@ -89,89 +56,6 @@
 		transform: rotate(0) scale(1.05);
 	}
 
-	nav {
-		grid-column: 3;
-		justify-self: end;
-		color: #f2fafe;
-		font-size: var(--12px);
-		font-weight: bold;
-		margin-left: auto;
-		display: none;
-	}
-
-	nav.visible {
-		display: block;
-	}
-
-	nav ul {
-		list-style: none;
-		padding: 0;
-		display: flex;
-		gap: 1rem;
-	}
-
-	button {
-		background: none;
-		padding: 0;
-		color: inherit;
-		display: flex;
-		align-items: center;
-		font-weight: bold;
-		gap: 4px;
-		opacity: 0.4;
-		transition: opacity calc(var(--1s) * 0.3);
-	}
-
-	button:hover {
-		opacity: 0.8;
-	}
-
-	button.active {
-		opacity: 1;
-	}
-
-	.num {
-		height: 30px;
-		display: flex;
-		align-items: center;
-	}
-
-	.num img {
-		height: 100%;
-		width: auto;
-		display: block;
-		object-fit: contain;
-	}
-
-	.label {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-transform: uppercase;
-		text-align: left;
-	}
-
-	.years {
-		font-size: 11px;
-		white-space: nowrap;
-	}
-
-	.circle {
-		height: 6px;
-		width: 6px;
-		flex-shrink: 0;
-		transform: translate(0, -1px); /* to look more centered */
-		border-radius: 50%;
-		display: inline-block;
-		background: white;
-		opacity: 0;
-		transition: opacity calc(var(--1s) * 0.2);
-	}
-
-	.active .circle {
-		opacity: 1;
-	}
-
 	:global(header .wordmark svg) {
 		height: 100%;
 		width: auto;
@@ -191,19 +75,6 @@
 
 		.wordmark-header {
 			display: none;
-		}
-
-		nav {
-			margin: 0;
-		}
-
-		nav ul {
-			gap: 0.5rem;
-		}
-
-		li {
-			text-align: center;
-			line-height: 1.2;
 		}
 	}
 
