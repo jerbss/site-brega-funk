@@ -1,0 +1,1098 @@
+{
+  "2018": [
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 100
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 47
+    },
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 35
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 32
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 28
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 28
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 22
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 19
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 19
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 17
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 14
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 8
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 5
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 5
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 3
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 3
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 3
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 2
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 0
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 0
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 0
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 0
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 0
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 0
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 0
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 0
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 0
+    }
+  ],
+  "2019": [
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 100
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 81
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 67
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 60
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 47
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 46
+    },
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 46
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 40
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 26
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 22
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 19
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 16
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 15
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 15
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 7
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 7
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 7
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 7
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 7
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 6
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 5
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 5
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 4
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 3
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 3
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 3
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 3
+    }
+  ],
+  "2020": [
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 100
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 98
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 64
+    },
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 58
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 56
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 54
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 50
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 37
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 34
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 25
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 22
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 22
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 21
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 18
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 11
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 9
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 8
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 8
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 7
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 7
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 6
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 6
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 5
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 4
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 4
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 4
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 4
+    }
+  ],
+  "2021": [
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 100
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 90
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 59
+    },
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 56
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 42
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 39
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 37
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 31
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 27
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 23
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 19
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 15
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 14
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 13
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 9
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 8
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 7
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 7
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 6
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 6
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 5
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 4
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 4
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 4
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 4
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 3
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 3
+    }
+  ],
+  "2022": [
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 100
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 91
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 69
+    },
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 65
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 44
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 32
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 31
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 27
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 22
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 21
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 17
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 16
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 14
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 9
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 8
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 6
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 5
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 5
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 5
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 4
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 4
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 3
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 3
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 3
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 3
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 3
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 2
+    }
+  ],
+  "2023": [
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 100
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 94
+    },
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 92
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 77
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 44
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 31
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 30
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 29
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 26
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 22
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 19
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 19
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 18
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 9
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 8
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 8
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 7
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 6
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 6
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 6
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 5
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 5
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 4
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 4
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 4
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 3
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 0
+    }
+  ],
+  "2024": [
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 100
+    },
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 96
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 75
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 66
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 38
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 32
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 24
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 20
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 20
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 18
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 17
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 16
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 9
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 7
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 7
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 5
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 5
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 5
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 4
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 4
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 4
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 3
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 3
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 3
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 2
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 0
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 0
+    }
+  ],
+  "2025": [
+    {
+      "state": "PE",
+      "name": "Pernambuco",
+      "interest": 100
+    },
+    {
+      "state": "AL",
+      "name": "Alagoas",
+      "interest": 89
+    },
+    {
+      "state": "PB",
+      "name": "Paraíba",
+      "interest": 81
+    },
+    {
+      "state": "SE",
+      "name": "Sergipe",
+      "interest": 57
+    },
+    {
+      "state": "RN",
+      "name": "Rio Grande do Norte",
+      "interest": 32
+    },
+    {
+      "state": "CE",
+      "name": "Ceará",
+      "interest": 23
+    },
+    {
+      "state": "MA",
+      "name": "Maranhão",
+      "interest": 22
+    },
+    {
+      "state": "PI",
+      "name": "Piauí",
+      "interest": 18
+    },
+    {
+      "state": "PA",
+      "name": "Pará",
+      "interest": 17
+    },
+    {
+      "state": "AM",
+      "name": "Amazonas",
+      "interest": 17
+    },
+    {
+      "state": "RR",
+      "name": "Roraima",
+      "interest": 17
+    },
+    {
+      "state": "AP",
+      "name": "Amapá",
+      "interest": 16
+    },
+    {
+      "state": "BA",
+      "name": "Bahia",
+      "interest": 15
+    },
+    {
+      "state": "TO",
+      "name": "Tocantins",
+      "interest": 11
+    },
+    {
+      "state": "GO",
+      "name": "Goiás",
+      "interest": 7
+    },
+    {
+      "state": "MG",
+      "name": "Minas Gerais",
+      "interest": 6
+    },
+    {
+      "state": "DF",
+      "name": "Distrito Federal",
+      "interest": 6
+    },
+    {
+      "state": "ES",
+      "name": "Espírito Santo",
+      "interest": 5
+    },
+    {
+      "state": "RJ",
+      "name": "Rio de Janeiro",
+      "interest": 5
+    },
+    {
+      "state": "MS",
+      "name": "Mato Grosso do Sul",
+      "interest": 4
+    },
+    {
+      "state": "MT",
+      "name": "Mato Grosso",
+      "interest": 4
+    },
+    {
+      "state": "SP",
+      "name": "São Paulo",
+      "interest": 4
+    },
+    {
+      "state": "SC",
+      "name": "Santa Catarina",
+      "interest": 4
+    },
+    {
+      "state": "PR",
+      "name": "Paraná",
+      "interest": 3
+    },
+    {
+      "state": "RS",
+      "name": "Rio Grande do Sul",
+      "interest": 2
+    },
+    {
+      "state": "RO",
+      "name": "Rondônia",
+      "interest": 0
+    },
+    {
+      "state": "AC",
+      "name": "Acre",
+      "interest": 0
+    }
+  ]
+}
