@@ -180,7 +180,7 @@
 					"value": {
 						"id": "chart-song-duration-trend",
 						"title": "A Queda na Duração no Spotify",
-						"subtitle": "O gráfico demonstra o crescimento de hits curtos nas paradas nacionais. Em 2018, as faixas com menos de 2 minutos e meio representavam apenas 8,2% do Top 200, proporção que saltou para 24,1% em 2024 impulsionada pela economia da atenção de plataformas de vídeos curtos.",
+						"subtitle": "Proporção de faixas com menos de 2m30s no Top 200 do Spotify Brasil (2018–2025). A participação desse formato triplicou ao saltar de 8,2% em 2018 para o pico de 24,1% em 2024, impulsionada pelas dinâmicas de repetição rápida em redes de vídeos curtos.",
 						"source": "Fonte: Spotify Charts Brasil & Metadados do Spotify Web Player"
 					}
 				},
@@ -196,7 +196,7 @@
 					"value": {
 						"id": "interactive-bpm-comparator",
 						"title": "A Diferença de Estrutura nas Versões",
-						"subtitle": "O comparativo demonstra a alteração estrutural e rítmica entre as duas versões da composição. O arranjo original segue um padrão linear com o clímax aos 0:57. Em contraste, a produção do brega funk descarta as introduções acústicas, eleva o andamento para 154 BPM e entrega o refrão logo no oitavo segundo de reprodução, reformatando a faixa para a velocidade de consumo da internet.",
+						"subtitle": "Diferenças de ritmo e tempo nas duas versões de \"Surtada\". A composição original constrói a melodia de forma lenta até o refrão aos 0:57, enquanto o remix acelera para 154 BPM e entrega o refrão aos 0:08, cortando introduções para engajar o usuário de imediato.",
 						"source": "Fonte: Metadados do Spotify & Genius"
 					}
 				},
@@ -250,8 +250,8 @@
 					"type": "Chart",
 					"value": {
 						"id": "playlist-brega-funk-anthology",
-						"title": "A Nossa Playlist no Spotify",
-						"subtitle": "Evolução cronológica do gênero por meio de faixas essenciais, desde a base recifense de 2011 até a invasão das paradas nacionais e as experimentações atuais."
+						"title": "Playlist Curada pela Equipe",
+						"subtitle": "Músicas selecionadas pela nossa equipe para você ouvir, conhecer e curtir o ritmo."
 					}
 				}
 			]
