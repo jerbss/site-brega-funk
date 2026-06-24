@@ -100,7 +100,7 @@
 					"value": {
 						"id": "chart-brega-funk-growth",
 						"title": "O Crescimento das Buscas no Google",
-						"subtitle": "O gráfico demonstra que a popularização do termo na internet demorou a acontecer. No início de 2018, quando o hit \"Envolvimento\" estourou, quase ninguém pesquisava usando o termo \"brega funk\". A explosão de buscas só ocorreu entre o fim de 2019 e o início de 2020, impulsionada por grandes hits de Carnaval como \"Sentadão\" e \"Tudo OK\".",
+						"subtitle": "Histórico de interesse pelo termo \"brega funk\" no Google Brasil. A linha revela que as buscas permaneceram quase zeradas durante o estouro de \"Envolvimento\" em 2018, saltando drasticamente apenas no final de 2019 até atingir o ápice no início de 2020, impulsionada por mega hits de Carnaval como \"Sentadão\" e \"Tudo OK\".",
 						"source": "Fonte: Google Trends Brasil (2018 - 2026)"
 					}
 				},
@@ -109,7 +109,7 @@
 					"value": {
 						"id": "map-google-trends-brega-funk",
 						"title": "O Interesse por Estado no Brasil",
-						"subtitle": "Evolução do interesse de busca pelo termo <em>brega funk</em> em relação ao próprio pico de interesse histórico de cada estado no Google Trends (2018 a 2025). A visualização cronológica revela como a explosão de buscas se espalhou pelo país, partindo de Pernambuco em 2018 até atingir o ápice de interesse local em São Paulo e no Rio de Janeiro entre 2019 e 2020.",
+						"subtitle": "Histórico anual de buscas pelo termo em cada estado (2018–2025). O mapa evidencia o baixo interesse em 2018, o avanço das buscas no Nordeste em 2019 e o pico nacional em 2020, embalado pelos hits que dominaram as plataformas de streaming.",
 						"source": "Fonte: Google Trends Brasil (Linha do Tempo por Estado)"
 					}
 				},

@@ -61,13 +61,33 @@
 		const yearCount = {};
 
 		const stateNames = {
-			AC: "Acre", AL: "Alagoas", AP: "Amapá", AM: "Amazonas", BA: "Bahia",
-			CE: "Ceará", DF: "Distrito Federal", ES: "Espírito Santo", GO: "Goiás",
-			MA: "Maranhão", MT: "Mato Grosso", MS: "Mato Grosso do Sul", MG: "Minas Gerais",
-			PA: "Pará", PB: "Paraíba", PR: "Paraná", PE: "Pernambuco", PI: "Piauí",
-			RJ: "Rio de Janeiro", RN: "Rio Grande do Norte", RS: "Rio Grande do Sul",
-			RO: "Rondônia", RR: "Roraima", SC: "Santa Catarina", SP: "São Paulo",
-			SE: "Sergipe", TO: "Tocantins"
+			AC: "Acre",
+			AL: "Alagoas",
+			AP: "Amapá",
+			AM: "Amazonas",
+			BA: "Bahia",
+			CE: "Ceará",
+			DF: "Distrito Federal",
+			ES: "Espírito Santo",
+			GO: "Goiás",
+			MA: "Maranhão",
+			MT: "Mato Grosso",
+			MS: "Mato Grosso do Sul",
+			MG: "Minas Gerais",
+			PA: "Pará",
+			PB: "Paraíba",
+			PR: "Paraná",
+			PE: "Pernambuco",
+			PI: "Piauí",
+			RJ: "Rio de Janeiro",
+			RN: "Rio Grande do Norte",
+			RS: "Rio Grande do Sul",
+			RO: "Rondônia",
+			RR: "Roraima",
+			SC: "Santa Catarina",
+			SP: "São Paulo",
+			SE: "Sergipe",
+			TO: "Tocantins"
 		};
 
 		statesTimelineData.forEach((item) => {
@@ -75,7 +95,7 @@
 			if (year !== currentYear) return;
 
 			Object.entries(item.states).forEach(([state, val]) => {
-				if (!yearlyAverages[state]) {
+				if (yearlyAverages[state] === undefined) {
 					yearlyAverages[state] = 0;
 					yearCount[state] = 0;
 				}
@@ -241,7 +261,11 @@
 	</div>
 
 	<div class="map-context-footer">
-		<p><strong>Queda após 2021:</strong> O termo "brega funk" saturou como novidade nas buscas. O ritmo se fundiu ao pop mainstream e os ouvintes passaram a procurar por artistas específicos e hits, em vez do gênero musical genérico.</p>
+		<p>
+			<strong>Queda após 2021:</strong> O termo "brega funk" saturou como novidade
+			nas buscas. O ritmo se fundiu ao pop mainstream e os ouvintes passaram a procurar
+			por artistas específicos e hits, em vez do gênero musical genérico.
+		</p>
 	</div>
 </div>
 
