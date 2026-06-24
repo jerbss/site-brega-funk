@@ -1,7 +1,19 @@
 <script>
 	import "$styles/app.css";
+	import { current } from "$runes/misc.svelte.js";
+	import themes from "$data/themes.json";
 
 	let { children } = $props();
+
+	$effect(() => {
+		const activeSection = current.section;
+		const theme = themes[activeSection];
+		// Use the theme's heading-color, or fallback to the first section's lime green
+		const scrollbarColor = theme ? theme["heading-color"] : "#d4ff00";
+		if (typeof document !== "undefined") {
+			document.documentElement.style.setProperty("--scrollbar-color-dynamic", scrollbarColor);
+		}
+	});
 </script>
 
 <div class="app-container">

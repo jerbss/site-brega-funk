@@ -84,3 +84,44 @@ svg {
 	width: 100%;
 	height: auto;
 }
+
+/* Custom scrollbar to match the site's dark neon aesthetic */
+html {
+	scrollbar-width: thin;
+	scrollbar-color: var(--scrollbar-color-dynamic, var(--color-focus)) var(--color-bg);
+}
+
+/* WebKit-based browsers (Chrome, Safari, Edge, Opera) */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+/* Hide top/bottom arrows of the scrollbar */
+::-webkit-scrollbar-button {
+	display: none;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--scrollbar-color-dynamic, var(--color-focus));
+	border: 2.5px solid var(--color-bg); /* Elegant floating effect */
+	border-radius: 0; /* Flat rectangular style */
+	transition: background 0.4s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	filter: brightness(1.2);
+}
+
+
+/* CSS Property definition for smooth browser-level transition of variables */
+@property --scrollbar-color-dynamic {
+	syntax: "<color>";
+	inherits: true;
+	initial-value: #ff007f;
+}
+

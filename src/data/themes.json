@@ -41,23 +41,23 @@
 		"box-shadow": "0px 0px 15px rgba(189, 0, 255, 0.2)"
 	},
 	"fifth-gen": {
-		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
-		"heading-color": "#ff007f",
-		"heading-shadow": "0 0 15px rgba(255, 0, 127, 0.4)",
-		"line-stroke": "#ff007f",
+		"background": "transparent, rgba(255, 107, 0, 0.04) 50%, transparent",
+		"heading-color": "#ff6b00",
+		"heading-shadow": "0 0 15px rgba(255, 107, 0, 0.4)",
+		"line-stroke": "#ff6b00",
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
-		"border": "#ff007f",
-		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)"
+		"border": "#ff6b00",
+		"box-shadow": "0px 0px 15px rgba(255, 107, 0, 0.2)"
 	},
 	"extra-playlist": {
-		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
-		"heading-color": "#ff007f",
-		"heading-shadow": "0 0 15px rgba(255, 0, 127, 0.4)",
-		"line-stroke": "#ff007f",
+		"background": "transparent, rgba(255, 107, 0, 0.04) 50%, transparent",
+		"heading-color": "#ff6b00",
+		"heading-shadow": "0 0 15px rgba(255, 107, 0, 0.4)",
+		"line-stroke": "#ff6b00",
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
-		"border": "#ff007f",
-		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)"
+		"border": "#ff6b00",
+		"box-shadow": "0px 0px 15px rgba(255, 107, 0, 0.2)"
 	}
 }
