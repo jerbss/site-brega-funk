@@ -101,31 +101,24 @@
 	}
 
 	.source-tab {
-		position: absolute;
-		left: 1.5rem;
-		top: 100%;
-		margin-top: 0; /* Alinha exatamente com a borda inferior, sem subir para o padding */
-		padding: 6px 12px;
-		background: var(--border); /* Cor de fundo idêntica à borda */
-		border: 2px solid var(--border);
-		border-top: none;
-		border-radius: 0 0 6px 6px;
-		z-index: 3;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-		max-width: 75%; /* Ajustado para evitar sobrepor a curva do canto direito em telas menores */
-		width: 260px; /* Largura fixa no desktop */
-		white-space: normal; /* Permite quebra de linha */
-		word-break: break-word;
+		align-self: start;
+		margin-top: 1rem;
+		padding: 0;
+		background: transparent;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		max-width: 100%;
+		width: auto;
 		box-sizing: border-box;
 	}
 
 	.source-text {
-		font-family: var(--mono, monospace);
-		font-size: var(--11px, 11px);
-		color: #121212; /* Dark text for contrast against bright background */
-		font-weight: 700;
-		letter-spacing: 0.5px;
-		line-height: 1.3; /* Espaçamento de linha para múltiplas linhas */
+		font-family: var(--sans, sans-serif);
+		font-size: var(--12px, 12px);
+		color: rgba(255, 255, 255, 0.5); /* Muted light gray */
+		font-weight: 400;
+		line-height: 1.4;
 		display: inline-block;
 	}
 
