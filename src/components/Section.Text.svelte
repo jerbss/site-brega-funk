@@ -82,6 +82,16 @@
 		box-shadow: var(--box-shadow, 0px 0px 15px rgba(255, 255, 255, 0.05));
 	}
 
+	.text-block.with-margin {
+		margin: 3rem auto;
+	}
+
+	@media (max-width: 600px) {
+		.text-block.with-margin {
+			margin: 2rem auto;
+		}
+	}
+
 	@media (prefers-reduced-motion: no-preference) {
 		.text-block {
 			opacity: 0;

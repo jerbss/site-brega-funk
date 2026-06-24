@@ -133,7 +133,7 @@
 	.title {
 		font-size: 1.5rem;
 		font-weight: 800;
-		color: var(--color-link-hover, #ff007f);
+		color: var(--heading-color, #ff007f);
 		margin: 0 0 0.5rem 0;
 		text-transform: uppercase;
 		letter-spacing: -0.5px;

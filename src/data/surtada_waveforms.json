@@ -302,36 +302,36 @@
       {
         "name": "Refr\u00e3o",
         "start": 6.0,
-        "end": 25.5,
+        "end": 25.8,
         "type": "chorus"
       },
       {
         "name": "Verso 1",
-        "start": 25.5,
-        "end": 49.0,
+        "start": 25.8,
+        "end": 49.7,
         "type": "verse"
       },
       {
         "name": "Refr\u00e3o",
-        "start": 49.0,
-        "end": 77.5,
+        "start": 49.9,
+        "end": 77.7,
         "type": "chorus"
       },
       {
         "name": "Ponte",
-        "start": 77.5,
-        "end": 86.5,
+        "start": 77.7,
+        "end": 86.7,
         "type": "intro"
       },
       {
         "name": "Verso 2",
-        "start": 86.5,
-        "end": 112.0,
+        "start": 86.7,
+        "end": 112.3,
         "type": "verse"
       },
       {
         "name": "Refr\u00e3o",
-        "start": 112.0,
+        "start": 112.3,
         "end": 152.79746,
         "type": "chorus"
       }

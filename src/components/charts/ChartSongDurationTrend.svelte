@@ -41,7 +41,17 @@
 
 	function handleMousemove(event, d) {
 		hoveredData = d;
-		tooltipX = xScale(d.year) + xScale.bandwidth() / 2 + margin.left;
+		let x = xScale(d.year) + xScale.bandwidth() / 2 + margin.left;
+		
+		// Prevent tooltip from overflowing left or right boundaries of the chart
+		const halfWidth = 110; // half of min-width 220px
+		if (x + halfWidth > availableWidth) {
+			x = availableWidth - halfWidth;
+		} else if (x - halfWidth < 0) {
+			x = halfWidth;
+		}
+		
+		tooltipX = x;
 		tooltipY = yScale(d.under2m30sPct) + margin.top;
 	}
 </script>
@@ -204,7 +214,7 @@
 	.title {
 		font-size: 1.5rem;
 		font-weight: 800;
-		color: var(--color-link-hover, #ccff00);
+		color: var(--heading-color, #bd00ff);
 		margin: 0 0 0.5rem 0;
 		text-transform: uppercase;
 		letter-spacing: -0.5px;
@@ -254,18 +264,18 @@
 	}
 
 	.axis-label.active {
-		fill: var(--color-link-hover, #ccff00);
+		fill: var(--heading-color, #bd00ff);
 		font-weight: bold;
 	}
 
 	/* Estilos de Barras */
 	.bar-2m30s {
-		fill: var(--color-link-hover, #ccff00); /* Amarelo-limão neon padrão do site */
+		fill: var(--heading-color, #bd00ff); /* Amarelo-limão neon padrão do site */
 		transition: fill 0.2s ease, opacity 0.2s ease;
 	}
 
 	.bar-2m00s {
-		fill: #ff007f; /* Rosa neon vibrante para destacar ultra-curtas */
+		fill: #00f3ff; /* Neon cyan for high contrast complement with purple */
 		transition: fill 0.2s ease, opacity 0.2s ease;
 	}
 
@@ -303,6 +313,7 @@
 		z-index: 20;
 		min-width: 220px;
 		text-align: left;
+		white-space: nowrap; /* Prevent line breaks inside tooltip */
 		transition:
 			top 0.1s ease,
 			left 0.1s ease;
@@ -312,7 +323,7 @@
 		font-family: "Syne", sans-serif;
 		font-size: 14px;
 		font-weight: 800;
-		color: var(--color-link-hover, #ccff00);
+		color: var(--heading-color, #bd00ff);
 		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 		padding-bottom: 6px;
 		margin-bottom: 8px;
@@ -334,11 +345,11 @@
 	}
 
 	.color-2m30s {
-		background-color: var(--color-link-hover, #ccff00);
+		background-color: var(--heading-color, #bd00ff);
 	}
 
 	.color-2m00s {
-		background-color: #ff007f;
+		background-color: #00f3ff;
 	}
 
 	.count {

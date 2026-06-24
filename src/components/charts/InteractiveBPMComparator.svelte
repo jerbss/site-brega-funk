@@ -286,9 +286,9 @@
 			<div class="instance-header">
 				<div class="title-meta">
 					<span class="badge badge-remix"
-						>Remix (Dadá Boladão & Tati Zaqui)</span
+						>Versão Remix (Dadá Boladão & Tati Zaqui)</span
 					>
-					<span class="bpm-tag highlight">BPM: 154</span>
+					<span class="bpm-tag">BPM: 154</span>
 				</div>
 				<a
 					href={spotifyLinks.remix}
@@ -433,7 +433,7 @@
 	.title {
 		font-size: 1.4rem;
 		font-weight: 800;
-		color: #ffffff;
+		color: var(--heading-color, #bd00ff);
 		margin: 0 0 0.5rem 0;
 		text-transform: uppercase;
 		letter-spacing: -0.5px;
@@ -504,7 +504,7 @@
 	}
 
 	.bpm-tag.highlight {
-		color: #ff007f;
+		color: var(--heading-color, #bd00ff);
 		font-weight: bold;
 	}
 
@@ -563,7 +563,7 @@
 		width: 32px;
 		height: 32px;
 		border-radius: 50%;
-		background: var(--color-link-hover, #ccff00);
+		background: var(--heading-color, #bd00ff);
 		border: none;
 		cursor: pointer;
 		display: flex;
@@ -607,7 +607,7 @@
 	}
 
 	.time-display .current.active-color {
-		color: var(--color-link-hover, #ccff00);
+		color: var(--heading-color, #bd00ff);
 		font-weight: bold;
 	}
 
