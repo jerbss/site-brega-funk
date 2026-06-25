@@ -1,8 +1,32 @@
 <script>
+	import { onMount, onDestroy } from "svelte";
+
 	let { title, subtitle } = $props();
+	let containerEl;
+	let observer;
+	let isVisible = $state(false);
+
+	onMount(() => {
+		if (typeof window !== "undefined" && "IntersectionObserver" in window) {
+			observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					isVisible = entry.isIntersecting;
+				});
+			}, {
+				rootMargin: "200px 0px" // Load slightly before it comes into view
+			});
+			if (containerEl) observer.observe(containerEl);
+		} else {
+			isVisible = true; // Fallback
+		}
+	});
+
+	onDestroy(() => {
+		if (observer) observer.disconnect();
+	});
 </script>
 
-<div class="playlist-container">
+<div bind:this={containerEl} class="playlist-container">
 	{#if title}
 		<h3>{title}</h3>
 	{/if}
@@ -10,17 +34,23 @@
 		<p class="subtitle">{@html subtitle}</p>
 	{/if}
 	<div class="iframe-wrapper">
-		<iframe
-			data-testid="embed-iframe"
-			src="https://open.spotify.com/embed/playlist/527lvGPJfj69FwMUi8z4eg?utm_source=generator&si=163e2bf414c84692"
-			width="100%"
-			height="352"
-			frameBorder="0"
-			allowfullscreen=""
-			allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-			loading="lazy"
-			title={title || "Spotify Playlist"}
-		></iframe>
+		{#if isVisible}
+			<iframe
+				data-testid="embed-iframe"
+				src="https://open.spotify.com/embed/playlist/527lvGPJfj69FwMUi8z4eg?utm_source=generator&si=163e2bf414c84692"
+				width="100%"
+				height="352"
+				frameBorder="0"
+				allowfullscreen=""
+				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+				loading="lazy"
+				title={title || "Spotify Playlist"}
+			></iframe>
+		{:else}
+			<div style="height: 352px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.4); font-family: var(--sans, sans-serif);">
+				Carregando playlist do Spotify...
+			</div>
+		{/if}
 	</div>
 </div>
 

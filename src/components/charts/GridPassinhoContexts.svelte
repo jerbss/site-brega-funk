@@ -76,7 +76,16 @@
 	});
 
 	function toggleMute(id) {
-		mutedStates[id] = !mutedStates[id];
+		const newMutedState = !mutedStates[id];
+		
+		// If we are unmuting this video, mute all other videos first
+		if (!newMutedState) {
+			Object.keys(mutedStates).forEach(key => {
+				mutedStates[key] = true;
+			});
+		}
+		
+		mutedStates[id] = newMutedState;
 	}
 </script>
 
