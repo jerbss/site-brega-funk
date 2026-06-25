@@ -82,6 +82,13 @@
 		box-shadow: var(--box-shadow, 0px 0px 15px rgba(255, 255, 255, 0.05));
 	}
 
+	.text-block strong {
+		font-family: "Syne", sans-serif;
+		font-weight: 800;
+		color: var(--highlight-color, #ff007f);
+		text-shadow: 0 0 8px rgba(255, 0, 127, 0.2);
+	}
+
 	.text-block.with-margin {
 		margin: 3rem auto;
 	}

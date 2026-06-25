@@ -20,7 +20,7 @@
 
 	/* presets (used in reset.css) */
 	--border-radius: 16px;
-	--font-body: var(--sans);
+	--font-body: "Sora", var(--sans);
 	--font-form: var(--sans);
 	--color-bg: #05020c;
 	--color-fg: #f3f3f6;

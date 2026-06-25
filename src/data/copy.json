@@ -29,7 +29,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "No início de 2018, três jovens da periferia de Jaboatão dos Guararapes, em Pernambuco, decidiram criar um clipe de música. Sem qualquer orçamento, Paloma Roberta (MC Loma, de 15 anos) e as irmãs Mirella e Mariely Santos (as Gêmeas Lacração, de 18 anos) usaram a câmera de um celular comum para filmar a si mesmas dançando pelo bairro.",
+						"text": "No início de 2018, três jovens da periferia de Jaboatão dos Guararapes, em Pernambuco, decidiram criar um clipe de música. Sem qualquer orçamento, Paloma Roberta (MC Loma, de 15 anos) e as irmãs Mirella e Mariely Santos (as Gêmeas Lacração, de 18 anos) usaram a <strong>câmera de um celular comum</strong> para filmar a si mesmas dançando pelo bairro.",
 						"speaker": "eunice"
 					}
 				},
@@ -43,7 +43,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "A produção simples da música \"Envolvimento\" viralizou no YouTube de forma inesperada. Em poucas semanas, o vídeo amador acumulou milhões de visualizações, recebeu apoio de influenciadores e chamou a atenção de artistas consagrados. A força do viral colocou a faixa nas paradas globais de streaming e forçou a indústria a olhar para o ritmo, culminando nas primeiras posições do ranking nacional do Spotify logo após a assinatura com uma produtora, no início de fevereiro de 2018.",
+						"text": "A produção simples da música \"Envolvimento\" <strong>viralizou no YouTube</strong> de forma inesperada. Em poucas semanas, o vídeo amador acumulou milhões de visualizações, recebeu apoio de influenciadores e chamou a atenção de artistas consagrados. A força do viral colocou a faixa nas paradas globais de streaming e forçou a indústria a olhar para o ritmo, culminando nas primeiras posições do ranking nacional do Spotify logo após a assinatura com uma produtora, no início de fevereiro de 2018.",
 						"speaker": "minji"
 					}
 				},
@@ -59,7 +59,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "O estouro de \"Envolvimento\" provou que o sucesso na música brasileira podia nascer de forma totalmente orgânica nas redes sociais, dispensando os investimentos das grandes gravadoras. No entanto, embora a música tenha tocado no Brasil inteiro, o público fora de Pernambuco ainda não conhecia o nome do movimento. O termo \"Brega Funk\" permaneceria como um segredo de Recife por mais um ano, aguardando os próximos hits que consolidariam o gênero de vez na internet.",
+						"text": "O estouro de \"Envolvimento\" provou que o sucesso na música brasileira podia nascer de forma totalmente orgânica nas redes sociais, dispensando os investimentos das grandes gravadoras. No entanto, embora a música tenha tocado no Brasil inteiro, o público fora de Pernambuco ainda não conhecia o nome do movimento. O termo <strong>\"Brega Funk\" permaneceria como um segredo de Recife</strong> por mais um ano, aguardando os próximos hits que consolidariam o gênero de vez na internet.",
 						"speaker": "eunice"
 					}
 				}
@@ -75,7 +75,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "Muito antes de \"Envolvimento\" dominar as paradas do país, o Brega Funk já servia de trilha sonora nas comunidades da Região Metropolitana do Recife. O gênero surgiu no início da década de 2010, unindo a melodia romântica do brega recifense às batidas aceleradas do funk carioca.",
+						"text": "Muito antes de \"Envolvimento\" dominar as paradas do país, o Brega Funk já servia de trilha sonora nas comunidades da Região Metropolitana do Recife. O gênero surgiu no início da década de 2010, <strong>unindo a melodia romântica do brega recifense às batidas aceleradas do funk carioca</strong>.",
 						"speaker": "minji"
 					}
 				},
@@ -84,14 +84,14 @@
 					"value": {
 						"id": "audio-early-brega-funk",
 						"title": "Antiga Sonoridade: O Começo do Brega Funk",
-						"subtitle": "Ouça \"Pensei Que Era Pra Sempre\" de MC Sheldon. A faixa exemplifica a transição do brega recifense clássico para o Brega Funk, mantendo o tom melódico e romântico, mas já incorporando os primeiros elementos rítmicos do funk carioca.",
+						"subtitle": "Ouça \"Pensei Que Era Pra Sempre\" de MC Sheldon. A faixa exemplifica a transição do brega recifense clássico para o Brega Funk, mantendo o tom melódico e romântico, mas já incorporando os primeiros elements rítmicos do funk carioca.",
 						"source": "Clássico de 2012 que fundiu o Brega Romântico ao início das batidas do Funk"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "MCs e DJs locais, como Sheldon, Cego, Tocha, Troinha e Dadá Boladão, criaram as primeiras faixas eletrônicas do ritmo. As produções circulavam em CDs gravados artesanalmente, carros de som (paredões) e grupos de WhatsApp, movimentando uma rede de distribuição independente de gravadoras.",
+						"text": "MCs e DJs locais, como Sheldon, Cego, Tocha, Troinha e Dadá Boladão, criaram as primeiras faixas eletrônicas do ritmo. As produções circulavam em <strong>CDs gravados artesanalmente, carros de som (paredões) e grupos de WhatsApp</strong>, movimentando uma rede de distribuição independente de gravadoras.",
 						"speaker": "eunice"
 					}
 				},
@@ -116,7 +116,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "Graças a essa rede alternativa de distribuição, o ritmo superou as fronteiras de Pernambuco e abraçou os estados vizinhos, consolidando-se como um movimento regional integrado. Foi essa força acumulada no Nordeste que deu fôlego para o gênero romper barreiras e ganhar espaço no Sul e no Sudeste, impulsionado pela era do streaming.",
+						"text": "Graças a essa rede alternativa de distribuição, o ritmo superou as fronteiras de Pernambuco e abraçou os estados vizinhos, consolidando-se como um movimento regional integrado. Foi essa força acumulada no Nordeste que deu fôlego para o gênero romper barreiras e <strong>ganhar espaço no Sul e no Sudeste</strong>, impulsionado pela era do streaming.",
 						"speaker": "minji"
 					}
 				}
@@ -132,7 +132,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "A popularização do Brega Funk no Brasil andou de mãos dadas com a cultura do \"passinho dos maloka\". Antes de dominar as redes sociais, a dança já era febre entre os jovens das periferias do Recife, que formavam grupos para inventar coreografias e acompanhar as batidas aceleradas.",
+						"text": "A popularização do Brega Funk no Brasil andou de mãos dadas com a cultura do <strong>\"passinho dos maloka\"</strong>. Antes de dominar as redes sociais, a dança já era febre entre os jovens das periferias do Recife, que formavam grupos para inventar coreografias e acompanhar as batidas aceleradas.",
 						"speaker": "eunice"
 					}
 				},
@@ -148,15 +148,23 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "Com o avanço dos vídeos curtos, os passos ganharam novas variações que dominaram a internet. Um dos maiores exemplos recentes dessa febre foi o Passinho do Jamal, criado no bairro de Santo Amaro, no Recife, pelos amigos Romero Júnior e Pedro Henrique. Os movimentos rápidos de mãos e pés tornaram-se assinatura visual do gênero na era do TikTok.",
+						"text": "Com o avanço dos vídeos curtos, os passos ganharam novas variações que dominaram a internet. Um dos maiores exemplos recentes dessa febre foi o Passinho do Jamal, criado no bairro de Santo Amaro, no Recife, pelos amigos Romero Júnior e Pedro Henrique. Os movimentos rápidos de mãos e pés tornaram-se <strong>assinatura visual na era do TikTok</strong>.",
 						"speaker": "minji"
 					}
 				},
 				{
 					"type": "Text",
 					"value": {
-						"text": "A coreografia ultrapassou as redes e chegou a comemorações de jogadores de futebol, programas de televisão e reality shows. Esse apelo corporal ajudou a atrair novos públicos e alimentar os algoritmos das plataformas digitais.",
+						"text": "A coreografia ultrapassou as redes e chegou a <strong>comemorações de jogadores de futebol e programas de televisão</strong>. Esse apelo corporal ajudou a atrair novos públicos e alimentar os algoritmos das plataformas digitais.",
 						"speaker": "eunice"
+					}
+				},
+				{
+					"type": "Video",
+					"value": {
+						"url": "assets/video/kaio_jorge_edit.mp4",
+						"title": "Edit de comemorações e gols com o Passinho",
+						"format": "square"
 					}
 				}
 			]
@@ -171,7 +179,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "A consolidação do TikTok e do Instagram Reels alterou o formato das músicas brasileiras devido à economia da atenção. Como plataformas de streaming contabilizam uma reprodução após trinta segundos de audição, produtores passaram a antecipar o refrão e cortar introduções instrumentais.",
+						"text": "A consolidação do TikTok e do Instagram Reels alterou o formato das músicas brasileiras devido à <strong>economia da atenção</strong>. Como plataformas de streaming contabilizam uma reprodução após <strong>trinta segundos</strong> de audição, produtores passaram a antecipar o refrão e cortar introduções instrumentais.",
 						"speaker": "minji"
 					}
 				},
@@ -187,7 +195,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "A estrutura do Brega Funk se ajusta bem a essa exigência. As paradas marcadas no beat e as explosões rítmicas facilitam a criação de vídeos curtos. Muitas canções passaram a ter menos de dois minutos e meio de duração, concentrando o clímax no trecho exato que será compartilhado nos desafios de dança.",
+						"text": "A estrutura do Brega Funk se ajusta bem a essa exigência. As paradas marcadas no beat e as explosões rítmicas facilitam a criação de vídeos curtos. Muitas canções passaram a ter <strong>menos de dois minutos e meio</strong> de duração, concentrando o clímax no trecho exato que será compartilhado nos desafios de dança.",
 						"speaker": "eunice"
 					}
 				},
@@ -203,7 +211,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "Essa dinâmica gerou uma nova engenharia musical. Para contornar as barreiras do algoritmo e maximizar a monetização, muitas faixas de Brega Funk dispensam a tradicional introdução e começam diretamente no refrão. A estratégia garante que o ouvinte não pule a música antes dos trinta segundos cruciais, transformando a impaciência das redes sociais na fórmula exata para liderar o streaming.",
+						"text": "Essa dinâmica gerou uma nova engenharia musical. Para contornar as barreiras do algoritmo e maximizar a monetização, muitas faixas de Brega Funk <strong>dispensam a tradicional introdução e começam diretamente no refrão</strong>. A estratégia garante que o ouvinte não pule a música antes dos trinta segundos cruciais, transformando a impaciência das redes sociais na fórmula exata para liderar o streaming.",
 						"speaker": "minji"
 					}
 				}
@@ -219,7 +227,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "Essa aceleração das músicas para agradar o algoritmo gerou um mercado real e independente no Recife. Longe das grandes gravadoras, jovens DJs, MCs e dançarinos passaram a viver da música que produzem nos próprios quartos e a divulgar pelo WhatsApp. No documentário abaixo, os artistas mostram como criam as batidas usando panelas no computador e como grupos de dança, como o de Santo Amaro, mudaram a rotina dos jovens locais.",
+						"text": "Essa aceleração das músicas para agradar o algoritmo gerou um mercado real e independente no Recife. Longe das grandes gravadoras, jovens DJs, MCs e dançarinos passaram a viver da música que produzem nos próprios quartos e a divulgar pelo WhatsApp. No documentário abaixo, os artistas mostram como <strong>criam as batidas usando panelas no computador</strong> e como grupos de dança, como o de Santo Amaro, mudaram a rotina dos jovens locais.",
 						"speaker": "eunice"
 					}
 				},
@@ -233,7 +241,7 @@
 				{
 					"type": "Text",
 					"value": {
-						"text": "No fim das contas, o Brega Funk conquistou o Brasil porque uniu a coreografia rápida do passinho, que mistura passos de frevo e funk, com músicas que começam direto no refrão para ninguém pular. Essa combinação, feita para prender o ouvinte nos primeiros segundos, levou o som do Recife para o topo das plataformas de streaming e quebrou o domínio das produções do Sudeste no rádio e na internet.",
+						"text": "No fim das contas, o Brega Funk conquistou o Brasil porque uniu a coreografia rápida do passinho, que mistura passos de frevo e funk, com músicas que começam direto no refrão para ninguém pular. Essa combinação, feita para <strong>prender o ouvinte nos primeiros segundos</strong>, levou o som do Recife para o topo das plataformas de streaming e quebrou o domínio das produções do Sudeste no rádio e na internet.",
 						"speaker": "minji"
 					}
 				}

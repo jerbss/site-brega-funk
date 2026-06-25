@@ -17,19 +17,27 @@
 			tiktokUrl: "https://www.tiktok.com/@jnzinnnft/video/7578169400294001941?is_from_webapp=1&sender_device=pc&web_id=7648866911602279956"
 		},
 		{
-			id: "futebol",
+			id: "futebol-raiz",
 			title: "Nos Campos (Futebol)",
 			description: "A dança adotada por jogadores em comemorações de gols.",
 			videoSrc: "assets/video/passinho2.mp4",
 			tiktokUrl: "https://www.tiktok.com/@heyviiihww/video/7550841399441116421?is_from_webapp=1&sender_device=pc&web_id=7648866911602279956"
+		},
+		{
+			id: "futebol-titulo",
+			title: "Nos Gramados (Título)",
+			description: "Kaio Jorge comemorando o título de campeão com o passinho.",
+			videoSrc: "assets/video/kaio_jorge_comemoracao.mp4",
+			tiktokUrl: "https://www.tiktok.com/@cruzeiro/video/7615060559595064596?is_from_webapp=1&web_id=7648866911602279956"
 		}
 	];
 
 	// Track volume muted state (browsers block autoplay with sound enabled)
 	let mutedStates = $state({
 		raiz: true,
-		futebol: true,
-		tiktok: true
+		tiktok: true,
+		"futebol-raiz": true,
+		"futebol-titulo": true
 	});
 
 	function toggleMute(id) {
@@ -61,8 +69,8 @@
 						aria-label={mutedStates[item.id] ? "Ativar som" : "Desativar som"}
 					>
 						{#if mutedStates[item.id]}
-							<!-- Muted Icon -->
-							<svg viewBox="0 0 24 24" class="volume-icon"><path fill="currentColor" d="M4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+							<!-- Muted Icon (with line) -->
+							<svg viewBox="0 0 24 24" class="volume-icon"><path fill="currentColor" d="M3.27 3L2 4.27 6.03 8.3 3 11v2h4l5 5v-5.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81l2.04 2.05 1.27-1.27-18.48-18.47zM10 15.17l-3-2.67H5v-1h2.2L10 9.2v5.97zM12 4v4.18l2-2L12 4zm4.5 8c0-1.77-1.02-3.29-2.5-4.03v2.22l2.36 2.36c.09-.17.14-.36.14-.55zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71z"/></svg>
 						{:else}
 							<!-- Unmuted Icon -->
 							<svg viewBox="0 0 24 24" class="volume-icon"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
@@ -90,17 +98,6 @@
 		margin: 0 auto;
 	}
 
-	.title {
-		font-size: 1.5rem;
-		font-weight: 800;
-		color: var(--color-link-hover, #00f3ff);
-		margin: 0 0 0.5rem 0;
-		text-transform: uppercase;
-		letter-spacing: -0.5px;
-		text-align: center;
-		text-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
-	}
-
 	.subtitle {
 		font-family: var(--sans, sans-serif);
 		font-size: var(--14px, 14px);
@@ -115,12 +112,12 @@
 
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 		gap: 1.5rem;
 		width: 100%;
 	}
 
-	@media (max-width: 900px) {
+	@media (max-width: 1000px) {
 		.grid {
 			grid-template-columns: repeat(2, 1fr);
 		}
@@ -140,11 +137,13 @@
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
-		transition: border-color 0.3s ease;
+		transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 	}
 
 	.card:hover {
-		border-color: rgba(0, 243, 255, 0.4);
+		border-color: rgba(0, 243, 255, 0.5);
+		box-shadow: 0 0 15px rgba(0, 243, 255, 0.1);
+		transform: translateY(-2px);
 	}
 
 	.video-container {
@@ -167,24 +166,28 @@
 		position: absolute;
 		bottom: 12px;
 		right: 12px;
-		background: rgba(0, 0, 0, 0.6);
-		border: 1px solid rgba(255, 255, 255, 0.2);
+		background: rgba(5, 2, 12, 0.75);
+		border: 1.5px solid rgba(0, 243, 255, 0.3);
 		border-radius: 50%;
-		width: 36px;
-		height: 36px;
+		width: 38px;
+		height: 38px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		color: #ffffff;
 		cursor: pointer;
 		z-index: 5;
-		transition: background-color 0.2s ease, transform 0.2s ease;
+		transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 		padding: 0;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 	}
 
 	.volume-btn:hover {
-		background: rgba(0, 0, 0, 0.85);
-		transform: scale(1.05);
+		background: #05020c;
+		border-color: #00f3ff;
+		color: #00f3ff;
+		box-shadow: 0 0 8px #00f3ff;
+		transform: scale(1.1);
 	}
 
 	.volume-icon {
@@ -193,28 +196,34 @@
 	}
 
 	.card-content {
-		padding: 1.25rem;
+		padding: 1rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		flex-grow: 1;
 		background: rgba(13, 13, 13, 0.4);
+		text-align: center;
 	}
-
 
 	.tiktok-link {
 		display: inline-block;
 		color: #00f3ff;
-		text-decoration: underline;
+		text-decoration: none;
 		font-family: var(--sans, sans-serif);
-		font-size: 0.85rem;
-		font-weight: 500;
-		transition: color 0.2s ease;
-		margin-top: 0.25rem;
+		font-size: 0.8rem;
+		font-weight: 600;
+		transition: all 0.2s ease;
+		border: 1px solid rgba(0, 243, 255, 0.3);
+		padding: 0.35rem 0.75rem;
+		border-radius: 20px;
+		background: rgba(0, 243, 255, 0.05);
 	}
 
 	.tiktok-link:hover {
 		color: #ffffff;
+		background: #00f3ff;
+		border-color: #00f3ff;
+		box-shadow: 0 0 8px rgba(0, 243, 255, 0.4);
 	}
 </style>

@@ -8,7 +8,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#d4ff00",
-		"box-shadow": "0px 0px 15px rgba(212, 255, 0, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(212, 255, 0, 0.2)",
+		"highlight-color": "#d4ff00"
 	},
 	"second-gen": {
 		"background": "transparent, rgba(255, 0, 127, 0.04) 50%, transparent",
@@ -18,7 +19,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#ff007f",
-		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(255, 0, 127, 0.2)",
+		"highlight-color": "#ff007f"
 	},
 	"third-gen": {
 		"background": "transparent, rgba(0, 243, 255, 0.04) 50%, transparent",
@@ -28,7 +30,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#00f3ff",
-		"box-shadow": "0px 0px 15px rgba(0, 243, 255, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(0, 243, 255, 0.2)",
+		"highlight-color": "#00f3ff"
 	},
 	"fourth-gen": {
 		"background": "transparent, rgba(189, 0, 255, 0.04) 50%, transparent",
@@ -38,7 +41,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#bd00ff",
-		"box-shadow": "0px 0px 15px rgba(189, 0, 255, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(189, 0, 255, 0.2)",
+		"highlight-color": "#bd00ff"
 	},
 	"fifth-gen": {
 		"background": "transparent, rgba(255, 107, 0, 0.04) 50%, transparent",
@@ -48,7 +52,8 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#ff6b00",
-		"box-shadow": "0px 0px 15px rgba(255, 107, 0, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(255, 107, 0, 0.2)",
+		"highlight-color": "#ff6b00"
 	},
 	"extra-playlist": {
 		"background": "transparent, rgba(255, 0, 60, 0.04) 50%, transparent",
@@ -58,6 +63,7 @@
 		"text-color": "#ffffff",
 		"text-bg": "rgba(255, 255, 255, 0.05)",
 		"border": "#ff003c",
-		"box-shadow": "0px 0px 15px rgba(255, 0, 60, 0.2)"
+		"box-shadow": "0px 0px 15px rgba(255, 0, 60, 0.2)",
+		"highlight-color": "#ff003c"
 	}
 }
