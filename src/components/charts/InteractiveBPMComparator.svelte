@@ -1,5 +1,5 @@
 <script>
-	import { onDestroy } from "svelte";
+	import { onDestroy, onMount } from "svelte";
 	import { base } from "$app/paths";
 	import waveformsData from "$data/surtada_waveforms.json";
 
@@ -23,6 +23,8 @@
 	let duration = $state({ original: 0, remix: 0 });
 
 	let audioObjects = {};
+	let containerEl;
+	let observer;
 
 	// Cores consistentes
 	const colors = {
@@ -100,12 +102,29 @@
 		activeVersion = null;
 	}
 
+	onMount(() => {
+		if (typeof window !== "undefined" && "IntersectionObserver" in window) {
+			observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					if (!entry.isIntersecting) {
+						stopAll();
+					}
+				});
+			}, {
+				threshold: 0.05
+			});
+
+			if (containerEl) observer.observe(containerEl);
+		}
+	});
+
 	onDestroy(() => {
 		stopAll();
 		Object.values(audioObjects).forEach((audio) => {
 			audio.src = "";
 			audio.load();
 		});
+		if (observer) observer.disconnect();
 	});
 
 	// Estados derivados reativos para evitar o uso de {@const} no template
@@ -141,7 +160,7 @@
 	}
 </script>
 
-<div class="player-card" style="width: {availableWidth}px;">
+<div bind:this={containerEl} class="player-card" style="width: {availableWidth}px;">
 	<h3 class="title">{title}</h3>
 	{#if subtitle}
 		<p class="subtitle">{@html subtitle}</p>

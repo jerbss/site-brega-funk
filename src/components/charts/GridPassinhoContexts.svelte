@@ -1,4 +1,6 @@
 <script>
+	import { onMount, onDestroy } from "svelte";
+
 	let { title, subtitle, availableWidth } = $props();
 
 	const contexts = [
@@ -40,6 +42,39 @@
 		"futebol-titulo": true
 	});
 
+	let videoElements = {};
+	let observer;
+
+	onMount(() => {
+		if (typeof window !== "undefined" && "IntersectionObserver" in window) {
+			observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					const id = entry.target.dataset.id;
+					const video = videoElements[id];
+					if (video) {
+						if (entry.isIntersecting) {
+							video.play().catch(() => {});
+						} else {
+							video.pause();
+						}
+					}
+				});
+			}, {
+				threshold: 0.1 // Play when at least 10% of card is in viewport
+			});
+
+			Object.values(videoElements).forEach(video => {
+				if (video) observer.observe(video.closest(".card"));
+			});
+		}
+	});
+
+	onDestroy(() => {
+		if (observer) {
+			observer.disconnect();
+		}
+	});
+
 	function toggleMute(id) {
 		mutedStates[id] = !mutedStates[id];
 	}
@@ -49,12 +84,12 @@
 
 	<div class="grid">
 		{#each contexts as item}
-			<div class="card">
+			<div class="card" data-id={item.id}>
 				<div class="video-container">
 					<!-- svelte-ignore a11y_media_has_caption -->
 					<video
+						bind:this={videoElements[item.id]}
 						src={item.videoSrc}
-						autoplay
 						loop
 						playsinline
 						muted={mutedStates[item.id]}

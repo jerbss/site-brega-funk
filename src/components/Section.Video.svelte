@@ -1,6 +1,6 @@
 <script>
 	import themes from "$data/themes.json";
-	import { getContext, onMount } from "svelte";
+	import { getContext, onMount, onDestroy } from "svelte";
 
 	let { url, title, nodeId, sectionId, format = "landscape", source } = $props();
 	const { registerNode } = getContext("nodeRegistry");
@@ -9,16 +9,69 @@
 	let videoEl = $state();
 	let isMuted = $state(true);
 	let isPlaying = $state(true);
+	let observer;
+
+	let iframeEl = $state();
 
 	const isYoutube = $derived(url && (url.includes("youtube.com") || url.includes("youtu.be") || url.includes("youtube-nocookie.com")));
 
+	// Helper to extract YouTube video ID and ensure enablejsapi=1 is appended for control
+	const formattedUrl = $derived(() => {
+		if (!url) return "";
+		if (!isYoutube) return url;
+		// Append enablejsapi=1 if not present to allow postMessage controls
+		const separator = url.includes("?") ? "&" : "?";
+		return url.includes("enablejsapi=1") ? url : `${url}${separator}enablejsapi=1`;
+	});
+
 	onMount(() => {
 		registerNode(nodeId, el);
-		if (videoEl) {
-			// Autoplay workaround: browsers allow autoplay only if muted
+
+		// Intersection Observer to play/pause video when scrolling past it
+		if (typeof window !== "undefined" && "IntersectionObserver" in window) {
+			observer = new IntersectionObserver((entries) => {
+				entries.forEach(entry => {
+					if (entry.isIntersecting) {
+						if (videoEl) {
+							videoEl.play().then(() => {
+								isPlaying = true;
+							}).catch(() => {
+								isPlaying = false;
+							});
+						}
+					} else {
+						if (videoEl) {
+							videoEl.pause();
+							isPlaying = false;
+						} else if (iframeEl) {
+							// If it's a YouTube iframe, send a postMessage to pause the video
+							try {
+								iframeEl.contentWindow.postMessage(
+									JSON.stringify({ event: "command", func: "pauseVideo", args: [] }),
+									"*"
+								);
+							} catch (e) {
+								console.error("Erro ao pausar iframe do YouTube:", e);
+							}
+						}
+					}
+				});
+			}, {
+				threshold: 0.15 // Trigger when at least 15% of the video is visible
+			});
+
+			observer.observe(el);
+		} else if (videoEl) {
+			// Fallback if no observer
 			videoEl.play().catch(err => {
 				isPlaying = false;
 			});
+		}
+	});
+
+	onDestroy(() => {
+		if (observer) {
+			observer.disconnect();
 		}
 	});
 
@@ -26,18 +79,6 @@
 		e.stopPropagation();
 		if (videoEl) {
 			isMuted = !isMuted;
-		}
-	}
-
-	function togglePlay() {
-		if (videoEl) {
-			if (isPlaying) {
-				videoEl.pause();
-				isPlaying = false;
-			} else {
-				videoEl.play();
-				isPlaying = true;
-			}
 		}
 	}
 </script>
@@ -49,11 +90,11 @@
 		bind:this={el}
 		class="video-wrapper"
 		style={themes[sectionId]["text-style"] || null}
-		onclick={!isYoutube ? togglePlay : null}
 	>
 		{#if isYoutube}
 			<iframe
-				src={url}
+				bind:this={iframeEl}
+				src={formattedUrl()}
 				title={title || "YouTube video player"}
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -74,13 +115,6 @@
 
 			<!-- Custom Controls overlay (Minimal & Clean) -->
 			<div class="video-overlay">
-				<!-- Big Play Indicator if paused -->
-				{#if !isPlaying}
-					<div class="play-state-indicator">
-						<svg viewBox="0 0 24 24"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
-					</div>
-				{/if}
-
 				<button
 					class="volume-btn"
 					onclick={toggleMute}
