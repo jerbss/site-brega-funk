@@ -137,19 +137,19 @@
 					}
 				},
 				{
+					"type": "Text",
+					"value": {
+						"text": "Com o avanço dos vídeos curtos, os passos ganharam novas variações que dominaram a internet. Um dos maiores exemplos recentes dessa febre foi o Passinho do Jamal, criado no bairro de Santo Amaro, no Recife, pelos amigos Romero Júnior e Pedro Henrique. Os movimentos rápidos de mãos e pés tornaram-se <strong>assinatura visual na era do TikTok</strong>.",
+						"speaker": "minji"
+					}
+				},
+				{
 					"type": "Chart",
 					"value": {
 						"id": "grid-passinho-contexts",
 						"title": "",
 						"subtitle": "",
 						"source": ""
-					}
-				},
-				{
-					"type": "Text",
-					"value": {
-						"text": "Com o avanço dos vídeos curtos, os passos ganharam novas variações que dominaram a internet. Um dos maiores exemplos recentes dessa febre foi o Passinho do Jamal, criado no bairro de Santo Amaro, no Recife, pelos amigos Romero Júnior e Pedro Henrique. Os movimentos rápidos de mãos e pés tornaram-se <strong>assinatura visual na era do TikTok</strong>.",
-						"speaker": "minji"
 					}
 				},
 				{
@@ -164,7 +164,8 @@
 					"value": {
 						"url": "assets/video/kaio_jorge_edit.mp4",
 						"title": "Edit de comemorações e gols com o Passinho",
-						"format": "square"
+						"format": "square",
+						"source": "Edit por <a href=\"https://www.tiktok.com/@raposinhudo6a1/video/7623972858007522578\" target=\"_blank\" rel=\"noopener noreferrer\">@raposinhudo6a1 no TikTok</a>"
 					}
 				}
 			]
@@ -272,7 +273,23 @@
 		},
 		{
 			"type": "text",
-			"value": "APENAS AO FINAL DO DESENVOLVIMENTO, APÓS A IMPLEMENTAÇÃO DE TODOS OS GRÁFICOS E TEXTOS."
+			"value": "Os dados históricos de execuções foram extraídos das paradas semanais do Top 200 do Spotify Brasil entre os anos de 2018 e 2025, totalizando 417 semanas de amostragem de dados."
+		},
+		{
+			"type": "text",
+			"value": "As informações de duração em milissegundos (<em>duration_ms</em>) de cada faixa exclusiva foram extraídas dos metadados públicos do Spotify através de script automatizado de requisição baseado em seus identificadores únicos (URIs)."
+		},
+		{
+			"type": "text",
+			"value": "O volume e a evolução geográfica do interesse de busca pelo termo \"Brega Funk\" no Brasil foram coletados a partir da série histórica pública do <a href=\"https://trends.google.com.br/trends/\" target=\"_blank\">Google Trends</a> (2018-2025)."
+		},
+		{
+			"type": "text",
+			"value": "Os dados complementares de áudio, incluindo batidas por minuto (BPM) e estruturas líricas das faixas analisadas, foram obtidos via plataformas <a href=\"https://www.chosic.com/\" target=\"_blank\">Chosic</a> e <a href=\"https://genius.com/\" target=\"_blank\">Genius</a>."
+		},
+		{
+			"type": "text",
+			"value": "Este ensaio visual foi desenvolvido adaptando e refatorando o repositório de código aberto do <em>The Pudding</em> (<a href=\"https://github.com/the-pudding/kpop-generations\" target=\"_blank\">kpop-generations</a>) utilizando a estrutura reativa do Svelte 5 e Vite."
 		}
 	]
 }

@@ -137,13 +137,12 @@
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
-		transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+		transition: all 0.3s ease;
 	}
 
 	.card:hover {
-		border-color: rgba(0, 243, 255, 0.5);
-		box-shadow: 0 0 15px rgba(0, 243, 255, 0.1);
-		transform: translateY(-2px);
+		border-color: rgba(0, 243, 255, 0.4);
+		box-shadow: 0 0 15px rgba(0, 243, 255, 0.08);
 	}
 
 	.video-container {
@@ -222,8 +221,8 @@
 
 	.tiktok-link:hover {
 		color: #ffffff;
-		background: #00f3ff;
+		background: rgba(0, 243, 255, 0.2);
 		border-color: #00f3ff;
-		box-shadow: 0 0 8px rgba(0, 243, 255, 0.4);
+		box-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
 	}
 </style>
