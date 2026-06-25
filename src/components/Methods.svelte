@@ -4,14 +4,14 @@
 	const team = [
 		{
 			name: "Jamille Eliane",
-			role: "Direção de Arte, Arquitetura da Informação & Design",
+			role: "Direção de Arte & Design UX/UI",
 			instagram: "https://www.instagram.com/millezarcenis/",
 			color: "var(--neon-pink, #ff007f)",
 			shadow: "rgba(255, 0, 127, 0.25)"
 		},
 		{
 			name: "Jerbesson Silva",
-			role: "Desenvolvimento, Extração, Análise & Visualização de Dados",
+			role: "Desenvolvimento, Pesquisa, Escrita & Análise de Dados",
 			instagram: "https://www.instagram.com/jerdelicia/",
 			color: "var(--neon-green, #d4ff00)",
 			shadow: "rgba(212, 255, 0, 0.25)"
