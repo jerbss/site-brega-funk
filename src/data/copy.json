@@ -273,7 +273,7 @@
 		},
 		{
 			"type": "text",
-			"value": "Os dados históricos de execuções foram extraídos das paradas semanais do Top 200 do Spotify Brasil entre os anos de 2018 e 2025, totalizando 417 semanas de amostragem de dados."
+			"value": "Os dados históricos de execuções foram extraídos das paradas semanais do Top 200 do <a href=\"https://charts.spotify.com/charts/overview/br\" target=\"_blank\">Spotify Charts</a> entre os anos de 2018 e 2025, totalizando 417 semanas de amostragem de dados."
 		},
 		{
 			"type": "text",
