@@ -137,7 +137,7 @@
 				<a
 					class="img-wrapper"
 					href="https://pudding.cool"
-					aria-label="The Pudding"
+					aria-label="jerdelicia"
 				>
 					<span class="wordmark">{@html wordmarkFooter}</span>
 				</a>
