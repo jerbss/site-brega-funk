@@ -11,7 +11,7 @@ A produção simples da música "Envolvimento" viralizou no YouTube de forma ine
 
 [GRÁFICO: chart-envolvimento-trajectory]
 
-O estouro de "Envolvimento" provou que o sucesso na música brasileira podia nascer de forma totalmente orgânica nas redes sociais, dispensando os investimentos das grandes gravadoras. No entanto, embora a música tenha tocado no Brasil inteiro, o público fora de Pernambuco ainda não conhecia o nome do movimento. O termo "brega funk" permaneceria como um segredo de Recife por mais um ano, aguardando os próximos hits que consolidariam o gênero de vez na internet.
+O estouro de "Envolvimento" provou que o sucesso na música brasileira podia nascer de forma totalmente orgânica nas redes sociais, dispensando os investimentos das grandes gravadoras. No entanto, embora a música tenha tocado no Brasil inteiro, o público fora de Pernambuco ainda não conhecia o nome do movimento. O termo "Brega Funk" permaneceria como um segredo de Recife por mais um ano, aguardando os próximos hits que consolidariam o gênero de vez na internet.
 
 Muito antes de "Envolvimento" dominar as paradas do país, o Brega Funk já servia de trilha sonora nas comunidades da Região Metropolitana do Recife. O gênero surgiu no início da década de 2010, unindo a melodia romântica do brega recifense às batidas aceleradas do funk carioca.
 
@@ -25,7 +25,7 @@ MCs e DJs locais, como Sheldon, Cego, Tocha, Troinha e Dadá Boladão, criaram a
 
 Graças a essa rede alternativa de distribuição, o ritmo superou as fronteiras de Pernambuco e abraçou os estados vizinhos, consolidando-se como um movimento regional integrado. Foi essa força acumulada no Nordeste que deu fôlego para o gênero romper barreiras e ganhar espaço no Sul e no Sudeste, impulsionado pela era do streaming.
 
-A popularização do brega funk no Brasil andou de mãos dadas com a cultura do "passinho dos maloka". Antes de dominar as redes sociais, a dança já era febre entre os jovens das periferias do Recife, que formavam grupos para inventar coreografias e acompanhar as batidas aceleradas.
+A popularização do Brega Funk no Brasil andou de mãos dadas com a cultura do "passinho dos maloka". Antes de dominar as redes sociais, a dança já era febre entre os jovens das periferias do Recife, que formavam grupos para inventar coreografias e acompanhar as batidas aceleradas.
 
 [GRÁFICO: grid-passinho-contexts]
 
@@ -37,16 +37,16 @@ A consolidação do TikTok e do Instagram Reels alterou o formato das músicas b
 
 [GRÁFICO: chart-song-duration-trend]
 
-A estrutura do brega funk se ajusta bem a essa exigência. As paradas marcadas no beat e as explosões rítmicas facilitam a criação de vídeos curtos. Muitas canções passaram a ter menos de dois minutos e meio de duração, concentrando o clímax no trecho exato que será compartilhado nos desafios de dança.
+A estrutura do Brega Funk se ajusta bem a essa exigência. As paradas marcadas no beat e as explosões rítmicas facilitam a criação de vídeos curtos. Muitas canções passaram a ter menos de dois minutos e meio de duração, concentrando o clímax no trecho exato que será compartilhado nos desafios de dança.
 
 [GRÁFICO: interactive-bpm-comparator]
 
-Essa dinâmica gerou uma nova engenharia musical. Para contornar as barreiras do algoritmo e maximizar a monetização, muitas faixas de brega funk dispensam a tradicional introdução e começam diretamente no refrão. A estratégia garante que o ouvinte não pule a música antes dos trinta segundos cruciais, transformando a impaciência das redes sociais na fórmula exata para liderar o streaming.
+Essa dinâmica gerou uma nova engenharia musical. Para contornar as barreiras do algoritmo e maximizar a monetização, muitas faixas de Brega Funk dispensam a tradicional introdução e começam diretamente no refrão. A estratégia garante que o ouvinte não pule a música antes dos trinta segundos cruciais, transformando a impaciência das redes sociais na fórmula exata para liderar o streaming.
 
 Essa aceleração das músicas para agradar o algoritmo gerou um mercado real e independente no Recife. Longe das grandes gravadoras, jovens DJs, MCs e dançarinos passaram a viver da música que produzem nos próprios quartos e a divulgar pelo WhatsApp. No documentário abaixo, os artistas mostram como criam as batidas usando panelas no computador e como grupos de dança, como o de Santo Amaro, mudaram a rotina dos jovens locais.
 
 [VÍDEO: Documentário Brega Funk Vai Dominar o Mundo (Spotify)]
 
-No fim das contas, o brega funk conquistou o Brasil porque uniu a coreografia rápida do passinho, que mistura passos de frevo e funk, com músicas que começam direto no refrão para ninguém pular. Essa combinação, feita para prender o ouvinte nos primeiros segundos, levou o som do Recife para o topo das plataformas de streaming e quebrou o domínio das produções do Sudeste no rádio e na internet.
+No fim das contas, o Brega Funk conquistou o Brasil porque uniu a coreografia rápida do passinho, que mistura passos de frevo e funk, com músicas que começam direto no refrão para ninguém pular. Essa combinação, feita para prender o ouvinte nos primeiros segundos, levou o som do Recife para o topo das plataformas de streaming e quebrou o domínio das produções do Sudeste no rádio e na internet.
 
 [GRÁFICO: playlist-brega-funk-anthology]

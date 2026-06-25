@@ -32,7 +32,7 @@
 	.video-wrapper {
 		position: relative;
 		width: 100%;
-		max-width: 800px;
+		max-width: 100%;
 		aspect-ratio: 16 / 9;
 		background: var(--text-bg);
 		border: 2px solid var(--border);

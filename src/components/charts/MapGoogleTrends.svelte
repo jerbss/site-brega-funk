@@ -209,7 +209,7 @@
 	<div
 		class="svg-wrapper"
 		role="img"
-		aria-label="Mapa do Brasil com interesse por brega funk por estado"
+		aria-label="Mapa do Brasil com interesse por Brega Funk por estado"
 	>
 		<svg
 			viewBox={brazilMap.viewBox || "0 0 613 639"}
@@ -262,7 +262,7 @@
 
 	<div class="map-context-footer">
 		<p>
-			<strong>Queda após 2021:</strong> O termo "brega funk" saturou como novidade
+			<strong>Queda após 2021:</strong> O termo "Brega Funk" saturou como novidade
 			nas buscas. O ritmo se fundiu ao pop mainstream e os ouvintes passaram a procurar
 			por artistas específicos e hits, em vez do gênero musical genérico.
 		</p>
