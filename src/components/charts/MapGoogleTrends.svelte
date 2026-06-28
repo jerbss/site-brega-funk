@@ -183,6 +183,7 @@
 				step="1"
 				bind:value={currentYear}
 				class="year-slider"
+				aria-label="Selecione o ano da linha do tempo do mapa"
 			/>
 		</div>
 
@@ -363,6 +364,7 @@
 		gap: 6px;
 		justify-content: center;
 		width: 100%;
+		flex-wrap: wrap;
 	}
 	.year-btn {
 		background: transparent;
@@ -476,5 +478,31 @@
 	.map-context-footer strong {
 		color: #fff;
 		font-weight: 600;
+	}
+
+	@media (max-width: 600px) {
+		.controls-container {
+			padding: 10px 12px;
+			gap: 12px;
+		}
+		.years-selector {
+			gap: 4px;
+		}
+		.year-btn {
+			padding: 4px 6px;
+			font-size: 10px;
+			border-radius: 4px;
+		}
+		.legend-label {
+			font-size: 8px;
+		}
+		.legend-stop {
+			width: 20px;
+			height: 10px;
+		}
+		.map-context-footer {
+			padding: 1rem;
+			font-size: 12px;
+		}
 	}
 </style>

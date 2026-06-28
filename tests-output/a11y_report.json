@@ -1,0 +1,561 @@
+[
+  {
+    "id": "aria-prohibited-attr",
+    "impact": "serious",
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412",
+      "EN-301-549",
+      "EN-9.4.1.2",
+      "RGAAv4",
+      "RGAA-7.1.1"
+    ],
+    "description": "Ensure ARIA attributes are not prohibited for an element's role",
+    "help": "Elements must only use permitted ARIA attributes",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=playwright",
+    "nodes": [
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "aria-prohibited-attr",
+            "data": {
+              "role": null,
+              "nodeName": "div",
+              "messageKey": "noRoleSingular",
+              "prohibited": [
+                "aria-label"
+              ]
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-label attribute cannot be used on a div with no valid role attribute."
+          }
+        ],
+        "impact": "serious",
+        "html": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-large-width-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/5b27766f/player_embed.vflset/pt_BR/base.js\" aria-label=\"Player de vídeo do YouTube\">",
+        "target": [
+          "iframe[title=\"YouTube video player\"]",
+          "#movie_player"
+        ],
+        "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "aria-prohibited-attr",
+            "data": {
+              "role": null,
+              "nodeName": "span",
+              "messageKey": "noRoleSingular",
+              "prohibited": [
+                "aria-label"
+              ]
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        ],
+        "impact": "serious",
+        "html": "<span style=\"background-image:url(//i1.sndcdn.com/artworks-000058105952-gn6tf0-t500x500.jpg);width:100%;height:100%;\" class=\"sc-artwork sc-artwork-placeholder-2 image__full g-transition-opacity\" aria-label=\"Mc Sheldon - Pensei Que Era Pra Sempre\" aria-role=\"img\"></span>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".visualAudible__artwork > .image.sc-artwork.sc-artwork-placeholder-2 > .image__full[aria-role=\"img\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "aria-prohibited-attr",
+            "data": {
+              "role": null,
+              "nodeName": "span",
+              "messageKey": "noRoleSingular",
+              "prohibited": [
+                "aria-label"
+              ]
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        ],
+        "impact": "serious",
+        "html": "<span style=\"background-image:url(//i1.sndcdn.com/artworks-000058105952-gn6tf0-t500x500.jpg);width:100%;height:100%;\" class=\"sc-artwork sc-artwork-placeholder-2 image__full g-transition-opacity\" aria-label=\"Mc Sheldon - Pensei Que Era Pra Sempre\" aria-role=\"img\"></span>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".visualAudible__artworkOverlay > .image.sc-artwork.sc-artwork-placeholder-2:nth-child(1) > .image__full[aria-role=\"img\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "aria-prohibited-attr",
+            "data": {
+              "role": null,
+              "nodeName": "span",
+              "messageKey": "noRoleSingular",
+              "prohibited": [
+                "aria-label"
+              ]
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        ],
+        "impact": "serious",
+        "html": "<span style=\"background-image:url(//i1.sndcdn.com/artworks-000058105952-gn6tf0-t500x500.jpg);width:100%;height:100%;\" class=\"sc-artwork sc-artwork-placeholder-2 image__full g-transition-opacity\" aria-label=\"Mc Sheldon - Pensei Que Era Pra Sempre\" aria-role=\"img\"></span>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".image.sc-artwork.sc-artwork-placeholder-2:nth-child(2) > .image__full[aria-role=\"img\"]"
+        ],
+        "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "aria-prohibited-attr",
+            "data": {
+              "role": null,
+              "nodeName": "div",
+              "messageKey": "noRoleSingular",
+              "prohibited": [
+                "aria-label"
+              ]
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-label attribute cannot be used on a div with no valid role attribute."
+          }
+        ],
+        "impact": "serious",
+        "html": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-large-width-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/5b27766f/player_embed.vflset/pt_BR/base.js\" aria-label=\"Player de vídeo do YouTube\">",
+        "target": [
+          "#fifth-gen-1 > .video-wrapper.s-jt00lnEXVomK > iframe[frameborder=\"0\"][allowfullscreen=\"\"]",
+          "#movie_player"
+        ],
+        "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+      },
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "aria-prohibited-attr",
+            "data": {
+              "role": null,
+              "nodeName": "div",
+              "messageKey": "noRoleSingular",
+              "prohibited": [
+                "aria-label"
+              ]
+            },
+            "relatedNodes": [],
+            "impact": "serious",
+            "message": "aria-label attribute cannot be used on a div with no valid role attribute."
+          }
+        ],
+        "impact": "serious",
+        "html": "<div class=\"html5-video-player ytp-hide-controls ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-livebadge-color unstarted-mode ytp-large-width-mode\" tabindex=\"\" id=\"movie_player\" data-version=\"/s/player/5b27766f/player_embed.vflset/pt_BR/base.js\" aria-label=\"Player de vídeo do YouTube\">",
+        "target": [
+          "#fifth-gen-3 > .video-wrapper.s-jt00lnEXVomK > iframe[frameborder=\"0\"][allowfullscreen=\"\"]",
+          "#movie_player"
+        ],
+        "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+      }
+    ]
+  },
+  {
+    "id": "aria-roles",
+    "impact": "critical",
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412",
+      "EN-301-549",
+      "EN-9.4.1.2",
+      "RGAAv4",
+      "RGAA-7.1.1"
+    ],
+    "description": "Ensure all elements with a role attribute use a valid value",
+    "help": "ARIA roles used must conform to valid values",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-roles?application=playwright",
+    "nodes": [
+      {
+        "any": [],
+        "all": [],
+        "none": [
+          {
+            "id": "invalidrole",
+            "data": [
+              "bar"
+            ],
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Role must be one of the valid ARIA roles: bar"
+          }
+        ],
+        "impact": "critical",
+        "html": "<div role=\"bar\" class=\"progress sc-background-orange\" style=\"transform: translate3d(0%, 0px, 0px);\"></div>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".progress"
+        ],
+        "failureSummary": "Fix all of the following:\n  Role must be one of the valid ARIA roles: bar"
+      }
+    ]
+  },
+  {
+    "id": "aria-valid-attr-value",
+    "impact": "critical",
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412",
+      "EN-301-549",
+      "EN-9.4.1.2",
+      "RGAAv4",
+      "RGAA-7.1.1"
+    ],
+    "description": "Ensure all ARIA attributes have valid values",
+    "help": "ARIA attributes must conform to valid values",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=playwright",
+    "nodes": [
+      {
+        "any": [],
+        "all": [
+          {
+            "id": "aria-valid-attr-value",
+            "data": [
+              "aria-owns=\"overlay-38\""
+            ],
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Invalid ARIA attribute value: aria-owns=\"overlay-38\""
+          }
+        ],
+        "none": [],
+        "impact": "critical",
+        "html": "<button class=\"sc-button sc-button-share soundHeader__shareButton sc-button-small sc-button-visual\" aria-describedby=\"tooltip-37\" aria-haspopup=\"true\" aria-owns=\"overlay-38\" tabindex=\"0\" title=\"Compartilhar\">Compartilhar</button>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".sc-button"
+        ],
+        "failureSummary": "Fix all of the following:\n  Invalid ARIA attribute value: aria-owns=\"overlay-38\""
+      }
+    ]
+  },
+  {
+    "id": "aria-valid-attr",
+    "impact": "critical",
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412",
+      "EN-301-549",
+      "EN-9.4.1.2",
+      "RGAAv4",
+      "RGAA-7.1.1"
+    ],
+    "description": "Ensure attributes that begin with aria- are valid ARIA attributes",
+    "help": "ARIA attributes must conform to valid names",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr?application=playwright",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "aria-valid-attr",
+            "data": [
+              "aria-role"
+            ],
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Invalid ARIA attribute name: aria-role"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "critical",
+        "html": "<span style=\"background-image:url(//i1.sndcdn.com/artworks-000058105952-gn6tf0-t500x500.jpg);width:100%;height:100%;\" class=\"sc-artwork sc-artwork-placeholder-2 image__full g-transition-opacity\" aria-label=\"Mc Sheldon - Pensei Que Era Pra Sempre\" aria-role=\"img\"></span>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".visualAudible__artwork > .image.sc-artwork.sc-artwork-placeholder-2 > .image__full[aria-role=\"img\"]"
+        ],
+        "failureSummary": "Fix any of the following:\n  Invalid ARIA attribute name: aria-role"
+      },
+      {
+        "any": [
+          {
+            "id": "aria-valid-attr",
+            "data": [
+              "aria-role"
+            ],
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Invalid ARIA attribute name: aria-role"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "critical",
+        "html": "<span style=\"background-image:url(//i1.sndcdn.com/artworks-000058105952-gn6tf0-t500x500.jpg);width:100%;height:100%;\" class=\"sc-artwork sc-artwork-placeholder-2 image__full g-transition-opacity\" aria-label=\"Mc Sheldon - Pensei Que Era Pra Sempre\" aria-role=\"img\"></span>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".visualAudible__artworkOverlay > .image.sc-artwork.sc-artwork-placeholder-2:nth-child(1) > .image__full[aria-role=\"img\"]"
+        ],
+        "failureSummary": "Fix any of the following:\n  Invalid ARIA attribute name: aria-role"
+      },
+      {
+        "any": [
+          {
+            "id": "aria-valid-attr",
+            "data": [
+              "aria-role"
+            ],
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Invalid ARIA attribute name: aria-role"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "critical",
+        "html": "<span style=\"background-image:url(//i1.sndcdn.com/artworks-000058105952-gn6tf0-t500x500.jpg);width:100%;height:100%;\" class=\"sc-artwork sc-artwork-placeholder-2 image__full g-transition-opacity\" aria-label=\"Mc Sheldon - Pensei Que Era Pra Sempre\" aria-role=\"img\"></span>",
+        "target": [
+          "iframe[width=\"100%\"]",
+          ".image.sc-artwork.sc-artwork-placeholder-2:nth-child(2) > .image__full[aria-role=\"img\"]"
+        ],
+        "failureSummary": "Fix any of the following:\n  Invalid ARIA attribute name: aria-role"
+      }
+    ]
+  },
+  {
+    "id": "button-name",
+    "impact": "critical",
+    "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412",
+      "section508",
+      "section508.22.a",
+      "TTv5",
+      "TT6.a",
+      "EN-301-549",
+      "EN-9.4.1.2",
+      "ACT",
+      "RGAAv4",
+      "RGAA-11.9.1"
+    ],
+    "description": "Ensure buttons have discernible text",
+    "help": "Buttons must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/button-name?application=playwright",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "button-has-visible-text",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have inner text that is visible to screen readers"
+          },
+          {
+            "id": "aria-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "aria-label attribute does not exist or is empty"
+          },
+          {
+            "id": "aria-labelledby",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+          },
+          {
+            "id": "non-empty-title",
+            "data": {
+              "messageKey": "noAttr"
+            },
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element has no title attribute"
+          },
+          {
+            "id": "implicit-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have an implicit (wrapped) <label>"
+          },
+          {
+            "id": "explicit-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have an explicit <label>"
+          },
+          {
+            "id": "presentational-role",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "critical",
+        "html": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"thumbnail-image\" style=\"background-color: transparent;\"></button>",
+        "target": [
+          "iframe[title=\"YouTube video player\"]",
+          ".ytmVideoInfoChannelAvatar"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      },
+      {
+        "any": [
+          {
+            "id": "button-has-visible-text",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have inner text that is visible to screen readers"
+          },
+          {
+            "id": "aria-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "aria-label attribute does not exist or is empty"
+          },
+          {
+            "id": "aria-labelledby",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+          },
+          {
+            "id": "non-empty-title",
+            "data": {
+              "messageKey": "noAttr"
+            },
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element has no title attribute"
+          },
+          {
+            "id": "implicit-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have an implicit (wrapped) <label>"
+          },
+          {
+            "id": "explicit-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have an explicit <label>"
+          },
+          {
+            "id": "presentational-role",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "critical",
+        "html": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"thumbnail-image\" style=\"background-color: transparent;\"></button>",
+        "target": [
+          "#fifth-gen-1 > .video-wrapper.s-jt00lnEXVomK > iframe[frameborder=\"0\"][allowfullscreen=\"\"]",
+          ".ytmVideoInfoChannelAvatar"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      },
+      {
+        "any": [
+          {
+            "id": "button-has-visible-text",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have inner text that is visible to screen readers"
+          },
+          {
+            "id": "aria-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "aria-label attribute does not exist or is empty"
+          },
+          {
+            "id": "aria-labelledby",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+          },
+          {
+            "id": "non-empty-title",
+            "data": {
+              "messageKey": "noAttr"
+            },
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element has no title attribute"
+          },
+          {
+            "id": "implicit-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have an implicit (wrapped) <label>"
+          },
+          {
+            "id": "explicit-label",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element does not have an explicit <label>"
+          },
+          {
+            "id": "presentational-role",
+            "data": null,
+            "relatedNodes": [],
+            "impact": "critical",
+            "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "critical",
+        "html": "<button class=\"ytmVideoInfoLink ytmVideoInfoChannelAvatar\"><img class=\"ytCoreImageHost ytmVideoInfoChannelLogo ytCoreImageFillParentHeight ytCoreImageFillParentWidth ytCoreImageContentModeScaleAspectFill\" alt=\"thumbnail-image\" style=\"background-color: transparent;\"></button>",
+        "target": [
+          "#fifth-gen-3 > .video-wrapper.s-jt00lnEXVomK > iframe[frameborder=\"0\"][allowfullscreen=\"\"]",
+          ".ytmVideoInfoChannelAvatar"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+      }
+    ]
+  }
+]

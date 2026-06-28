@@ -11,7 +11,7 @@
 	let el;
 	let width = $state(0);
 	let padding = $derived(dimensions.width < 600 ? 16 : 32);
-	let availableWidth = $derived(width - 2 * padding);
+	let availableWidth = $derived(Math.max(0, width - 2 * padding));
 
 	onMount(() => {
 		registerNode(nodeId, el);

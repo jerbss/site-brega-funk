@@ -8,8 +8,8 @@
 			id: "raiz",
 			title: "Nas Calçadas (Raiz)",
 			description: "O passinho em seu ambiente natural nas comunidades de Recife.",
-			videoSrc: "assets/video/passinho1.mp4",
-			tiktokUrl: "https://www.tiktok.com/@.scr3amvs/video/7198320834488913157?is_from_webapp=1&sender_device=pc&web_id=7648866911602279956"
+			videoSrc: "assets/video/ze_gotinha.mp4",
+			tiktokUrl: "https://www.tiktok.com/@angel.darkness_/video/7615027276152900872?is_from_webapp=1&sender_device=pc&web_id=7648866911602279956"
 		},
 		{
 			id: "tiktok",
@@ -42,7 +42,7 @@
 		"futebol-titulo": true
 	});
 
-	let videoElements = {};
+	let videoElements = $state({});
 	let observer;
 
 	onMount(() => {

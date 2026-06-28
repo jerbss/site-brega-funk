@@ -47,7 +47,7 @@
 				title={title || "Spotify Playlist"}
 			></iframe>
 		{:else}
-			<div style="height: 352px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.4); font-family: var(--sans, sans-serif);">
+			<div style="height: 352px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.7); font-family: var(--sans, sans-serif);">
 				Carregando playlist do Spotify...
 			</div>
 		{/if}

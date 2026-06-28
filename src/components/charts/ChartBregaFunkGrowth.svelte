@@ -21,7 +21,7 @@
 	let height = 320;
 	let margin = { top: 30, right: 20, bottom: 50, left: 40 };
 
-	let innerWidth = $derived(availableWidth - margin.left - margin.right);
+	let innerWidth = $derived(Math.max(0, availableWidth - margin.left - margin.right));
 	let innerHeight = height - margin.top - margin.bottom;
 
 	let xScale = $derived(

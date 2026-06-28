@@ -17,7 +17,7 @@
 	let height = 350;
 	let margin = { top: 40, right: 20, bottom: 40, left: 35 };
 
-	let innerWidth = $derived(availableWidth - margin.left - margin.right);
+	let innerWidth = $derived(Math.max(0, availableWidth - margin.left - margin.right));
 	let innerHeight = height - margin.top - margin.bottom;
 
 	// Escala X (Anos)
@@ -66,11 +66,11 @@
 		class="svg-wrapper"
 		role="img"
 		aria-label="Gráfico de barras mostrando a proporção de músicas curtas por ano"
+		onmouseleave={() => (hoveredData = null)}
 	>
 		<svg
 			width={availableWidth}
 			{height}
-			onmouseleave={() => (hoveredData = null)}
 		>
 			<g transform={`translate(${margin.left},${margin.top})`}>
 				

@@ -33,6 +33,12 @@
 		verse: "#00bfff"
 	};
 
+	const textColors = {
+		intro: "#ffffff",
+		chorus: "#000000",
+		verse: "#000000"
+	};
+
 	// Inicializa e gerencia os listeners do áudio
 	function getAudio(version) {
 		if (!audioObjects[version]) {
@@ -221,7 +227,7 @@
 						{#if activeOrigSec}
 							<span
 								class="structure-tag"
-								style="--badge-color: {colors[activeOrigSec.type]}"
+								style="--badge-color: {colors[activeOrigSec.type]}; --badge-text-color: {textColors[activeOrigSec.type]}"
 							>
 								{activeOrigSec.name}
 							</span>
@@ -241,10 +247,23 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					class="waveform-scrubber"
+					role="slider"
+					aria-label="Controle de posição da faixa original"
+					aria-valuenow={currentTime.original}
+					aria-valuemin="0"
+					aria-valuemax={origDur}
+					tabindex="0"
 					onclick={(e) => {
 						const rect = e.currentTarget.getBoundingClientRect();
 						const clickPct = (e.clientX - rect.left) / rect.width;
 						seekTo("original", clickPct * origDur);
+					}}
+					onkeydown={(e) => {
+						if (e.key === "ArrowRight") {
+							seekTo("original", Math.min(origDur, currentTime.original + 5));
+						} else if (e.key === "ArrowLeft") {
+							seekTo("original", Math.max(0, currentTime.original - 5));
+						}
 					}}
 				>
 					<div class="playhead" style="left: {origPct}%"></div>
@@ -346,7 +365,7 @@
 						{#if activeRemixSec}
 							<span
 								class="structure-tag"
-								style="--badge-color: {colors[activeRemixSec.type]}"
+								style="--badge-color: {colors[activeRemixSec.type]}; --badge-text-color: {textColors[activeRemixSec.type]}"
 							>
 								{activeRemixSec.name}
 							</span>
@@ -366,10 +385,23 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					class="waveform-scrubber"
+					role="slider"
+					aria-label="Controle de posição da faixa remix"
+					aria-valuenow={currentTime.remix}
+					aria-valuemin="0"
+					aria-valuemax={remixDur}
+					tabindex="0"
 					onclick={(e) => {
 						const rect = e.currentTarget.getBoundingClientRect();
 						const clickPct = (e.clientX - rect.left) / rect.width;
 						seekTo("remix", clickPct * remixDur);
+					}}
+					onkeydown={(e) => {
+						if (e.key === "ArrowRight") {
+							seekTo("remix", Math.min(remixDur, currentTime.remix + 5));
+						} else if (e.key === "ArrowLeft") {
+							seekTo("remix", Math.max(0, currentTime.remix - 5));
+						}
 					}}
 				>
 					<div class="playhead" style="left: {remixPct}%"></div>
@@ -605,7 +637,7 @@
 
 	.structure-tag {
 		background: var(--badge-color);
-		color: #000;
+		color: var(--badge-text-color, #000);
 		font-size: 9px;
 		font-weight: bold;
 		text-transform: uppercase;
@@ -775,5 +807,31 @@
 		width: 8px;
 		height: 8px;
 		border-radius: 50%;
+	}
+
+	@media (max-width: 600px) {
+		.instance-header {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 8px;
+			width: 100%;
+		}
+		.title-meta {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.badge {
+			font-size: 11px;
+			padding: 3px 6px;
+			max-width: 75%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.spotify-link {
+			align-self: flex-end;
+		}
 	}
 </style>

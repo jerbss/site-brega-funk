@@ -1,0 +1,413 @@
+{
+  "timestamp": "2026-06-28T17:40:51.771Z",
+  "consoleLogs": [
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "Unrecognized feature: 'web-share'.",
+      "location": {
+        "url": "http://localhost:8888/",
+        "line": 3763,
+        "column": 0,
+        "lineNumber": 3763,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "goatcounter: not counting because of: localhost",
+      "location": {
+        "url": "http://gc.zgo.at/count.js",
+        "line": 79,
+        "column": 11,
+        "lineNumber": 79,
+        "columnNumber": 11
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "error",
+      "text": "Permissions policy violation: compute-pressure is not allowed in this document.",
+      "location": {
+        "url": "https://www.youtube-nocookie.com/s/player/5b27766f/player_embed.vflset/pt_BR/base.js",
+        "line": 4078,
+        "column": 0,
+        "lineNumber": 4078,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "location": {
+        "url": "http://localhost:8888/@vite/client",
+        "line": 788,
+        "column": 8,
+        "lineNumber": 788,
+        "columnNumber": 8
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "debug",
+      "text": "[vite] connected.",
+      "location": {
+        "url": "http://localhost:8888/@vite/client",
+        "line": 911,
+        "column": 14,
+        "lineNumber": 911,
+        "columnNumber": 14
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "log",
+      "text": "SoundCloud Embed Player (api-web)",
+      "location": {
+        "url": "https://widget.sndcdn.com/widget-9-c6d3f0721165.js",
+        "line": 54,
+        "column": 21920,
+        "lineNumber": 54,
+        "columnNumber": 21920
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "Exception: %s Script error.",
+      "location": {
+        "url": "https://widget.sndcdn.com/widget-9-c6d3f0721165.js",
+        "line": 54,
+        "column": 21920,
+        "lineNumber": 54,
+        "columnNumber": 21920
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "constructor",
+      "location": {
+        "url": "https://widget.sndcdn.com/widget-9-c6d3f0721165.js",
+        "line": 54,
+        "column": 21920,
+        "lineNumber": 54,
+        "columnNumber": 21920
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "log",
+      "text": "--- --- --- --- --- ---",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 1,
+        "column": 9,
+        "lineNumber": 1,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "log",
+      "text": "svelte-starter: 6.15.0",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 2,
+        "column": 9,
+        "lineNumber": 2,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "log",
+      "text": "build: 2026-06-28-14:39",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 3,
+        "column": 9,
+        "lineNumber": 3,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "log",
+      "text": "--- --- --- --- --- ---",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 4,
+        "column": 9,
+        "lineNumber": 4,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "Allow attribute will take precedence over 'allowfullscreen'.",
+      "location": {
+        "url": "http://localhost:8888/node_modules/.vite/deps/chunk-TRDVUDMZ.js?v=475db728",
+        "line": 365,
+        "column": 0,
+        "lineNumber": 365,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation.3000: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation.3000: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "Unrecognized feature: 'web-share'.",
+      "location": {
+        "url": "http://localhost:8888/",
+        "line": 3763,
+        "column": 0,
+        "lineNumber": 3763,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "goatcounter: not counting because of: localhost",
+      "location": {
+        "url": "http://gc.zgo.at/count.js",
+        "line": 79,
+        "column": 11,
+        "lineNumber": 79,
+        "columnNumber": 11
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "debug",
+      "text": "[vite] connecting...",
+      "location": {
+        "url": "http://localhost:8888/@vite/client",
+        "line": 788,
+        "column": 8,
+        "lineNumber": 788,
+        "columnNumber": 8
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "log",
+      "text": "SoundCloud Embed Player (api-web)",
+      "location": {
+        "url": "https://widget.sndcdn.com/widget-9-c6d3f0721165.js",
+        "line": 54,
+        "column": 21920,
+        "lineNumber": 54,
+        "columnNumber": 21920
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "debug",
+      "text": "[vite] connected.",
+      "location": {
+        "url": "http://localhost:8888/@vite/client",
+        "line": 911,
+        "column": 14,
+        "lineNumber": 911,
+        "columnNumber": 14
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "Exception: %s Script error.",
+      "location": {
+        "url": "https://widget.sndcdn.com/widget-9-c6d3f0721165.js",
+        "line": 54,
+        "column": 21920,
+        "lineNumber": 54,
+        "columnNumber": 21920
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "constructor",
+      "location": {
+        "url": "https://widget.sndcdn.com/widget-9-c6d3f0721165.js",
+        "line": 54,
+        "column": 21920,
+        "lineNumber": 54,
+        "columnNumber": 21920
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "log",
+      "text": "--- --- --- --- --- ---",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 1,
+        "column": 9,
+        "lineNumber": 1,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "log",
+      "text": "svelte-starter: 6.15.0",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 2,
+        "column": 9,
+        "lineNumber": 2,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "log",
+      "text": "build: 2026-06-28-14:39",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 3,
+        "column": 9,
+        "lineNumber": 3,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "log",
+      "text": "--- --- --- --- --- ---",
+      "location": {
+        "url": "http://localhost:8888/src/utils/version.js",
+        "line": 4,
+        "column": 9,
+        "lineNumber": 4,
+        "columnNumber": 9
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "Allow attribute will take precedence over 'allowfullscreen'.",
+      "location": {
+        "url": "http://localhost:8888/node_modules/.vite/deps/chunk-TRDVUDMZ.js?v=475db728",
+        "line": 365,
+        "column": 0,
+        "lineNumber": 365,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation.3000: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    },
+    {
+      "viewport": "mobile",
+      "type": "warning",
+      "text": "com.microsoft.playready.recommendation.3000: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.\n\nBefore generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail.",
+      "location": {
+        "url": "https://embed-cdn.spotifycdn.com/_next/static/chunks/765.47a5e66a756dfac9.js",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ],
+  "pageErrors": [
+    {
+      "viewport": "desktop",
+      "message": "Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The source width is 0.",
+      "stack": "Uncaught IndexSizeError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The source width is 0.\n    at getImageData (https://widget.sndcdn.com/widget-0-696ca72f9166.js:0:116478)\n    at <anonymous> (https://widget.sndcdn.com/widget-0-696ca72f9166.js:0:18613)\n    at l (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:24449)\n    at fireWith (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25197)\n    at Deferred.S.each.s.<computed> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:27107)\n    at <anonymous> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25873)\n    at l (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:24449)\n    at fireWith (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25197)\n    at <anonymous> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25987)\n    at l (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:24449)\n    at fireWith (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25197)\n    at Deferred.S.each.s.<computed> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:27107)\n    at <anonymous> (https://widget.sndcdn.com/widget-0-696ca72f9166.js:0:4408)\n    at dispatch (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:39203)\n    at m.handle (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:37198)"
+    },
+    {
+      "viewport": "mobile",
+      "message": "Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The source width is 0.",
+      "stack": "Uncaught IndexSizeError: Failed to execute 'getImageData' on 'CanvasRenderingContext2D': The source width is 0.\n    at getImageData (https://widget.sndcdn.com/widget-0-696ca72f9166.js:0:116478)\n    at <anonymous> (https://widget.sndcdn.com/widget-0-696ca72f9166.js:0:18613)\n    at l (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:24449)\n    at fireWith (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25197)\n    at Deferred.S.each.s.<computed> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:27107)\n    at <anonymous> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25873)\n    at l (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:24449)\n    at fireWith (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25197)\n    at <anonymous> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25987)\n    at l (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:24449)\n    at fireWith (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:25197)\n    at Deferred.S.each.s.<computed> (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:27107)\n    at <anonymous> (https://widget.sndcdn.com/widget-0-696ca72f9166.js:0:4408)\n    at dispatch (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:39203)\n    at m.handle (https://widget.sndcdn.com/widget-9-c6d3f0721165.js:24:37198)"
+    }
+  ]
+}
