@@ -117,7 +117,15 @@
 		color: rgba(255, 255, 255, 0.7);
 		line-height: 1.6;
 		font-size: var(--16px, 1rem);
-		margin: 0;
+		margin: 0 0 1.2rem 0;
+	}
+
+	.methodology-container p:last-child {
+		margin-bottom: 0;
+	}
+
+	.methodology-container h3:not(:first-child) {
+		margin-top: 2.5rem;
 	}
 
 	.divider {
