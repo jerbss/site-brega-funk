@@ -138,7 +138,7 @@
 
 <style>
 	.grid-container {
-		font-family: "Syne", sans-serif;
+		font-family: var(--sans);
 		margin: 0 auto;
 	}
 

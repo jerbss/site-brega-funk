@@ -7,7 +7,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Syne:wght@800&family=Sora:wght@400;800&family=Instrument+Serif:ital@1&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Syne:wght@800&family=Sora:wght@400;800&family=Instrument+Serif:ital@1&family=Space+Mono:ital,wght@0,700;1,700&family=Unbounded:wght@900&display=swap"
 		rel="stylesheet"
 	/>
 </svelte:head>
@@ -18,7 +18,7 @@
 			class="title-line title-como-o fade-in-up"
 			style="animation-delay: 0.2s"
 		>
-			<span class="serif-italic">Como o</span>
+			<span class="mono-text">Como o</span>
 		</h1>
 		<h1
 			class="title-line title-brega-funk fade-in-up"
@@ -30,7 +30,7 @@
 			class="title-line title-conquistou fade-in-up"
 			style="animation-delay: 0.6s"
 		>
-			<span class="serif-italic">conquistou o Brasil em</span>
+			<span class="mono-text">conquistou o Brasil em</span>
 		</h1>
 		<h1
 			class="title-line title-segundos fade-in-up"
@@ -90,12 +90,15 @@
 		overflow-wrap: normal;
 	}
 
-	.serif-italic {
-		font-family: "Instrument Serif", serif;
+	.mono-text {
+		font-family: "Space Mono", monospace;
+		font-weight: 700;
 		font-style: italic;
-		font-size: clamp(1.2rem, 3.5vw, 2.4rem);
-		color: rgba(255, 255, 255, 0.9);
-		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+		font-size: clamp(0.9rem, 2.5vw, 1.5rem);
+		color: rgba(255, 255, 255, 0.75);
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 		display: inline-block;
 		text-align: center;
 		white-space: nowrap;
@@ -104,14 +107,14 @@
 	}
 
 	.neon-text {
-		font-family: "Syne", sans-serif;
-		font-weight: 800;
-		font-size: clamp(1.6rem, 7.5vw, 4.5rem);
-		letter-spacing: -1px;
+		font-family: "Unbounded", sans-serif;
+		font-weight: 900;
+		font-size: clamp(1.5rem, 8vw, 5rem);
+		letter-spacing: -2.5px;
 		display: inline-block;
 		text-align: center;
 		text-transform: uppercase;
-		line-height: 1.1;
+		line-height: 1.0;
 		white-space: nowrap;
 		word-break: keep-all;
 		overflow-wrap: normal;

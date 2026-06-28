@@ -83,7 +83,7 @@
 	}
 
 	.text-block strong {
-		font-family: "Syne", sans-serif;
+		font-family: var(--sans);
 		font-weight: 800;
 		color: var(--highlight-color, #ff007f);
 		text-shadow: 0 0 8px rgba(255, 0, 127, 0.2);

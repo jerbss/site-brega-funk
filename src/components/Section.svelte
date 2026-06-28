@@ -45,7 +45,7 @@
 		font-weight: bold;
 		text-align: center;
 		text-transform: uppercase;
-		font-family: "Syne", sans-serif;
+		font-family: var(--sans);
 		color: var(--heading-color);
 		text-shadow: var(--heading-shadow);
 	}
