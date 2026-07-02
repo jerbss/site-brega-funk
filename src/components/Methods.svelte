@@ -80,6 +80,21 @@
 					</div>
 				{/each}
 			</div>
+
+			<!-- Informações Acadêmicas -->
+			<div class="academic-container">
+				<div class="academic-divider"></div>
+				<div class="academic-content">
+					<div class="academic-item">
+						<span class="label">Disciplina</span>
+						<span class="value">Redação para Mídias Digitais 2026.1</span>
+					</div>
+					<div class="academic-item">
+						<span class="label">Orientação</span>
+						<span class="value">Profª. Andrea Pinheiro Paiva Cavalcante</span>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -240,6 +255,56 @@
 		fill: var(--accent);
 		transform: scale(1.1);
 	}
+	.academic-container {
+		margin-top: 3rem;
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+	}
+
+	.academic-divider {
+		height: 1px;
+		background: linear-gradient(
+			90deg,
+			transparent,
+			rgba(255, 255, 255, 0.08),
+			transparent
+		);
+	}
+
+	.academic-content {
+		display: flex;
+		justify-content: space-between;
+		gap: 2rem;
+		flex-wrap: wrap;
+	}
+
+	.academic-item {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		flex: 1 1 200px;
+	}
+
+	.academic-item .label {
+		font-family: "Space Mono", monospace;
+		font-size: 0.7rem;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: rgba(255, 255, 255, 0.4);
+	}
+
+	.academic-item .value {
+		font-family: "Sora", sans-serif;
+		font-size: 0.95rem;
+		font-weight: 500;
+		color: rgba(255, 255, 255, 0.7);
+		transition: color 0.2s ease;
+	}
+
+	.academic-item:hover .value {
+		color: rgba(255, 255, 255, 0.95);
+	}
 
 	@media (max-width: 600px) {
 		.wrapper {
@@ -252,6 +317,17 @@
 
 		section {
 			padding: 3rem 1rem;
+		}
+
+		.academic-content {
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			gap: 1.2rem;
+		}
+
+		.academic-item {
+			flex: none;
 		}
 	}
 </style>
